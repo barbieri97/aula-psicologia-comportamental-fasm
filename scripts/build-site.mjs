@@ -25,7 +25,7 @@ const site = siteConfig()
 const run = (bin, args) => execFileSync(process.execPath, [bin, ...args], { cwd: root, stdio: 'inherit' })
 
 const slidevBin = binOf('@slidev/cli', 'slidev')
-const lintBin = binOf('slidev-theme-tahta', 'tahta-lint')
+const lintScript = join(root, 'scripts', 'lint-decks.mjs')
 
 /** Headmatter = o primeiro bloco `---` do arquivo. É de onde a landing tira título, ementa e data. */
 function readHeadmatter (file) {
@@ -67,9 +67,9 @@ console.log(`\n${decks.length} aula(s) · base ${siteBase}\n`)
 
 // ---------------------------------------------------------------- validar antes de buildar
 
-// tahta-lint aceita vários arquivos e sai com código != 0 em erro — falha aqui aborta o build.
-// (O aviso `unknown field "date"` é esperado: o campo alimenta esta landing, o tema o ignora.)
-run(lintBin, decks.map((d) => d.path))
+// O lint do tema sai com código != 0 em erro — falha aqui aborta o build antes de
+// gastar um `slidev build` por aula. Avisos não param nada.
+run(lintScript, decks.map((d) => d.path))
 
 // ---------------------------------------------------------------- buildar cada deck
 
@@ -104,7 +104,8 @@ const cards = decks.map((deck, i) => `
         </a>
       </li>`).join('')
 
-// Landing estática e self-contained, no espírito do variant notebook (papel pautado, navy).
+// Landing estática e self-contained, com a paleta do tema quadro (papel, tinta, giz vermelho)
+// para a porta de entrada e as aulas parecerem a mesma peça.
 // Os textos de identidade vêm de site.config.json; só o `intro` aceita HTML (você o escreve).
 const pageTitle = [site.title, site.institution].filter(Boolean).join(' · ')
 const kicker = [site.institution, new Date().getFullYear()].filter(Boolean).join(' · ')
@@ -118,12 +119,16 @@ const indexHtml = `<!doctype html>
 <meta name="description" content="${escapeHtml(site.description)}">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>📓</text></svg>">
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
   :root {
-    --paper: #fbfbf7; --ink: #16274a; --muted: #5b6884;
-    --rule: #dfe3ec; --accent: #1f4fd8; --card: #ffffff;
+    --paper: #fbf8f2; --ink: #16202f; --muted: #47536a;
+    --rule: #e2dccd; --accent: #b23a1b; --card: #ffffff;
+    --title: 'Bitter', Georgia, serif;
+    --body: 'Figtree', "Segoe UI", system-ui, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --paper: #10131c; --ink: #e8ecf6; --muted: #97a2ba; --rule: #262d3d; --accent: #7fa4ff; --card: #171b26; }
+    :root { --paper: #16202f; --ink: #f6f2e9; --muted: #a9b4c6; --rule: #2f3b4f; --accent: #ff8b5e; --card: #1d2839; }
   }
   * { box-sizing: border-box; }
   body {
@@ -132,16 +137,20 @@ const indexHtml = `<!doctype html>
     background-image: repeating-linear-gradient(to bottom, transparent 0 2.1rem, var(--rule) 2.1rem 2.1rem);
     background-attachment: fixed;
     color: var(--ink);
-    font: 16px/1.55 "Segoe UI", system-ui, -apple-system, sans-serif;
+    font: 17px/1.55 var(--body);
     -webkit-font-smoothing: antialiased;
   }
   main { max-width: 46rem; margin: 0 auto; }
   header { margin-bottom: 2.5rem; }
   .kicker {
-    font-size: .72rem; letter-spacing: .18em; text-transform: uppercase;
-    color: var(--accent); font-weight: 700; margin: 0 0 .6rem;
+    font-family: var(--mono);
+    font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600; margin: 0 0 .6rem;
   }
-  h1 { font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.02em; }
+  h1 {
+    font-family: var(--title); font-weight: 800;
+    font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.02em;
+  }
   .sub { color: var(--muted); margin: 0; max-width: 32rem; }
   hr { border: 0; border-top: 2px dashed var(--rule); margin: 2rem 0; }
   ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
@@ -153,13 +162,13 @@ const indexHtml = `<!doctype html>
   }
   .card a:hover, .card a:focus-visible {
     transform: translateY(-2px); border-color: var(--accent);
-    box-shadow: 0 8px 24px -12px rgba(31, 79, 216, .45); outline: none;
+    box-shadow: 0 8px 24px -12px rgba(178, 58, 27, .45); outline: none;
   }
-  .num { font-size: 1.6rem; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; opacity: .85; }
+  .num { font-family: var(--mono); font-size: 1.5rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
   .body { display: grid; gap: .18rem; flex: 1; min-width: 0; }
-  .title { font-weight: 700; font-size: 1.06rem; }
-  .info { color: var(--muted); font-size: .92rem; }
-  .date { color: var(--muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
+  .title { font-family: var(--title); font-weight: 700; font-size: 1.12rem; }
+  .info { color: var(--muted); font-size: .95rem; }
+  .date { font-family: var(--mono); color: var(--muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
   .go { color: var(--muted); font-size: 1.25rem; }
   .card a:hover .go { color: var(--accent); }
   footer { margin-top: 3rem; color: var(--muted); font-size: .82rem; }
@@ -177,7 +186,7 @@ const indexHtml = `<!doctype html>
   <ul>${cards}
   </ul>
   <footer>
-    Feito com <a href="https://sli.dev/">Slidev</a> e o tema <a href="https://github.com/zcag/tahta">tahta</a>.
+    Feito com <a href="https://sli.dev/">Slidev</a> e o tema <strong>quadro</strong>, escrito para esta disciplina.
   </footer>
 </main>
 </body>

@@ -1,12 +1,10 @@
 ---
-theme: slidev-theme-tahta
+theme: ../tema
 title: "Aula 01 · Fundamentos do behaviorismo"
 info: O behaviorismo como filosofia da ciência — de Watson ao behaviorismo radical
 date: "2026-08-11"
 author: FASM · Psicologia Comportamental
-themeConfig:
-  variant: muse
-  lang: pt-BR
+transition: slide-left
 layout: lead
 index: "01"
 kicker: Psicologia Comportamental · FASM
@@ -21,7 +19,7 @@ items:
   - { topic: Da filosofia à ciência, desc: "como as ciências abandonaram os agentes ocultos" }
   - { topic: Livre-arbítrio e determinismo, desc: "a controvérsia que o behaviorismo herdou" }
   - { topic: Realismo e pragmatismo, desc: "duas respostas para «o que é ciência?»" }
-  - { topic: Público, privado e fictício, desc: "por que o mentalismo não explica" }
+  - { topic: "Público, privado e fictício", desc: "por que o mentalismo não explica" }
 ---
 
 <!-- Diga de saída que a aula de hoje é filosófica, não técnica: ninguém vai ver reforço, esquema ou contingência. Isso baixa a ansiedade de quem espera "a matéria" e prepara para o fato de que a Parte I do livro é sobre o que autoriza o resto. -->
@@ -30,7 +28,7 @@ items:
 layout: define
 kicker: O ponto de partida
 term: A proposição central do behaviorismo
-definition: Uma <span class="accent2">ciência do comportamento é possível</span>.
+definition: Uma <span class="destaque">ciência do comportamento é possível</span>.
 points:
   - "Behavioristas divergem sobre o que é ciência e o que é comportamento"
   - "Todos concordam que pode haver uma ciência do comportamento"
@@ -43,18 +41,21 @@ points:
 layout: diagram
 kicker: Uma distinção que a turma costuma errar
 title: Behaviorismo não é a ciência — é a filosofia dela
-note: O behaviorismo é um conjunto de ideias <strong>sobre</strong> essa ciência. Por isso ele não é ciência, mas <strong>filosofia da ciência</strong>.
-highlight: [Filosofia, Ciencia]
+note: O behaviorismo é um conjunto de ideias <strong>sobre</strong> essa
+  ciência. Por isso ele não é ciência, mas <strong>filosofia da
+  ciência</strong>.
 ---
 
 ```mermaid
 flowchart LR
-  Filosofia[Behaviorismo<br/>filosofia da ciencia] --> Ciencia[Analise do comportamento<br/>a ciencia]
-  Ciencia --> Objeto[Comportamento de<br/>organismos inteiros]
-  Filosofia --> Perguntas[O que e ciencia?<br/>O que e comportamento?]
+  Filosofia["<b>Behaviorismo</b><br/>filosofia da ciência"] --> Ciencia["<b>Análise do comportamento</b><br/>a ciência"]
+  Ciencia --> Objeto["Comportamento de<br/>organismos inteiros"]
+  Filosofia --> Perguntas["O que é ciência?<br/>O que é comportamento?"]
 ```
 
-<!-- A maioria dos behavioristas passou a chamar a ciência do comportamento de análise do comportamento. O debate sobre se ela é parte da psicologia, se é a psicologia ou se é independente continua — mas associações como a ABA e revistas como o JEAB deram identidade ao campo. -->
+<!--
+A maioria dos behavioristas passou a chamar a ciência do comportamento de análise do comportamento. O debate sobre se ela é parte da psicologia, se é a psicologia ou se é independente continua — mas associações como a ABA e revistas como o JEAB deram identidade ao campo.
+-->
 
 ---
 layout: section
@@ -128,8 +129,8 @@ kicker: O padrão
 title: Cada ciência teve de expulsar seu <em>agente oculto</em>
 ---
 
-<Grid
-  :data="[
+<Tabela
+  :dados="[
     ['Ciência', 'O agente oculto', 'O que o substituiu'],
     ['Astronomia e física', 'esferas e órbitas perfeitas', 'observação, medida, inércia'],
     ['Química', 'calórica, flogisto, essências', 'oxigênio (Lavoisier), pesagem cuidadosa'],
@@ -137,8 +138,8 @@ title: Cada ciência teve de expulsar seu <em>agente oculto</em>
     ['Biologia', 'a criação por Deus', 'seleção natural (Darwin)'],
     ['Psicologia', 'o livre-arbítrio, o eu interior', 'hereditariedade e ambiente'],
   ]"
-  head
-  highlight="row:6"
+  cabecalho
+  realce="linha:6"
 />
 
 <!-- Essa é a tabela-espinha da aula. O argumento do Baum é de simetria: se aceitamos que a química expulsou o flogisto, por que a psicologia não expulsaria o livre-arbítrio? A última linha é o que vamos discutir na Parte 2. -->
@@ -173,7 +174,7 @@ title: A psicologia como <em>ciência da mente</em>
 - Se a mente é um palco, deveria ser possível olhar dentro e ver o que ocorre
 - Parecia aos psicólogos que a dificuldade se venceria com treino e prática
 
-<Callout tone="warn" icon="lucide:triangle-alert">
+<Callout tom="alerta" icon="lucide:triangle-alert">
 Duas correntes se somaram para corroer essa visão: a <strong>psicologia objetiva</strong> e a <strong>psicologia comparativa</strong>.
 </Callout>
 
@@ -219,15 +220,14 @@ kicker: Psicologia comparativa
 title: A humanização da fera
 ---
 
-Darwin escreveu *The expression of the emotions in men and animals*. As primeiras evidências de mentalidade animal eram **anedotas**:
+Depois de *The expression of the emotions in men and animals*, as evidências de mentalidade animal eram **anedotas**:
 
-- O cão que aprendeu a abrir o portão levantando o trinco, depois de ver o dono
-- Romanes chegou a supor uma tênue consciência em formigas
+- O cão que abriu o portão levantando o trinco, depois de ver o dono
+- Romanes supondo uma tênue consciência em formigas
+- Nos labirintos, ratos com **tédio, confusão, hesitação e confiança**
 
-Depois vieram os labirintos: medir o tempo do percurso e o número de erros. Mas os relatos ainda falavam em **tédio, confusão, hesitação e confiança** dos ratos.
-
-<Callout tone="bad" icon="lucide:circle-x">
-Se dois observadores podem discordar sobre a própria raiva, discordarão ainda mais sobre a raiva de um rato. Mais observações não resolvem — porque o problema é o tipo de dado.
+<Callout tom="ruim" icon="lucide:circle-x">
+Se dois observadores discordam sobre a própria raiva, discordarão mais ainda sobre a raiva de um rato — e mais observações não resolvem, porque o problema é o <strong>tipo de dado</strong>.
 </Callout>
 
 <!-- Antropomorfismo é o termo-chave desta página. Watson conclui que inferências sobre consciência animal são ainda menos confiáveis que a introspecção, e que nenhuma das duas serve de método. -->
@@ -244,7 +244,7 @@ author: J. B. Watson, 1913, p. 163
 layout: define
 kicker: 1913 · o manifesto
 term: A primeira versão do behaviorismo
-definition: A psicologia deve ser definida como a <span class="accent2">ciência do comportamento</span>, não da consciência.
+definition: A psicologia deve ser definida como a <span class="destaque">ciência do comportamento</span>, não da consciência.
 points:
   - "Jamais usar: consciência, estados mentais, mente, conteúdo, imagens"
   - "Evitar a subjetividade da introspecção e das analogias com animais"
@@ -271,29 +271,6 @@ Como esses dois termos ficaram abertos à interpretação, as ideias dos behavio
 
 <!-- Prepare aqui a entrada do Skinner: enquanto os outros se concentraram em métodos das ciências naturais (medição, controle experimental), Skinner focou nas explicações científicas. Ele rotulou a visão oposta de behaviorismo metodológico e chamou a sua de radical. -->
 
----
-layout: default
-kicker: Atividade
-title: Ache o agente oculto
----
-
-<Momento tipo="atividade" tempo="12 min" titulo="Do rótulo à observação">
-
-Cada dupla recebe uma frase do cotidiano clínico ou escolar:
-
-1. **Sublinhe** o que foi de fato observado.
-2. **Circule** a entidade que foi inferida a partir da observação.
-3. Reescreva a frase **sem** a entidade inferida.
-
-Frases: *«Ele não estuda porque é desmotivado»* · *«Ela chora à toa porque é ansiosa»* · *«Bateu no colega porque tem personalidade agressiva»*
-
-</Momento>
-
-<Callout icon="lucide:message-circle">
-Ao fim, pergunte à turma: a frase reescrita <strong>perdeu</strong> alguma informação? Quase sempre a resposta é não — e esse é o argumento da redundância, que veremos no capítulo 3.
-</Callout>
-
-<!-- Não corrija ainda com o vocabulário técnico (ficção explicativa, redundância). Deixe a turma sentir o problema; os nomes vêm na Parte 4 e caem melhor sobre uma experiência que já tiveram. -->
 
 ---
 layout: section
@@ -307,7 +284,7 @@ subtitle: A controvérsia genuína que a negação de agentes ocultos produz
 layout: define
 kicker: A implicação imediata
 term: Determinismo
-definition: A noção de que o comportamento é determinado <span class="accent2">unicamente</span> pela hereditariedade e pelo ambiente.
+definition: A noção de que o comportamento é determinado <span class="destaque">unicamente</span> pela hereditariedade e pelo ambiente.
 points:
   - "O comportamento é ordenado"
   - "Pode ser explicado"
@@ -321,14 +298,14 @@ points:
 layout: define
 kicker: O que exatamente se nega
 term: Livre-arbítrio libertário
-definition: A ideia de que a escolha pode realmente ser <span class="accent2">livre de eventos passados</span>.
+definition: A ideia de que a escolha pode realmente ser <span class="destaque">livre de eventos passados</span>.
 points:
   - "Um terceiro elemento, além da hereditariedade e do ambiente"
   - "Algo dentro do indivíduo, que poderia ter escolhido de outra forma"
   - "Afirma que a escolha não é ilusão: o próprio indivíduo causa o comportamento"
 ---
 
-<Callout tone="warn" icon="lucide:triangle-alert">
+<Callout tom="alerta" icon="lucide:triangle-alert">
 Só esta versão conflita com o behaviorismo. Definições compatibilistas — como as de Hebb e Dennett — não apresentam problema para uma ciência do comportamento.
 </Callout>
 
@@ -404,7 +381,7 @@ title: Moral e justiça sem livre-arbítrio
 
 **Sistema judiciário.** Continuaremos a "responsabilizar pessoas por seu comportamento" no sentido prático de atribuir ações a indivíduos.
 
-<Callout tone="good" icon="lucide:scale">
+<Callout tom="bom" icon="lucide:scale">
 Estabelecido que alguém transgrediu, as perguntas passam a ser <strong>práticas</strong>: como proteger a sociedade e como tornar improvável a repetição. Encarcerar tem feito pouco para evitar reincidências.
 </Callout>
 
@@ -451,7 +428,7 @@ O argumento contém um erro lógico: o livre-arbítrio implica imprevisibilidade
 - Muitos sistemas naturais são imprevisíveis momento a momento, e não são livres
 - Por que exigir um padrão mais elevado da ciência do comportamento?
 
-<Callout tone="warn" icon="lucide:brain">
+<Callout tom="alerta" icon="lucide:brain">
 E há um problema adicional: se meu livre-arbítrio causa meu comportamento, eu deveria <strong>prever perfeitamente</strong> o que vou fazer — afinal, conheço minha própria vontade.
 </Callout>
 
@@ -461,7 +438,7 @@ E há um problema adicional: se meu livre-arbítrio causa meu comportamento, eu 
 layout: define
 kicker: O problema espinhoso
 term: Como um evento não natural causa um natural?
-definition: Eventos naturais podem levar a outros eventos naturais porque podem estar <span class="accent2">relacionados no tempo e no espaço</span>.
+definition: Eventos naturais podem levar a outros eventos naturais porque podem estar <span class="destaque">relacionados no tempo e no espaço</span>.
 points:
   - "Uma relação sexual leva a um bebê cerca de nove meses depois"
   - "Por definição, o não natural não pode ser situado no tempo nem no espaço"
@@ -487,50 +464,12 @@ title: O discurso-padrão
 
 A forma geral é: **«Eu pensei (ou senti) tal e tal, e aí eu agi de acordo»** — como se o corpo fosse uma máquina acionada por uma vida interior.
 
-<Callout tone="warn" icon="lucide:user">
+<Callout tom="alerta" icon="lucide:user">
 Junto do livre-arbítrio vem o <strong>eu interior</strong>: o corpo exterior habitado por um eu, situado a curta distância atrás dos olhos, olhando o mundo externo a partir de seu mundo interior.
 </Callout>
 
 <!-- "Eu pensei comigo mesmo", "no fundo eu sabia". O discurso-padrão funciona bem para a conversa cotidiana, a literatura e a poesia — Baum não o proíbe. Ele apenas mostra que é incompatível com uma ciência do comportamento. -->
 
----
-layout: default
-kicker: Atividade
-title: Traduzindo o discurso-padrão
----
-
-<Momento tipo="atividade" tempo="12 min" titulo="Duas versões da mesma queixa">
-
-Em duplas, escolham uma queixa que já ouviram (de um paciente, de um familiar, de vocês mesmos) e escrevam:
-
-1. A queixa no **discurso-padrão**: "eu fiz X porque senti/pensei Y".
-2. A mesma queixa como **descrição de eventos**: o que aconteceu antes, onde, com quem, o que veio depois.
-
-</Momento>
-
-<Momento tipo="discussao" tempo="8 min" titulo="Plenária">
-
-Qual das duas versões sugere o que fazer a seguir? Guardem a resposta — ela é o argumento pragmatista da Parte 3.
-
-</Momento>
-
-<!-- Se a turma travar, ofereça um exemplo próprio. A dificuldade de escrever a versão 2 é ela mesma o dado: nosso vocabulário cotidiano é mentalista por padrão. -->
-
----
-layout: default
-kicker: Respire
-title: Intervalo
----
-
-<Momento tipo="pausa" tempo="15 min" titulo="Metade do caminho">
-
-Cobrimos o capítulo 1: o que é behaviorismo, de onde ele vem e a controvérsia do determinismo.
-
-Na volta, a pergunta muda: **o que é ciência, afinal?** — e é aí que os dois behaviorismos se separam.
-
-</Momento>
-
-<!-- Aproveite para checar quantos leram o capítulo 2. Se poucos, dê mais tempo às definições de realismo e pragmatismo e corte a parte do Mach sobre o conceito de "ar". -->
 
 ---
 layout: section
@@ -555,17 +494,19 @@ Dizer que **pode haver uma ciência do comportamento** é enganosamente simples.
 
 </v-clicks>
 
-<Callout icon="lucide:milestone">
+<Callout v-click icon="lucide:milestone">
 O capítulo 2 responde à primeira. O behaviorismo radical está de acordo com o <strong>pragmatismo</strong>; as visões anteriores derivaram do <strong>realismo</strong>.
 </Callout>
 
-<!-- Essa arrumação vale a pena no quadro: cap. 2 = o que é ciência; cap. 3 = o que é comportamento. -->
+<!--
+Essa arrumação vale a pena no quadro: cap. 2 = o que é ciência; cap. 3 = o que é comportamento.
+-->
 
 ---
 layout: define
 kicker: A visão herdada
 term: Realismo
-definition: Existe um <span class="accent2">mundo real lá fora</span> que dá origem às nossas experiências.
+definition: Existe um <span class="destaque">mundo real lá fora</span> que dá origem às nossas experiências.
 points:
   - "Esse mundo real é externo; nossa experiência é interna"
   - "Nossas experiências são deste mundo real, mas separadas dele"
@@ -605,7 +546,7 @@ Pensar de "maneira natural" sobre seres vivos exige fazê-lo **sem demônio**: s
 layout: define
 kicker: A alternativa
 term: Pragmatismo
-definition: O poder da investigação científica não está em descobrir a verdade sobre o universo, mas no que ela <span class="accent2">nos permite fazer</span>.
+definition: O poder da investigação científica não está em descobrir a verdade sobre o universo, mas no que ela <span class="destaque">nos permite fazer</span>.
 points:
   - "Da mesma raiz que «prática»"
   - "A grande coisa que a ciência permite: dar sentido a nossas experiências"
@@ -631,17 +572,16 @@ title: Verdade como <em>poder explicativo</em>
 
 Em vez de ideias simplesmente verdadeiras ou falsas, James propôs que elas fossem **mais ou menos verdadeiras**.
 
-<Grid
-  :data="[
+<Tabela
+  :dados="[
     ['Teoria', 'O que explica', 'Grau'],
     ['O Sol e as estrelas giram em torno da Terra', 'por que se movem no céu', 'menos verdadeira'],
     ['A Terra orbita o Sol e gira sobre seu eixo', 'o movimento no céu <em>e</em> as estações', 'mais verdadeira'],
   ]"
-  head
-  highlight="row:3"
+  cabecalho
 />
 
-<Callout tone="warn" icon="lucide:infinity">
+<Callout tom="alerta" icon="lucide:infinity">
 Rigorosamente falando, nunca saberemos se a Terra <strong>realmente</strong> gira em torno do Sol. Outra teoria, ainda mais verdadeira, poderia surgir.
 </Callout>
 
@@ -660,16 +600,18 @@ title: Kuhn e as revoluções científicas
 A ciência não é uma marcha rumo à verdade final, mas **uma dança em que a banda de vez em quando começa a tocar outra melodia**.
 
 <Callout icon="lucide:trending-up">
-Ainda assim há progresso: um paradigma substitui outro <strong>em parte porque explica mais</strong>. A dança e as melodias tornam-se mais sofisticadas.
+Ainda assim há progresso: um paradigma substitui outro <strong>em parte porque explica mais ou melhor</strong>. A dança e as melodias tornam-se mais sofisticadas.
 </Callout>
 
-<!-- Copérnico foi preferido a Ptolomeu porque era mais simples e elegante, ainda que os dois modelos enquadrassem os dados igualmente bem na época. O progresso é resultado da seleção: a preferência dos cientistas por teorias que melhor decifram nossa experiência. -->
+<!--
+Copérnico foi preferido a Ptolomeu porque era mais simples e elegante, ainda que os dois modelos enquadrassem os dados igualmente bem na época. O progresso é resultado da seleção: a preferência dos cientistas por teorias que melhor decifram nossa experiência.
+-->
 
 ---
 layout: define
 kicker: Ernst Mach
 term: Economia conceitual
-definition: A ciência inventa conceitos que organizam a experiência em <span class="accent2">tipos ou categorias</span>, permitindo usar um termo em vez de muitas palavras.
+definition: A ciência inventa conceitos que organizam a experiência em <span class="destaque">tipos ou categorias</span>, permitindo usar um termo em vez de muitas palavras.
 points:
   - "A comunicação econômica permite passar a compreensão de uma geração a outra"
   - "Sem ela, cada geração de oleiros redescobriria as técnicas do zero"
@@ -686,18 +628,20 @@ title: A invenção do conceito de <em>ar</em>
 
 <v-clicks>
 
-- No tempo de Galileu, a sucção era explicada pelo ***horror vacui*** — a aversão da natureza ao vácuo
+- No tempo de Galileu, a sucção era explicada pelo ***horror vacui*** — a versão da natureza ao vácuo
 - Galileu pesou uma garrafa antes e depois de expelir o ar: o ar tinha **peso**
 - Torricelli ligou sucção e peso do ar, e descobriu a pressão atmosférica
 - Guericke construiu bombas de vácuo: a vela se apaga, o sino não soa, a uva se conserva
 
 </v-clicks>
 
-<Callout tone="good" icon="lucide:wind">
+<Callout v-click tom="bom" icon="lucide:wind">
 O conceito de <strong>ar</strong> permitiu que todas essas observações fossem vistas como ligadas umas às outras. Sem ele, permaneceriam desorganizadas.
 </Callout>
 
-<!-- Note o paralelo que Baum vai explorar no capítulo 3: o ar não é observável diretamente, e nem por isso é uma ficção. A diferença entre "ar" e "mente" não é a observabilidade — é a economia. -->
+<!--
+Note o paralelo que Baum vai explorar no capítulo 3: o ar não é observável diretamente, e nem por isso é uma ficção. A diferença entre "ar" e "mente" não é a observabilidade — é a economia.
+-->
 
 ---
 layout: statement
@@ -761,8 +705,8 @@ kicker: O exemplo decisivo
 title: Um homem correndo na rua
 ---
 
-<Grid
-  :data="[
+<Tabela
+  :dados="[
     ['A descrição', 'O que ela permite'],
     ['Move os pés um à frente do outro, rapidamente', 'quase nada — cabe em qualquer atividade'],
     ['Está correndo pela rua', 'um pouco mais'],
@@ -770,37 +714,18 @@ title: Um homem correndo na rua
     ['Está fugindo da polícia', 'antecipar o que vem depois'],
     ['Disputa uma corrida para se qualificar às Olimpíadas', 'a descrição mais útil e coerente'],
   ]"
-  head
-  highlight="row:6"
+  cabecalho
+  realce="linha:6"
 />
 
 <Callout icon="lucide:target">
 Para o behaviorista radical, descrições pragmáticas incluem os <strong>fins</strong> do comportamento e o <strong>contexto</strong> em que ele ocorre. Termos descritivos tanto explicam o comportamento quanto definem o que ele é.
 </Callout>
 
-<!-- Este slide é o coração do capítulo 2 e o que mais rende em prova. O realista fica preso ao primeiro item porque busca o comportamento "real"; o pragmatista pergunta apenas qual descrição é mais útil. As razões para um comportamento fazem parte do próprio comportamento. -->
+<!--
+Este slide é o coração do capítulo 2 e o que mais rende em prova. O realista fica preso ao primeiro item porque busca o comportamento "real"; o pragmatista pergunta apenas qual descrição é mais útil. As razões para um comportamento fazem parte do próprio comportamento.
+-->
 
----
-layout: default
-kicker: Atividade
-title: Escolhendo a descrição
----
-
-<Momento tipo="atividade" tempo="12 min" titulo="Cinco descrições do mesmo episódio">
-
-Escolham uma cena banal — alguém checando o celular, uma criança recusando comida, um aluno saindo da sala.
-
-Escrevam **cinco descrições** dela, da mais mecânica à mais funcional, como na tabela do homem correndo.
-
-Depois marquem: a partir de qual delas vocês saberiam **o que fazer** se fossem o psicólogo?
-
-</Momento>
-
-<Callout tone="warn" icon="lucide:triangle-alert">
-A descrição mais "objetiva" costuma ser a <strong>menos</strong> útil. Esse desconforto é exatamente o argumento pragmatista.
-</Callout>
-
-<!-- Esta atividade prepara o terreno da análise funcional, que vocês verão na próxima aula. Não use o termo ainda. -->
 
 ---
 layout: section
@@ -833,7 +758,7 @@ Guarde essa assimetria: o que separa o behaviorismo radical do mentalismo <stron
 layout: define
 kicker: O alvo
 term: Mentalismo
-definition: A separação entre <span class="accent2">eventos mentais</span> e eventos comportamentais — um tipo de dualismo.
+definition: A separação entre <span class="destaque">eventos mentais</span> e eventos comportamentais — um tipo de dualismo.
 points:
   - "Leva a um tipo de «explicação» que não explica nada"
   - "«Por que você comprou esses sapatos?» — «Eu só os queria»"
@@ -847,15 +772,18 @@ points:
 layout: define
 kicker: A distinção de pouca importância
 term: Eventos públicos e privados
-definition: A única diferença é o <span class="accent2">número de pessoas</span> que podem falar sobre eles.
+definition: A única diferença é o <span class="destaque">número de
+  pessoas</span> que podem falar sobre eles.
 points:
   - "Uma tempestade é pública: eu e você falamos dela juntos"
-  - "Os pensamentos de Shona são privados: só Shona pode falar deles"
+  - "Os pensamentos de João são privados: só João pode falar deles"
   - "Se eu ouço um pássaro sozinho, o evento é privado por acidente"
   - "Fora isso, são o mesmo tipo de evento, com as mesmas propriedades"
 ---
 
-<!-- Se registros do cérebro pudessem revelar o que alguém pensa, o pensamento passaria de privado a público — e nada mais mudaria. A privacidade em jogo é a mesma de que você desfruta quando está sozinho. -->
+<!--
+Se registros do cérebro pudessem revelar o que alguém pensa, o pensamento passaria de privado a público — e nada mais mudaria. A privacidade em jogo é a mesma de que você desfruta quando está sozinho.
+-->
 
 ---
 layout: quote
@@ -963,7 +891,7 @@ title: O caso de Naomi
 
 Pode-se acrescentar que ela lê revistas sobre o assunto e vai a reuniões — mas a crença continua sendo **inferida do comportamento**.
 
-<Callout tone="warn" icon="lucide:layers">
+<Callout tom="alerta" icon="lucide:layers">
 Antes precisávamos explicar os hábitos alimentares. Agora temos de explicar os hábitos <strong>e</strong> a crença.
 </Callout>
 
@@ -981,7 +909,7 @@ A concepção realista, que separa "aqui dentro" de "lá fora", sugere que deve 
 - Frequentemente desenhada numa sala de controle, com telas e alavancas
 - Vemos facilmente que isso não explica o comportamento
 
-<Callout tone="bad" icon="lucide:user-x">
+<Callout tom="ruim" icon="lucide:user-x">
 Se meu comportamento exterior resultasse do comportamento desse eu interior, a ciência teria de estudar <strong>o comportamento do eu interior</strong> — e recomeçaríamos do zero.
 </Callout>
 
@@ -991,7 +919,7 @@ Se meu comportamento exterior resultasse do comportamento desse eu interior, a c
 layout: define
 kicker: O reencontro anunciado
 term: O problema mente-corpo é uma pseudoquestão
-definition: Uma questão que <span class="accent2">não faz sentido</span>, porque parte de uma premissa sem sentido.
+definition: Uma questão que <span class="destaque">não faz sentido</span>, porque parte de uma premissa sem sentido.
 points:
   - "Quantos anjos podem dançar na cabeça de um alfinete?"
   - "O que acontece quando uma força incontrolável encontra um objeto imóvel?"
@@ -1013,7 +941,7 @@ Descartes (1596-1650) propôs que corpos de animais e humanos eram **máquinas c
 - A alma agiria movendo a glândula pineal, que afetaria o fluxo dos espíritos
 - Mais tarde, a psicologia substituiu a alma pela **mente**
 
-<Callout tone="warn" icon="lucide:ghost">
+<Callout tom="alerta" icon="lucide:ghost">
 Nem a glândula pineal nem a mente resolveram o mistério: <strong>como a alma move a glândula?</strong> Mesmo não sendo transcendental, a mente continua imaterial — e tão fantasmagórica quanto a alma.
 </Callout>
 
@@ -1023,7 +951,7 @@ Nem a glândula pineal nem a mente resolveram o mistério: <strong>como a alma m
 layout: define
 kicker: Gilbert Ryle (1900-1976)
 term: Erro de categoria
-definition: Tratar o <span class="accent2">rótulo de uma categoria</span> como se fosse um exemplo dela.
+definition: Tratar o <span class="destaque">rótulo de uma categoria</span> como se fosse um exemplo dela.
 points:
   - "Estamos citando frutas e alguém sugere «cenoura» — erro simples"
   - "Alguém sugere «vegetais» — o rótulo de outra categoria"
@@ -1063,48 +991,60 @@ title: Inteligência não é a causa de agir com inteligência
   nota="Inteligência é o rótulo da categoria que inclui essas atividades — não algo subjacente que as cause."
 />
 
-<Callout tone="warn" icon="lucide:heart">
+<Callout tom="alerta" icon="lucide:heart">
 Ryle aplicou o argumento a conhecimento, intenção e emoção. <em>Aaron não faz essas coisas <strong>e</strong> ama Laura, nem <strong>porque</strong> ama Laura. O fato de fazê-las <strong>é</strong> estar apaixonado por Laura.</em>
 </Callout>
 
 <!-- A objeção provável — "não, quero dizer algo subjacente que as torna possíveis" — é exatamente a hipótese paramecânica: termos que logicamente são rótulos de categorias se referem a coisas fantasmagóricas num espaço fantasmagórico (a mente) que causam comportamento mecânico. É a mesma ideia que Skinner chamou de mentalismo. -->
 
 ---
-layout: default
-kicker: Howard Rachlin
-title: O behaviorismo molar
+layout: panels
+kicker: Howard Rachlin · behaviorismo molar
+title: Por que as concepções <em>moleculares</em> não bastam
+panels:
+  - icon: "lucide:layers"
+    title: 1 · O passado age em agregado
+    items:
+      - "Estímulo, resposta e contiguidade momentânea olham só para o agora"
+      - "O comportamento presente depende de muitos eventos passados"
+      - "Evito comer doce hoje porque comi muitas vezes e ganhei peso"
+  - icon: "lucide:clock"
+    title: 2 · Comportamento leva tempo
+    items:
+      - "Nenhum comportamento ocorre em um instante"
+      - "As unidades — as atividades — estendem-se no tempo"
+      - "Somadas, as atividades do meu dia dão 24 horas"
 ---
-
-Rachlin levou o argumento de Ryle adiante. Concepções **moleculares** — estímulo, resposta, contiguidade momentânea — são insuficientes por duas razões:
-
-<v-clicks>
-
-1. O comportamento presente não depende apenas de eventos presentes, mas de **muitos eventos passados**, que agem como agregado
-2. O comportamento **não pode ocorrer em um momento**: por mais breve que seja, sempre leva algum tempo
-
-</v-clicks>
-
-<Callout icon="lucide:clock">
-Se eu juntar todas as atividades do meu dia, elas devem totalizar <strong>24 horas</strong>. As unidades de comportamento — as atividades — estendem-se no tempo.
-</Callout>
 
 <!-- A razão de eu evitar comer alimentos calóricos hoje é que os comi muitas vezes no passado e ganhei peso; nada disso aconteceu em um momento particular. -->
 
 ---
-layout: default
+layout: vs
 kicker: A solução molar
-title: Aaron ama Laura — uma questão de frequência
+title: Pedro ama Laura — quem preenche as lacunas?
+label: ×
+left:
+  title: Saída mentalista
+  items:
+    - "Parece absurdo dizer que ele não a ama <em>neste instante</em>, porque
+      está trabalhando"
+    - "Então inventa-se uma <strong>coisa-amor</strong>, dentro dele o tempo
+      todo"
+    - "Ela existiria justamente para preencher os intervalos entre as ações"
+    - "E teríamos de explicar a coisa-amor além das ações"
+right:
+  title: Visão molar
+  items:
+    - "O que importa é a <strong>frequência</strong> das atividades amorosas"
+    - "Não há amor interior fantasmagórico: há uma <strong>alta taxa</strong> de
+      atos"
+    - "Telefonar uma vez por mês e dar flores uma vez por ano é a mesma medida"
+    - "Se ele liga para Dolores todo dia, Laura duvida — e deveria"
 ---
 
-Parece absurdo dizer que Aaron não ama Laura neste instante porque está trabalhando em vez de lhe dar flores. A saída mentalista seria inventar uma **coisa-amor** que está dentro o tempo todo, preenchendo as lacunas.
-
-<Callout tone="good" icon="lucide:activity">
-Na visão molar, o que importa é a <strong>frequência</strong> com que ocorrem as atividades amorosas. Aaron não demonstra um amor interior fantasmagórico: ele demonstra uma <strong>alta taxa</strong> de atividades amorosas.
-</Callout>
-
-Se telefonasse uma vez por mês e trouxesse flores uma vez por ano — ligando para Dolores todos os dias — ela duvidaria da sinceridade. E ele também deveria.
-
-<!-- Atividades são episódicas: trabalhar um tempo, falar com Laura, trabalhar, devanear sobre ela, almoçar. A palavra "ação" designa o episódio de uma atividade. -->
+<!--
+Atividades são episódicas: trabalhar um tempo, falar com Laura, trabalhar, devanear sobre ela, almoçar. A palavra "ação" designa o episódio de uma atividade.
+-->
 
 ---
 layout: default
@@ -1114,14 +1054,14 @@ title: E a dor? Ela não parece fantasmagórica
 
 Rachlin sustenta que é impossível sentir dor e não demonstrá-la, porque **sentir dor é demonstrá-la** — fazer caretas, gemer, mancar, falar sobre isso.
 
-<Grid
-  :data="[
+<Tabela
+  :dados="[
     ['Beecher, 2ª Guerra Mundial', 'Pediram morfina'],
     ['Soldados feridos em hospital de combate', 'cerca de 1 em 3'],
     ['Civis operados, ferimentos semelhantes', '4 em 5'],
   ]"
-  head
-  highlight="row:3"
+  cabecalho
+  realce="linha:3"
 />
 
 <Callout icon="lucide:quote">
@@ -1136,8 +1076,8 @@ kicker: Tabela 3.1
 title: Quatro variantes do behaviorismo
 ---
 
-<Grid
-  :data="[
+<Tabela
+  :dados="[
     ['', 'Metodológico', 'Skinner · radical', 'Ryle · lógico', 'Rachlin · molar'],
     ['Dualismo', 'Aceita', 'Rejeita', 'Rejeita', 'Rejeita'],
     ['Termos mentais', 'referem-se a eventos subjetivos', 'ficções explicativas; omite', 'rótulos de categoria', 'atividades prolongadas'],
@@ -1145,54 +1085,43 @@ title: Quatro variantes do behaviorismo
     ['Dor', 'estado subjetivo interno', 'evento privado (estímulo)', 'rótulo de categoria', 'atividade pública prolongada'],
     ['Consciência', 'subjetiva; indireta', 'relatos sobre estímulos privados', 'rótulo de categoria', 'atividade pública prolongada'],
   ]"
-  head
-  highlight="col:3"
+  cabecalho
+  realce="coluna:3"
+  compacta
 />
 
 <!-- Apenas o behaviorismo metodológico aceita o dualismo; todos os outros o rejeitam como inimigo da ciência. Vale apontar que Ryle insistia em NÃO ser behaviorista, embora sua visão pudesse ser chamada de behaviorismo lógico. -->
 
 ---
-layout: default
+layout: columns
 kicker: Síntese
 title: Onde os behavioristas contemporâneos concordam
+columns:
+  - title: "1 · Causas mentais são fictícias"
+    items:
+      - "As origens estão na <strong>hereditariedade</strong> e no
+        <strong>ambiente</strong>"
+      - "Nada de um terceiro elemento dentro do indivíduo"
+  - title: "2 · Termos mentalistas são suspeitos"
+    items:
+      - "Acreditar, esperar, pretender — <strong>evitados ou
+        redefinidos</strong>"
+      - "Quanto evitar e quanto redefinir ainda é questão aberta"
+  - title: "3 · Eventos privados são naturais"
+    items:
+      - "Pensar e ver entram na análise"
+      - "Mas o comportamento <strong>não se origina</strong> neles"
+---
+---
+layout: quote
+quote: "O dano das ficções não é serem falsas: é terem <strong>aparência de explicação</strong>. Por isso impedem a investigação das origens ambientais, que levaria a uma explicação satisfatória."
+
 ---
 
-<v-clicks>
+<!--
+Baum admite em aberto: em que medida os analistas do comportamento devem evitar ou redefinir ainda é uma incógnita. Alguns termos se redefinem bem; outros parecem estranhos demais para merecer redefinição.
+-->
 
-1. **Causas mentais são fictícias** — as origens estão na hereditariedade e no ambiente
-2. **Termos mentalistas cotidianos** — acreditar, esperar, pretender — evitados ou redefinidos
-3. **Eventos privados são naturais** — mas o comportamento não se origina neles
-
-</v-clicks>
-
-<Callout tone="warn" icon="lucide:door-closed">
-O dano das ficções não é serem falsas: é terem <strong>aparência de explicação</strong>. Por isso impedem a investigação das origens ambientais, que levaria a uma explicação satisfatória.
-</Callout>
-
-<!-- Baum admite em aberto: em que medida os analistas do comportamento devem evitar ou redefinir ainda é uma incógnita. Alguns termos se redefinem bem; outros parecem estranhos demais para merecer redefinição. -->
-
----
-layout: default
-kicker: Fechamento
-title: Amarrando as três horas
----
-
-<Momento tipo="sintese" tempo="10 min" titulo="Uma frase por parte">
-
-Individualmente, escrevam **uma frase** para cada parte da aula:
-
-1. Por que o behaviorismo é filosofia e não ciência
-2. Por que o livre-arbítrio é chamado de nome para a ignorância
-3. Qual a diferença prática entre realismo e pragmatismo
-4. Por que «natural × fictício» substitui «objetivo × subjetivo»
-
-</Momento>
-
-<Callout icon="lucide:notebook-pen">
-Recolha as folhas. Elas mostram, em cinco minutos de leitura, exatamente onde a turma ficou.
-</Callout>
-
-<!-- Se o tempo apertar, corte a atividade 3 (descrições) e mantenha esta: ela é a que mais revela lacunas antes da próxima aula. -->
 
 ---
 layout: statement
@@ -1205,6 +1134,7 @@ title: A análise crítica do mentalismo exige explicações não mentalistas do
 ---
 layout: end
 title: Até a próxima
-subtitle: "Aula 02 — se a causa não está dentro, onde está? Ambiente, seleção e consequência"
-contact: "Leitura: Baum (2017), capítulos 1 a 3 · Compreendendo o behaviorismo"
+subtitle: "Aula 02 — O condicionamento clássico/pavloviano e o comportamento
+  respondente."
+contact: "Leitura: Moreira & Medeiros (2007), capítulos 1 e 2 · Principios básicos de análise do comportamento"
 ---

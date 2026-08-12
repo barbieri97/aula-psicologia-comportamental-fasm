@@ -1,0 +1,137 @@
+/* ============================================================
+   QUADRO — movimento
+   ------------------------------------------------------------
+   Duas ideias, e só duas:
+
+   1. ENTRADA — ao chegar num slide, o conteúdo aparece de baixo para cima,
+      em cascata. É o que faz a turma ler na ordem em que você fala. Vem de
+      graça: quem escreve a aula não anota nada. O componente <Entra> aplica
+      a classe, e os filhos de um `.entra-lista` escalonam sozinhos pelo
+      `--i` que o layout injeta.
+
+   2. TRAÇO — filetes, linhas de tempo e conectores são desenhados em vez de
+      simplesmente aparecerem. É a metáfora do quadro: a linha cresce como se
+      alguém a tivesse riscado.
+
+   Tudo desligado em impressão/export e sob prefers-reduced-motion — nesses
+   casos o conteúdo simplesmente já está no lugar final.
+   ============================================================ */
+
+@keyframes q-sobe {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes q-entra-lado {
+  from { opacity: 0; transform: translateX(-18px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes q-aparece {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes q-risca-x {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes q-risca-y {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+@keyframes q-cresce {
+  from { opacity: 0; transform: scale(0.86); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes q-gira {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes q-pisca {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+/* ---------- entrada padrão ---------- */
+
+.entra {
+  animation: q-sobe var(--mov-dur) var(--mov-curva) both;
+}
+
+/* Cascata: cada filho direto entra --mov-passo depois do anterior.
+   Vai até 12 filhos, que é mais do que qualquer slide legível tem. */
+.entra-lista > * {
+  animation: q-sobe var(--mov-dur) var(--mov-curva) both;
+}
+.entra-lista > *:nth-child(1) { animation-delay: calc(var(--mov-passo) * 0); }
+.entra-lista > *:nth-child(2) { animation-delay: calc(var(--mov-passo) * 1); }
+.entra-lista > *:nth-child(3) { animation-delay: calc(var(--mov-passo) * 2); }
+.entra-lista > *:nth-child(4) { animation-delay: calc(var(--mov-passo) * 3); }
+.entra-lista > *:nth-child(5) { animation-delay: calc(var(--mov-passo) * 4); }
+.entra-lista > *:nth-child(6) { animation-delay: calc(var(--mov-passo) * 5); }
+.entra-lista > *:nth-child(7) { animation-delay: calc(var(--mov-passo) * 6); }
+.entra-lista > *:nth-child(8) { animation-delay: calc(var(--mov-passo) * 7); }
+.entra-lista > *:nth-child(9) { animation-delay: calc(var(--mov-passo) * 8); }
+.entra-lista > *:nth-child(10) { animation-delay: calc(var(--mov-passo) * 9); }
+.entra-lista > *:nth-child(11) { animation-delay: calc(var(--mov-passo) * 10); }
+.entra-lista > *:nth-child(12) { animation-delay: calc(var(--mov-passo) * 11); }
+
+/* O corpo em markdown escalona os bullets sem que a aula peça nada.
+   (Se o autor usar <v-clicks>, o Slidev controla a revelação e esta cascata
+   apenas dá o movimento de entrada de cada item.) */
+.quadro-md > ul > li,
+.quadro-md > ol > li {
+  animation: q-entra-lado var(--mov-dur) var(--mov-curva) both;
+}
+.quadro-md > ul > li:nth-child(1), .quadro-md > ol > li:nth-child(1) { animation-delay: 60ms; }
+.quadro-md > ul > li:nth-child(2), .quadro-md > ol > li:nth-child(2) { animation-delay: 130ms; }
+.quadro-md > ul > li:nth-child(3), .quadro-md > ol > li:nth-child(3) { animation-delay: 200ms; }
+.quadro-md > ul > li:nth-child(4), .quadro-md > ol > li:nth-child(4) { animation-delay: 270ms; }
+.quadro-md > ul > li:nth-child(5), .quadro-md > ol > li:nth-child(5) { animation-delay: 340ms; }
+.quadro-md > ul > li:nth-child(6), .quadro-md > ol > li:nth-child(6) { animation-delay: 410ms; }
+.quadro-md > ul > li:nth-child(7), .quadro-md > ol > li:nth-child(7) { animation-delay: 480ms; }
+.quadro-md > ul > li:nth-child(8), .quadro-md > ol > li:nth-child(8) { animation-delay: 550ms; }
+
+/* ---------- traço ---------- */
+
+.risca-x {
+  transform-origin: left center;
+  animation: q-risca-x calc(var(--mov-dur) * 1.4) var(--mov-curva) both;
+}
+
+.risca-y {
+  transform-origin: top center;
+  animation: q-risca-y calc(var(--mov-dur) * 1.4) var(--mov-curva) both;
+}
+
+.surge { animation: q-cresce var(--mov-dur) var(--mov-curva) both; }
+
+/* ---------- desligamento ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .entra,
+  .entra-lista > *,
+  .quadro-md > ul > li,
+  .quadro-md > ol > li,
+  .risca-x,
+  .risca-y,
+  .surge {
+    animation: none !important;
+  }
+}
+
+@media print {
+  .entra,
+  .entra-lista > *,
+  .quadro-md > ul > li,
+  .quadro-md > ol > li,
+  .risca-x,
+  .risca-y,
+  .surge {
+    animation: none !important;
+  }
+}

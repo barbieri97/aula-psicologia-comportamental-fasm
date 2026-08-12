@@ -1,26 +1,31 @@
 # Aulas — Psicologia Comportamental (FASM)
 
-Um repositório de decks [Slidev](https://sli.dev/) com o tema
-[`slidev-theme-tahta`](https://github.com/zcag/tahta). **Uma aula por arquivo `.md`**, publicadas no
-GitHub Pages, cada uma na sua própria URL.
+Um repositório de decks [Slidev](https://sli.dev/) com o tema **quadro**, que mora aqui mesmo em
+[`tema/`](tema/) — escrito para esta disciplina, não instalado de fora. **Uma aula por arquivo
+`.md`**, publicadas no GitHub Pages, cada uma na sua própria URL.
 
 ## Antes de escrever ou editar qualquer deck
 
-**Leia [`docs/tahta.md`](docs/tahta.md).** É o contrato do tema: a lista de layouts, os campos de
+**Leia [`docs/tema.md`](docs/tema.md).** É o contrato do tema: a lista de layouts, os campos de
 cada um, os componentes e as regras de autoria. Sem ele você escreve markdown que o tema ignora.
 
 Para ver os layouts renderizados em vez de lidos, `npm run ref` abre
-[`referencia-tahta.md`](referencia-tahta.md) — um deck de bancada na raiz com um slide por layout
-e por componente, e a situação recomendada de cada um nas notas. Fica **fora** de `aulas/`, então
-o build nunca o publica.
+[`referencia-tema.md`](referencia-tema.md) — um deck de bancada na raiz com um slide por layout e
+por componente. Fica **fora** de `aulas/`, então o build nunca o publica.
 
-As duas regras que mais quebram deck:
+As três regras que mais quebram deck:
 
 - **Nada de CSS, `<style>`, grid ou HTML de layout.** Escolha o `layout:` que casa com a forma do
-  conteúdo e preencha o frontmatter dele. O tema desenha o resto.
+  conteúdo e preencha o frontmatter dele. O tema desenha o resto. (HTML de texto — `<strong>`,
+  `<em>`, `<code>`, `<span class="destaque">` — é bem-vindo, inclusive no frontmatter.)
 - **Todo frontmatter é cercado por `---` em cima e embaixo.** Entre dois slides sem corpo você vê
   duas linhas `---` seguidas — isso está certo. Compartilhar um `---` entre dois blocos quebra o
   parse do arquivo inteiro.
+- **Valor com `:` ou `,` dentro de `{ }` vai entre aspas.** `kicker: "layout: define"`,
+  `{ topic: "Público, privado e fictício" }`. Sem as aspas o YAML corta o valor no meio e o slide
+  sai truncado — sem erro nenhum.
+
+`npm run lint` cobra tudo isso contra [`tema/layouts.json`](tema/layouts.json).
 
 ## Convenções
 
@@ -28,32 +33,29 @@ As duas regras que mais quebram deck:
 |---|---|
 | Decks | `aulas/aula-NN-slug-descritivo.md` |
 | URL | o nome do arquivo (sem `.md`) vira o caminho: `/<repo>/aula-NN-slug-descritivo/` |
-| Variant | `notebook` — o tahta o descreve como *best for: teaching, workshops* |
-| Idioma | `themeConfig.lang: pt-BR`; conteúdo em português |
+| Tema | `theme: ../tema` no headmatter (caminho relativo ao `.md`) |
+| Idioma | conteúdo em português |
 | Imagens | `aulas/public/` — **não** na raiz do repo (veja "Por que `aulas/public/`" abaixo) |
-| Headmatter | além de `theme`/`title`/`themeConfig`, cada aula traz `info:` (ementa de uma linha) e `date:` (`YYYY-MM-DD`) — os dois alimentam a landing page |
+| Headmatter | além de `theme`/`title`, cada aula traz `info:` (ementa de uma linha) e `date:` (`YYYY-MM-DD`) — os dois alimentam a landing page |
 | Identidade do curso | `site.config.json` na raiz (`title`, `institution`, `description`, `intro`) — o único lugar com o nome da disciplina; nada de texto de identidade chumbado nos scripts |
-| Tipografia | `aulas/styles/index.css` — override dos tokens do tema para a sala de aula (veja abaixo) |
 
 O bloco de abertura de um deck é headmatter **e** frontmatter do primeiro slide ao mesmo tempo.
 Não repita `title:` nele.
 
-## Tipografia de sala de aula
+## O tema é para a sala, não para a tela de perto
 
-O tahta é desenhado para tela de perto; projetado numa sala, o segundo nível de texto (kicker,
-`desc` de item, `points`, corpo de card, legenda, nota, rodapé) fica pequeno demais no fundo.
-`aulas/styles/index.css` corrige isso **fora dos decks**: o Slidev carrega
-`<userRoot>/styles/index.css` sozinho, e o `userRoot` é `aulas/`. A regra "nada de CSS" continua
-valendo para os `.md` — o ajuste é de tema, num arquivo só, e o arquivo explica cada valor.
+`quadro` existe porque o tema anterior era desenhado para leitura próxima: projetado numa sala, o
+segundo nível de texto sumia no fundo. Aqui **o texto solto do markdown tem o mesmo tamanho do
+texto dentro dos componentes** (1,35rem ≈ 22px no quadro de 980px do Slidev), e nada além do rodapé
+fica abaixo de 1rem.
 
-Ele sobe só o degrau de baixo da escala (títulos e números gigantes ficam como o tema desenhou) e
-devolve margem vertical (`--pad-y` 3,6rem → 2,8rem) para o texto maior caber sem que o `<Fit>`
-encolha o slide inteiro. `styles/index.css` na raiz importa esse mesmo arquivo, para o
-`npm run ref` mostrar o catálogo com a tipografia real das aulas.
+O componente `<Ajuste>` encolhe o conteúdo de um slide que não couber, até o piso de 0,7 — é rede
+de proteção, não licença: **slide que encolhe é slide com conteúdo demais.** Ele avisa no console
+quando nem no piso cabe.
 
-Ao mexer nele, meça em vez de chutar: com `npm run dev` aberto, o `<Fit>` do tema encolhe qualquer
-slide cujo conteúdo passe do quadro, então texto maior em slide cheio pode sair **menor** na tela.
-Compare `.fit-inner`/`.fit` (`scrollHeight ÷ clientHeight`) por slide antes e depois.
+Ao mexer em tamanho ou espaçamento, **meça em vez de chutar**: com `npm run dev` aberto, a escala
+de cada slide está no `transform` de `.ajuste-inner`. A meta é `×1`, e nunca abaixo de `×0,9`. Foi
+assim que a aula 01 saiu de 29 slides encolhidos para 4.
 
 ## Comandos
 
@@ -61,9 +63,8 @@ Compare `.fit-inner`/`.fit` (`scrollHeight ÷ clientHeight`) por slide antes e d
 npm run dev                                  # abre a primeira aula de aulas/ com hot reload
 npm run dev -- 03                            # abre a aula cujo nome contém "03"
 npm run ref                                  # abre o catálogo de layouts/componentes (raiz)
-npm run lint                                 # tahta-lint em todos os decks
+npm run lint                                 # valida os decks contra o contrato do tema
 npm run build                                # builda tudo em dist/ (roda o lint antes)
-npm run sync-docs                            # atualiza docs/tahta.md após atualizar o tema
 ```
 
 Para adicionar uma aula nova: crie o `.md` em `aulas/`, commit, push. O workflow builda e publica —
@@ -75,9 +76,10 @@ O Slidev define `userRoot = dirname(<arquivo do deck>)` e roda o Vite com `root:
 `publicDir: <userRoot>/public`. Ou seja: `public/`, `components/`, `layouts/`, `setup/` e `styles/`
 **seus** são procurados dentro da pasta do deck, não na raiz do repo.
 
-O tema é a exceção — ele é resolvido por resolução de pacote Node a partir do arquivo `.md`, que
-sobe os diretórios pai até achar o `node_modules/` da raiz. Por isso deck em subpasta funciona com o
-tahta, mas não funcionaria com layouts locais colocados na raiz.
+O tema é a exceção, e é por isso que ele pode ficar na raiz: um `theme:` que começa com `.` é
+resolvido como caminho relativo ao próprio `.md` (`theme: ../tema` a partir de `aulas/`), e a raiz
+do tema entra no `server.fs.allow` do Vite junto com a raiz do workspace. Layouts, componentes,
+`setup/` e `styles/` do tema são varridos a partir dela.
 
 ## Build e deploy
 
@@ -94,7 +96,8 @@ Detalhes no README.
 
 `scripts/lib.mjs` concentra o que os scripts compartilham: onde ficam as aulas (`deckFiles()`), como
 achar binários de `node_modules` sem npx (`binOf()`) e como ler o `site.config.json` (`siteConfig()`).
-Nenhum script tem nome de arquivo de aula fixo — `npm run dev` descobre a primeira aula sozinho.
+`scripts/lint-decks.mjs` é o linter do tema, e o build o roda antes de gastar um `slidev build` por
+aula. Nenhum script tem nome de arquivo de aula fixo — `npm run dev` descobre a primeira aula sozinho.
 
 O `--base` vem da env `SITE_BASE` (`/` local; no CI, o output `base_path` do `configure-pages`, que
 é o caminho da URL real do site). **O nome do repositório no GitHub faz parte das URLs** — renomear

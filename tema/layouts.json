@@ -1,0 +1,102 @@
+{
+  "_comment": "Contrato do tema quadro: os layouts, seus campos e quais são obrigatórios. É a fonte que o `npm run lint` (scripts/lint-decks.mjs) usa para validar as aulas — layout novo em tema/layouts/ precisa aparecer aqui.",
+  "universais": ["layout", "foot", "ghost", "class", "clicks", "transition", "hide", "hideInToc", "level", "title", "src", "zoom", "preload", "routeAlias", "dragPos"],
+  "layouts": {
+    "lead": {
+      "uso": "Abertura da aula.",
+      "campos": ["index", "kicker", "title", "subtitle", "author", "date"],
+      "obrigatorios": ["title"],
+      "corpo": "vazio"
+    },
+    "section": {
+      "uso": "Divisor de parte. Alimenta a trilha do topo e o rodapé dos slides seguintes.",
+      "campos": ["index", "kicker", "title", "subtitle"],
+      "obrigatorios": ["title"],
+      "corpo": "vazio"
+    },
+    "default": {
+      "uso": "Conteúdo geral; o corpo é markdown e aceita os componentes do tema.",
+      "campos": ["kicker", "title", "ghost"],
+      "obrigatorios": [],
+      "corpo": "markdown"
+    },
+    "statement": {
+      "uso": "Uma frase, a tela inteira.",
+      "campos": ["kicker", "title"],
+      "obrigatorios": ["title"],
+      "corpo": "opcional"
+    },
+    "quote": {
+      "uso": "Citação de fonte primária.",
+      "campos": ["kicker", "quote", "author"],
+      "obrigatorios": ["quote"],
+      "corpo": "vazio"
+    },
+    "define": {
+      "uso": "Termo + definição + desdobramentos.",
+      "campos": ["kicker", "term", "definition", "points"],
+      "obrigatorios": ["term"],
+      "corpo": "opcional"
+    },
+    "agenda": {
+      "uso": "O caminho da aula, numerado.",
+      "campos": ["kicker", "title", "items"],
+      "obrigatorios": ["items"],
+      "corpo": "vazio"
+    },
+    "steps": {
+      "uso": "Um processo, na ordem.",
+      "campos": ["kicker", "title", "ghost", "steps"],
+      "obrigatorios": ["steps"],
+      "corpo": "vazio"
+    },
+    "panels": {
+      "uso": "Dois a três subtemas em cartões.",
+      "campos": ["kicker", "title", "panels"],
+      "obrigatorios": ["panels"],
+      "corpo": "opcional"
+    },
+    "columns": {
+      "uso": "Duas ou três listas paralelas.",
+      "campos": ["kicker", "title", "columns"],
+      "obrigatorios": ["columns"],
+      "corpo": "opcional"
+    },
+    "vs": {
+      "uso": "Oposição frente a frente.",
+      "campos": ["kicker", "title", "label", "left", "right"],
+      "obrigatorios": ["left", "right"],
+      "corpo": "vazio"
+    },
+    "timeline": {
+      "uso": "Sequência datada.",
+      "campos": ["kicker", "title", "events"],
+      "obrigatorios": ["events"],
+      "corpo": "vazio"
+    },
+    "metric": {
+      "uso": "Um número, do tamanho da sala.",
+      "campos": ["kicker", "value", "unit", "label", "ghost"],
+      "obrigatorios": ["value"],
+      "corpo": "vazio"
+    },
+    "diagram": {
+      "uso": "Palco para um Mermaid, figura ou esquema. O corpo é o desenho.",
+      "campos": ["kicker", "title", "note"],
+      "obrigatorios": [],
+      "corpo": "markdown"
+    },
+    "pausa": {
+      "uso": "Intervalo, com a contagem regressiva projetada.",
+      "campos": ["kicker", "title", "tempo", "note"],
+      "obrigatorios": [],
+      "corpo": "opcional"
+    },
+    "end": {
+      "uso": "Fechamento.",
+      "campos": ["title", "subtitle", "contact"],
+      "obrigatorios": ["title"],
+      "corpo": "vazio"
+    }
+  }
+}

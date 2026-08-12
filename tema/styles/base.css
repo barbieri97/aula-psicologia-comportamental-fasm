@@ -1,0 +1,258 @@
+/* ============================================================
+   QUADRO — base
+   ------------------------------------------------------------
+   O esqueleto comum a todos os layouts: fundo do slide, tipografia do corpo,
+   e as classes que os layouts e componentes compartilham (kicker, título,
+   cartão, filete). Cada layout traz só a sua própria grade, no <style scoped>.
+   ============================================================ */
+
+/* ---------- moldura ----------
+
+   Tudo pendura em `.quadro`, e não em `.slidev-layout`.
+
+   `.slidev-layout` é a classe que os layouts NATIVOS do Slidev colocam neles
+   mesmos — e junto dela vem `layouts-base.css`, com opiniões próprias sobre
+   tamanho de texto (1.1rem), marcador de lista, margem de parágrafo e h1. Como
+   este tema substitui todos os layouts, ele não usa a classe: assim o tamanho
+   do texto é decidido aqui, e não herdado de um padrão pensado para tela de
+   perto. Foi o que fazia o texto solto sair menor que o dos componentes. */
+.quadro {
+  --slidev-code-font-size: 1.05rem;
+  --slidev-code-line-height: 1.5;
+  font-feature-settings: 'ss01', 'cv01';
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: var(--pad-y) var(--pad-x);
+  background: var(--fundo);
+  color: var(--frente);
+  font-family: var(--fonte-corpo);
+  font-size: var(--t-corpo);
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+/* Papel: um pautado levíssimo, só para o fundo não ser um branco morto no
+   projetor. Some nos slides invertidos, onde a tinta já é a textura. */
+.quadro[data-tom='claro']::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 2.6rem,
+    color-mix(in oklab, var(--linha) 55%, transparent) 2.6rem calc(2.6rem + 1px)
+  );
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.quadro > * { position: relative; }
+
+.quadro-corpo {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+/* ---------- cabeçalho do slide ---------- */
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0 0 0.5rem;
+  font-family: var(--fonte-mono);
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--acento);
+}
+
+.kicker::before {
+  content: '';
+  width: 1.6rem;
+  height: 3px;
+  border-radius: 2px;
+  background: currentColor;
+}
+
+.titulo {
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-titulo);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.titulo em {
+  font-style: italic;
+  color: var(--acento);
+}
+
+/* O destaque de marca-texto, usado em títulos e definições:
+   <span class="destaque">…</span> — o giz amarelo por cima da palavra. */
+.destaque {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--marca) 85%, transparent) 0.62em,
+    transparent 0.62em
+  );
+  padding: 0 0.12em;
+}
+
+.quadro[data-tom='escuro'] .destaque {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--acento) 34%, transparent) 0.62em,
+    transparent 0.62em
+  );
+}
+
+/* ---------- rodapé ---------- */
+
+.rodape {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
+  font-family: var(--fonte-mono);
+  font-size: var(--t-rodape);
+  color: color-mix(in oklab, var(--frente) 52%, transparent);
+}
+
+.rodape-linha {
+  flex: 1;
+  height: 1px;
+  background: var(--linha);
+}
+
+.rodape-num { font-variant-numeric: tabular-nums; }
+
+/* ---------- corpo em markdown ---------- */
+
+/* O texto solto do slide (parágrafos e bullets escritos direto no markdown) tem
+   o mesmo tamanho do texto dentro dos componentes. Sem esta linha ele herdaria
+   de fora e ficaria o "primo pobre" do <Callout> ao lado. */
+.quadro-md {
+  font-size: var(--t-corpo);
+  line-height: 1.5;
+}
+
+.quadro-md > :first-child { margin-top: 0; }
+.quadro-md > :last-child { margin-bottom: 0; }
+
+.quadro-md p { margin: 0 0 0.65rem; max-width: 62ch; }
+.quadro-md p:last-child { margin-bottom: 0; }
+
+.quadro-md ul,
+.quadro-md ol {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.quadro-md li {
+  position: relative;
+  padding-left: 1.6rem;
+  max-width: 68ch;
+}
+
+.quadro-md ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0.15rem;
+  top: 0.62em;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 2px;
+  background: var(--acento);
+  transform: rotate(45deg);
+}
+
+.quadro-md ol { counter-reset: q; }
+.quadro-md ol > li { counter-increment: q; }
+.quadro-md ol > li::before {
+  content: counter(q);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  font-family: var(--fonte-mono);
+  font-size: 0.8em;
+  font-weight: 600;
+  color: var(--acento);
+}
+
+.quadro-md li > ul { margin-top: 0.45rem; }
+
+.quadro-md strong { font-weight: 700; color: var(--frente); }
+.quadro-md em { font-style: italic; }
+.quadro-md a { color: var(--azul); text-underline-offset: 3px; }
+
+.quadro-md code {
+  font-family: var(--fonte-mono);
+  font-size: 0.9em;
+  padding: 0.08em 0.34em;
+  border-radius: var(--raio-p);
+  background: var(--fundo-2);
+  border: 1px solid var(--linha);
+}
+
+.quadro-md blockquote {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--acento);
+  font-style: italic;
+  color: var(--frente-2);
+}
+
+/* ---------- superfícies compartilhadas ---------- */
+
+.cartao {
+  padding: 1.1rem 1.3rem;
+  border-radius: var(--raio);
+  background: var(--superficie);
+  border: 1px solid var(--superficie-linha);
+  box-shadow: var(--sombra);
+}
+
+.etiqueta {
+  font-family: var(--fonte-mono);
+  font-size: var(--t-meta);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--acento);
+}
+
+.aux {
+  font-size: var(--t-aux);
+  line-height: 1.45;
+  color: var(--frente-2);
+}
+
+/* ---------- mermaid ---------- */
+
+.quadro .mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- impressão / export ---------- */
+
+@media print {
+  .quadro { background: var(--fundo); }
+  .quadro[data-tom='claro']::before { display: none; }
+}

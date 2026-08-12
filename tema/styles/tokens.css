@@ -1,0 +1,97 @@
+/* ============================================================
+   QUADRO — tokens
+   ------------------------------------------------------------
+   Todo o tema lê apenas as variáveis deste arquivo. Mudar a cara do deck
+   (paleta, tipos, espaçamento, ritmo da animação) é mudar aqui, e nada mais.
+
+   A régua que orienta os números: isto é projetado numa sala, a 6–10 m do
+   fundo. O menor texto do tema (rodapé) é 0.95rem ≈ 15px no quadro de 980px
+   do Slidev; o corpo é 1.45rem ≈ 23px. Nada além do rodapé fica abaixo de
+   1rem — é a regra que substitui o "segundo nível pequeno" do tema antigo.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;800&family=Figtree:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ---------- papel e tinta ---------- */
+  --papel: #fbf8f2;          /* fundo dos slides de conteúdo */
+  --papel-2: #f4efe4;        /* faixas, zebra de tabela */
+  --cartao: #ffffff;         /* superfície elevada */
+  --tinta: #16202f;          /* texto principal / fundo dos slides invertidos */
+  --tinta-2: #47536a;        /* texto secundário */
+  --linha: #e2dccd;          /* filetes e bordas */
+  --linha-forte: #cec7b4;
+
+  /* ---------- cores de sentido ---------- */
+  --acento: #b23a1b;         /* giz vermelho — a cor da disciplina */
+  --acento-claro: #f3e3dc;
+  --verde: #10695e;          /* verde quadro — "isto funciona" */
+  --azul: #1f4fa8;           /* azul caneta — informação */
+  --ambar: #a8600b;          /* atenção */
+  --vermelho: #a91d1d;       /* erro / o que não se sustenta */
+  --marca: #ffe9a3;          /* marca-texto amarelo */
+
+  /* ---------- tipografia ---------- */
+  --fonte-titulo: 'Bitter', Georgia, 'Times New Roman', serif;
+  --fonte-corpo: 'Figtree', 'Segoe UI', system-ui, sans-serif;
+  --fonte-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
+
+  --t-rodape: 0.95rem;
+  --t-kicker: 1.05rem;
+  --t-meta: 1.05rem;         /* datas, etiquetas, números de item */
+  --t-aux: 1.15rem;          /* descrições, legendas, corpo de cartão */
+  --t-corpo: 1.35rem;        /* parágrafos e bullets */
+  --t-lead: 1.6rem;         /* subtítulo de capa/seção, definição */
+  --t-sub: 1.5rem;           /* títulos internos (coluna, painel, passo) */
+  --t-titulo: 2.45rem;        /* título de slide de conteúdo */
+  --t-frase: 3.4rem;         /* statement */
+  --t-capa: 4.2rem;          /* capa e seção */
+  --t-numero: 7.5rem;        /* metric */
+
+  /* ---------- forma e espaço ---------- */
+  --raio: 14px;
+  --raio-p: 8px;
+  --pad-x: 3.2rem;
+  --pad-y: 1.7rem;
+  --gap: 1.4rem;
+  --borda: 1px solid var(--linha);
+  --sombra: 0 14px 30px -22px rgba(22, 32, 47, 0.55);
+
+  /* ---------- movimento ----------
+     Uma única duração e uma única curva no tema inteiro: a entrada é sempre
+     a mesma, o que a torna invisível (que é o objetivo — animação em aula
+     serve para dirigir o olhar, não para chamar atenção para si). */
+  --mov-dur: 460ms;
+  --mov-curva: cubic-bezier(0.22, 0.9, 0.3, 1);
+  --mov-passo: 70ms;         /* atraso entre itens de uma lista */
+}
+
+/* Slides invertidos (capa, seção, frase, citação, fim): a mesma paleta com os
+   papéis trocados. As classes e componentes leem `--fundo`/`--frente`, então
+   funcionam nos dois modos sem duplicar CSS. */
+:root,
+.quadro[data-tom='claro'] {
+  --fundo: var(--papel);
+  --fundo-2: var(--papel-2);
+  --frente: var(--tinta);
+  --frente-2: var(--tinta-2);
+  --superficie: var(--cartao);
+  --superficie-linha: var(--linha);
+}
+
+.quadro[data-tom='escuro'] {
+  --fundo: var(--tinta);
+  --fundo-2: #1d2839;
+  --frente: #f6f2e9;
+  --frente-2: #a9b4c6;
+  --superficie: #1d2839;
+  --superficie-linha: #2f3b4f;
+  --acento: #ff8b5e;         /* o terracota não tem contraste sobre a tinta */
+  --acento-claro: #33261f;
+  --verde: #4fc0ac;
+  --azul: #8fb2ff;
+  --ambar: #e0a84a;
+  --vermelho: #ff7a7a;
+  --linha: #2f3b4f;
+  --linha-forte: #47566e;
+}

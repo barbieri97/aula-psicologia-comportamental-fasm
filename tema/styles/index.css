@@ -1,0 +1,12 @@
+/* ============================================================
+   QUADRO — folha de entrada
+   ------------------------------------------------------------
+   O Slidev importa `<raiz do tema>/styles/index.css` sozinho. Os três arquivos
+   abaixo são a divisão: o que é decisão de design (tokens), o que é esqueleto
+   (base) e o que é ritmo (movimento). Estilo específico de um layout mora no
+   `<style scoped>` do próprio layout.
+   ============================================================ */
+
+@import './tokens.css';
+@import './base.css';
+@import './movimento.css';

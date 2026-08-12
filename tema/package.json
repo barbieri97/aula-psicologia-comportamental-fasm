@@ -1,0 +1,14 @@
+{
+  "name": "slidev-theme-quadro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quadro — tema Slidev para aula projetada: tipografia grande, papel e tinta, entrada em cascata.",
+  "engines": {
+    "slidev": ">=0.48.0"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "shiki"
+  }
+}

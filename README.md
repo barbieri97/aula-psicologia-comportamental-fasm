@@ -1,8 +1,8 @@
 # Psicologia Comportamental · FASM
 
 Slides das aulas do semestre. Uma aula por arquivo em [`aulas/`](aulas/), feitas com
-[Slidev](https://sli.dev/) + tema [tahta](https://github.com/zcag/tahta), publicadas no GitHub Pages
-— cada aula na sua própria URL.
+[Slidev](https://sli.dev/) + o tema **quadro** ([`tema/`](tema/)), escrito para esta disciplina e
+publicado no GitHub Pages — cada aula na sua própria URL.
 
 ```
 https://barbieri97.github.io/template-aulas/                    ← índice
@@ -28,11 +28,12 @@ npm run build                                 # gera dist/ igual ao que vai pro 
 `aula-NN-titulo-em-slug.md`, edite, commit, push. O workflow builda e publica sozinho — o índice se
 atualiza a partir do `title` / `info` / `date` do topo do arquivo. O nome do arquivo vira a URL.
 
-Antes de escrever slides, leia [`docs/tahta.md`](docs/tahta.md) — é o contrato do tema (layouts,
+Antes de escrever slides, leia [`docs/tema.md`](docs/tema.md) — é o contrato do tema (layouts,
 campos, componentes). Resumo das convenções em [`CLAUDE.md`](CLAUDE.md).
 
-> O `npm run lint` mostra um aviso `unknown field "date"` por aula. É esperado: `date` não é um campo
-> do tema, ele existe para o índice do site. Avisos não quebram o build; erros sim.
+> O `npm run lint` separa **erro** (layout que não existe, campo obrigatório faltando, frontmatter
+> mal fechado, slide vazio) de **aviso** (campo com nome errado, slide denso demais para ser lido do
+> fundo da sala). Aviso não quebra o build; erro sim.
 
 ## Primeira publicação
 
@@ -106,7 +107,7 @@ nome do repositório não aparece em lugar nenhum do código.
 `scripts/build-site.mjs`:
 
 1. lê o topo (headmatter) de cada `aulas/*.md` para pegar título, ementa e data;
-2. roda `tahta-lint` em todos — erro aqui aborta o build;
+2. roda `scripts/lint-decks.mjs` em todos — erro aqui aborta o build;
 3. roda **um `slidev build` por aula**, cada uma com o seu `--base` e `--router-mode hash`
    (necessário porque o Pages serve tudo sob `/<repo>/` e só tem um `404.html`, na raiz);
 4. gera a landing `dist/index.html` listando as aulas, com título e ementa vindos de
@@ -119,5 +120,8 @@ como ler o `site.config.json`) — é lá que se mexe para mudar essas convenç�
 
 Detalhe que costuma quebrar deck em subpasta: o Slidev trata a **pasta do arquivo `.md`** como raiz
 do projeto (`root`/`publicDir` do Vite). Por isso as **imagens vão em `aulas/public/`** e referências
-a elas nos slides usam caminho absoluto (`/foto.png`). O tema, por ser um pacote npm, é resolvido
-subindo até o `node_modules/` da raiz — e por isso funciona normalmente com os decks em `aulas/`.
+a elas nos slides usam caminho absoluto (`/foto.png`).
+
+O tema é a exceção e por isso pode morar na raiz, fora de `aulas/`: um `theme:` que começa com `.`
+é resolvido como caminho **relativo ao próprio `.md`** (daí `theme: ../tema`), e a pasta do tema
+entra no `server.fs.allow` do Vite junto com a raiz do workspace.
