@@ -50,13 +50,10 @@ Encerramos a aula passada com uma exigência: se causas mentais não explicam, �
 - Ela cobre uma faixa estreita do comportamento — mas cobre bem
 - É também a base do que veremos nas aulas seguintes
 
-<Callout icon="lucide:milestone">
-Trocamos de livro: saímos de Baum (filosofia da ciência) e entramos em <strong>Moreira &amp; Medeiros</strong>, capítulos 1 e 2. A partir daqui o vocabulário é técnico.
-</Callout>
-
-<!-- Anuncie a mudança de registro: hoje não há controvérsia filosófica, há definição
-e exemplo. Alunos que acharam a aula 01 abstrata costumam se recuperar aqui. -->
-
+<!--
+Anuncie a mudança de registro: hoje não há controvérsia filosófica, há definição
+e exemplo. Alunos que acharam a aula 01 abstrata costumam se recuperar aqui.
+-->
 
 ---
 layout: section
@@ -68,7 +65,7 @@ subtitle: Uma relação entre ambiente e organismo — não uma coisa que o orga
 
 ---
 layout: default
-kicker: Comece pelos exemplos
+kicker: Exemplos
 title: Todos nós já observamos isto
 ---
 
@@ -87,9 +84,11 @@ title: Todos nós já observamos isto
 Há algo em comum em todos eles: uma <strong>alteração no ambiente</strong> produz uma <strong>alteração no organismo</strong>.
 </Callout>
 
-<!-- Peça à turma que encontre o padrão antes de você enunciá-lo. Quase sempre alguém
+<!--
+Peça à turma que encontre o padrão antes de você enunciá-lo. Quase sempre alguém
 diz "é automático" ou "não é escolhido" — aproveite: é exatamente disso que vamos
-falar na Parte 3, quando o assunto for emoção. -->
+falar na Parte 3, quando o assunto for emoção.
+-->
 
 ---
 layout: define
