@@ -1,0 +1,4 @@
+/* Deck de bancada (`referencia-tahta.md`, na raiz) — o Slidev carrega os estilos de
+   `<userRoot>/styles/`, e a raiz é o userRoot dele. Importa a mesma tipografia das
+   aulas para que o catálogo de layouts mostre exatamente o que a turma vai ver. */
+@import '../aulas/styles/index.css';

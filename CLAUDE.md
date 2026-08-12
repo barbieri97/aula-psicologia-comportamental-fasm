@@ -33,9 +33,27 @@ As duas regras que mais quebram deck:
 | Imagens | `aulas/public/` — **não** na raiz do repo (veja "Por que `aulas/public/`" abaixo) |
 | Headmatter | além de `theme`/`title`/`themeConfig`, cada aula traz `info:` (ementa de uma linha) e `date:` (`YYYY-MM-DD`) — os dois alimentam a landing page |
 | Identidade do curso | `site.config.json` na raiz (`title`, `institution`, `description`, `intro`) — o único lugar com o nome da disciplina; nada de texto de identidade chumbado nos scripts |
+| Tipografia | `aulas/styles/index.css` — override dos tokens do tema para a sala de aula (veja abaixo) |
 
 O bloco de abertura de um deck é headmatter **e** frontmatter do primeiro slide ao mesmo tempo.
 Não repita `title:` nele.
+
+## Tipografia de sala de aula
+
+O tahta é desenhado para tela de perto; projetado numa sala, o segundo nível de texto (kicker,
+`desc` de item, `points`, corpo de card, legenda, nota, rodapé) fica pequeno demais no fundo.
+`aulas/styles/index.css` corrige isso **fora dos decks**: o Slidev carrega
+`<userRoot>/styles/index.css` sozinho, e o `userRoot` é `aulas/`. A regra "nada de CSS" continua
+valendo para os `.md` — o ajuste é de tema, num arquivo só, e o arquivo explica cada valor.
+
+Ele sobe só o degrau de baixo da escala (títulos e números gigantes ficam como o tema desenhou) e
+devolve margem vertical (`--pad-y` 3,6rem → 2,8rem) para o texto maior caber sem que o `<Fit>`
+encolha o slide inteiro. `styles/index.css` na raiz importa esse mesmo arquivo, para o
+`npm run ref` mostrar o catálogo com a tipografia real das aulas.
+
+Ao mexer nele, meça em vez de chutar: com `npm run dev` aberto, o `<Fit>` do tema encolhe qualquer
+slide cujo conteúdo passe do quadro, então texto maior em slide cheio pode sair **menor** na tela.
+Compare `.fit-inner`/`.fit` (`scrollHeight ÷ clientHeight`) por slide antes e depois.
 
 ## Comandos
 
