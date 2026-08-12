@@ -197,6 +197,23 @@
 
 .quadro-md li > ul { margin-top: 0.45rem; }
 
+/* ---------- figuras ---------- */
+
+/* Uma imagem sempre cabe no quadro. Sem esta regra, um arquivo de 1600px entra
+   no tamanho natural e atravessa a borda do slide — e como o <Ajuste> mede a
+   altura do conteúdo, uma foto grande encolheria o slide inteiro junto com ela.
+   O teto de 19rem é o mesmo do SVG no palco do `diagram`, para que uma foto e um
+   esquema ocupem o mesmo espaço na sala. */
+.quadro img {
+  display: block;
+  max-width: 100%;
+  max-height: 19rem;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--raio-p);
+}
+
 .quadro-md strong { font-weight: 700; color: var(--frente); }
 .quadro-md em { font-style: italic; }
 .quadro-md a { color: var(--azul); text-underline-offset: 3px; }

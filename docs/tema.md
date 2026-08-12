@@ -127,6 +127,37 @@ item a item, e `<v-click>` num elemento só.
 
 ---
 
+## Figuras: imagem e desenho
+
+O lugar de um visual é o corpo de um slide `diagram` — é para isso que ele existe ("o corpo é o
+desenho"). Três formas, em ordem de preferência:
+
+| forma | quando | como |
+|---|---|---|
+| **SVG inline** | esquemas e gráficos que você controla | escreva o `<svg>` direto no corpo |
+| **Mermaid** | fluxos e grafos simples | bloco ```` ```mermaid ```` |
+| **`<img>`** | fotos e material digitalizado | arquivo em `aulas/public/`, `src="/nome.jpg"` |
+
+Nenhuma delas pede CSS no `.md`: `.diag-palco svg` estica o desenho até a largura do palco com teto
+de 19rem, e a regra `.quadro img` (em `tema/styles/base.css`) limita a imagem à mesma altura. Sem
+essa regra uma foto de 1600px entraria no tamanho natural, atravessaria a borda **e** encolheria o
+slide inteiro, porque o `<Ajuste>` mede a altura do conteúdo.
+
+Três armadilhas que custaram tempo e não precisam ser redescobertas:
+
+- **Em SVG, tamanho de fonte vai em `style`, nunca como atributo.** `<text font-size="20">` é um
+  *atributo de apresentação*: ele perde para o CSS que o tema faz cascatear até dentro do SVG, e o
+  texto sai gigante sobre um desenho de geometria correta — o `viewBox` escala os `<rect>`, não a
+  fonte. Escreva `<text style="font-family:var(--fonte-corpo);font-size:20px">`. Tokens do tema
+  funcionam dentro do SVG, então o desenho acompanha a paleta sozinho.
+- **Projete o `viewBox` em torno de 3,2:1** (`0 0 960 300`). É a proporção que preenche o palco sem
+  bater no teto de 19rem; mais alto que isso, o SVG é centralizado com faixas vazias dos lados.
+- **Mermaid renderiza num ShadowRoot.** O `max-height` do tema não o alcança, ele desenha no tamanho
+  natural e o `<Ajuste>` mede alturas diferentes a cada carga — um slide Mermaid oscila entre ×1 e
+  ×0,88 sem que nada tenha mudado. Para um desenho cuja altura importa, prefira SVG inline.
+
+---
+
 ## Tipografia e o `<Ajuste>`
 
 O tema fixa o tamanho do texto em `tema/styles/tokens.css`. O corpo é 1,35rem (≈22px no quadro de
@@ -183,6 +214,19 @@ slide cheio de texto grande sair **menor** na tela, e a única forma de ver isso
 Com `npm run dev` aberto, a escala aplicada em cada slide está em `.ajuste-inner`
 (`getComputedStyle(el).transform`). Um slide saudável está em `×1`; a meta é que nenhum fique
 abaixo de `×0,9`.
+
+Para medir o **deck inteiro de uma vez**, a rota `/export/` renderiza todos os slides no mesmo DOM,
+e um Chrome headless resolve sem instalar nada:
+
+```bash
+node node_modules/@slidev/cli/bin/slidev.mjs aulas/aula-NN-<slug>.md --port 3099
+chrome --headless=new --virtual-time-budget=40000 --dump-dom http://localhost:3099/export/ > dom.html
+```
+
+Depois é procurar `transform: scale(...)` em `.ajuste-inner` e o atributo `data-transborda`, que o
+`<Ajuste>` deixa no DOM justamente para esse tipo de conferência. Duas ressalvas: rode **duas
+vezes** antes de acreditar num slide Mermaid (veja "Figuras"), e lembre que o `--dump-dom` não
+serializa ShadowRoot — para ver se um Mermaid desenhou mesmo, use `--screenshot`.
 
 ---
 

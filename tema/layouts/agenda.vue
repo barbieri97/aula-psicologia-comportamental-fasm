@@ -20,20 +20,24 @@ const { $frontmatter: fm } = useSlideContext()
 </template>
 
 <style scoped>
+/* O gap e o padding são apertados de propósito: o tema documenta aulas de três a
+   SEIS partes, e com 0.7rem nos dois a agenda de seis itens estourava a altura e
+   saía encolhida a 0.83. Com estes valores, seis itens cabem em ×1 e quatro
+   continuam folgados. */
 .agenda {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.45rem;
 }
 
 .agenda-item {
   display: flex;
   align-items: baseline;
   gap: 1.1rem;
-  padding: 0.7rem 1.1rem;
+  padding: 0.5rem 1.1rem;
   border-radius: var(--raio);
   background: var(--superficie);
   border: 1px solid var(--superficie-linha);
