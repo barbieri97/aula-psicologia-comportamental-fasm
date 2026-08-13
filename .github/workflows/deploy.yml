@@ -32,6 +32,12 @@ jobs:
 
       - run: npm ci
 
+      # O `download: true` no headmatter faz o `slidev build` exportar o PDF de cada aula, e
+      # essa exportação roda em Playwright. O `npm ci` já baixa o Chromium (postinstall do
+      # playwright-chromium); aqui entram só as libs de sistema que ele carrega no runner.
+      - name: Dependências de sistema do Chromium
+        run: npx playwright install-deps chromium
+
       # Descobre a URL pública do site. O output `base_path` é o caminho dela:
       # "/<nome-do-repo>" num repo comum, "/" num repo <usuario>.github.io.
       - name: Configurar Pages
@@ -45,8 +51,16 @@ jobs:
         env:
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
 
+      # Além da landing, cada aula precisa do seu PDF: sem ele o botão de baixar os slides
+      # aponta para um 404 e o site sobe assim mesmo — melhor falhar aqui.
       - name: Conferir o dist/
-        run: test -f dist/index.html || { echo "dist/index.html não existe — build falhou?"; exit 1; }
+        run: |
+          test -f dist/index.html || { echo "dist/index.html não existe — build falhou?"; exit 1; }
+          for deck in aulas/*.md; do
+            grep -q '^download: *true' "$deck" || continue
+            slug=$(basename "$deck" .md)
+            test -s "dist/$slug/slidev-exported.pdf" || { echo "dist/$slug/slidev-exported.pdf não existe — a exportação em PDF falhou"; exit 1; }
+          done
 
       - name: Empacotar o dist/
         uses: actions/upload-pages-artifact@v5

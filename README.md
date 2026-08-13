@@ -115,6 +115,19 @@ nome do repositório não aparece em lugar nenhum do código.
 
 O `--base` vem da variável `SITE_BASE` (`/` local, `/<repo>/` no CI).
 
+### O PDF do botão de baixar
+
+Uma aula com `download: true` no headmatter ganha o botão de baixar os slides, e o
+`slidev build` exporta `dist/<slug>/slidev-exported.pdf` no fim do build daquela aula. Essa
+exportação roda em **Playwright**, que o Slidev declara como peer dependency *opcional* — sem ele
+o build morre com «The exporting for Slidev is powered by Playwright». Por isso
+`playwright-chromium` está nas `devDependencies` daqui: o `npm ci` instala o pacote e o postinstall
+dele baixa o Chromium. No CI ainda há o passo `npx playwright install-deps chromium`, que instala
+só as bibliotecas de sistema que esse Chromium carrega.
+
+O passo «Conferir o dist/» exige o PDF de toda aula que pede `download: true` — sem isso um build
+com a exportação quebrada subiria com o botão apontando para 404.
+
 `scripts/lib.mjs` guarda o que os scripts compartilham (onde ficam as aulas, como achar os binários,
 como ler o `site.config.json`) — é lá que se mexe para mudar essas convenções.
 
