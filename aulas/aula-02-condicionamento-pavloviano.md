@@ -5,6 +5,7 @@ info: Do reflexo inato ao reflexo aprendido — estímulo, resposta, as leis do 
 date: "2026-08-19"
 author: FASM · Psicologia Comportamental
 transition: slide-left
+download: true
 layout: lead
 index: "02"
 kicker: Psicologia Comportamental · FASM
