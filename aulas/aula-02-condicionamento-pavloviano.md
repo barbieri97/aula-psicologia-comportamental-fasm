@@ -1,7 +1,8 @@
 ---
 theme: ../tema
 title: "Aula 02 · O condicionamento clássico/pavloviano e o comportamento respondente"
-info: Do reflexo inato ao reflexo aprendido — estímulo, resposta, as leis do reflexo e o condicionamento pavloviano
+info: Do reflexo inato ao reflexo aprendido — estímulo, resposta, as leis do
+  reflexo e o condicionamento pavloviano
 date: "2026-08-19"
 author: FASM · Psicologia Comportamental
 transition: slide-left
@@ -9,7 +10,6 @@ download: true
 layout: lead
 index: "02"
 kicker: Psicologia Comportamental · FASM
-subtitle: "Moreira & Medeiros (2007), capítulos 1 e 2 — a primeira unidade de análise da nossa ciência."
 ---
 
 <!--
@@ -95,17 +95,21 @@ falar na Parte 3, quando o assunto for emoção.
 layout: define
 kicker: O conceito central
 term: Reflexo
-definition: Não é o que o organismo fez. É uma <span class="destaque">relação entre o que ele fez e o que aconteceu antes</span>.
+definition: Não é o que o organismo fez. É uma <span class="destaque">relação
+  entre o que ele fez e o que aconteceu antes</span>.
 points:
-  - "Na linguagem cotidiana, reflexo é sinônimo de resposta: «aquele goleiro tem bom reflexo»"
+  - "Na linguagem cotidiana, reflexo é sinônimo de resposta: «aquele goleiro tem
+    bom reflexo»"
   - "Em psicologia, reflexo é a relação entre um estímulo e uma resposta"
   - "É um tipo de interação entre um organismo e seu ambiente"
   - "Reflexos inatos estão presentes desde o nascimento, e até antes dele"
 ---
 
-<!-- Este é o erro conceitual número um do capítulo 1, e ele reaparece na prova:
+<!--
+Este é o erro conceitual número um do capítulo 1, e ele reaparece na prova:
 o aluno escreve "o reflexo do bebê é sugar". Não é. Sugar é a resposta; o reflexo
-é a relação «contato na boca → sucção». -->
+é a relação «contato na boca → sucção».
+-->
 
 ---
 layout: vs
@@ -373,14 +377,16 @@ right:
   title: Potenciação
   items:
     - "A magnitude da resposta <strong>aumenta</strong>"
-    - "É o efeito oposto, e ocorre em outros reflexos"
-    - "Cada nova eliciação produz resposta mais forte"
-    - "Depende de qual reflexo está em jogo"
+    - "A torneira pingando de madrugada: cada pingo incomoda mais"
+    - "Cutucar um machucado: cada toque dói mais que o anterior"
+    - "Coçar a picada de mosquito: a coceira volta mais forte a cada vez"
 ---
 
-<!-- Condição necessária para os dois efeitos: mesmo estímulo, mesma intensidade,
+<!--
+Condição necessária para os dois efeitos: mesmo estímulo, mesma intensidade,
 várias vezes seguidas, em curtos intervalos. Se o intervalo for longo, o efeito
-não aparece — e isso importa na hora de planejar uma exposição terapêutica. -->
+não aparece — e isso importa na hora de planejar uma exposição terapêutica.
+-->
 
 ---
 layout: diagram
@@ -431,9 +437,9 @@ title: As leis do reflexo em um quadro
   realce="coluna:1"
 />
 
-<!-- Este é o quadro para copiar. Todas as seis linhas voltam no capítulo 2, agora
-aplicadas a reflexos aprendidos: elas não valem só para o inato. -->
-
+<!--
+E
+-->
 
 ---
 layout: section
@@ -471,11 +477,13 @@ Não sentimos medo, alegria ou raiva sem motivo. Sentimos essas emoções **quan
 - Ela pode ser um pensamento, uma lembrança, uma música, uma palavra
 
 <Callout icon="lucide:search">
-Quando não encontramos o estímulo, a conclusão correta não é «veio de dentro» — é que <strong>ainda não o identificamos</strong>. O capítulo 2 vai explicar por que ele costuma ser difícil de achar.
+Quando não encontramos o estímulo, a conclusão correta não é «veio de dentro» — é que <strong>ainda não o identificamos</strong>. Ainda vamos explicar por que ele costuma ser difícil de achar.
 </Callout>
 
-<!-- Aqui a aula 01 volta: dizer que a emoção "veio de dentro" é exatamente a ficção
-explicativa que Baum descreveu. Vale nomear isso em voz alta. -->
+<!--
+Aqui a aula 01 volta: dizer que a emoção "veio de dentro" é exatamente a ficção
+explicativa que Baum descreveu. Vale nomear isso em voz alta.
+-->
 
 ---
 layout: default
