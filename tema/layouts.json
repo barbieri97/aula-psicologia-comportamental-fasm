@@ -86,6 +86,12 @@
       "obrigatorios": [],
       "corpo": "markdown"
     },
+    "iframe": {
+      "uso": "Layout nativo do Slidev: uma página externa (vídeo do YouTube, simulação) ocupando o quadro inteiro. Sem cromo do tema.",
+      "campos": ["url", "scale"],
+      "obrigatorios": ["url"],
+      "corpo": "vazio"
+    },
     "pausa": {
       "uso": "Intervalo, com a contagem regressiva projetada.",
       "campos": ["kicker", "title", "tempo", "note"],
