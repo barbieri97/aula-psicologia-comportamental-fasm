@@ -1,7 +1,8 @@
 ---
 theme: ../tema
 title: "Aula 02 · O condicionamento clássico/pavloviano e o comportamento respondente"
-info: Do reflexo inato ao reflexo aprendido — estímulo, resposta, as leis do reflexo e o condicionamento pavloviano
+info: Do reflexo inato ao reflexo aprendido — estímulo, resposta, as leis do
+  reflexo e o condicionamento pavloviano
 date: "2026-08-19"
 author: FASM · Psicologia Comportamental
 transition: slide-left
@@ -9,7 +10,6 @@ download: true
 layout: lead
 index: "02"
 kicker: Psicologia Comportamental · FASM
-subtitle: "Moreira & Medeiros (2007), capítulos 1 e 2 — a primeira unidade de análise da nossa ciência."
 ---
 
 <!--
@@ -95,17 +95,21 @@ falar na Parte 3, quando o assunto for emoção.
 layout: define
 kicker: O conceito central
 term: Reflexo
-definition: Não é o que o organismo fez. É uma <span class="destaque">relação entre o que ele fez e o que aconteceu antes</span>.
+definition: Não é o que o organismo fez. É uma <span class="destaque">relação
+  entre o que ele fez e o que aconteceu antes</span>.
 points:
-  - "Na linguagem cotidiana, reflexo é sinônimo de resposta: «aquele goleiro tem bom reflexo»"
+  - "Na linguagem cotidiana, reflexo é sinônimo de resposta: «aquele goleiro tem
+    bom reflexo»"
   - "Em psicologia, reflexo é a relação entre um estímulo e uma resposta"
   - "É um tipo de interação entre um organismo e seu ambiente"
   - "Reflexos inatos estão presentes desde o nascimento, e até antes dele"
 ---
 
-<!-- Este é o erro conceitual número um do capítulo 1, e ele reaparece na prova:
+<!--
+Este é o erro conceitual número um do capítulo 1, e ele reaparece na prova:
 o aluno escreve "o reflexo do bebê é sugar". Não é. Sugar é a resposta; o reflexo
-é a relação «contato na boca → sucção». -->
+é a relação «contato na boca → sucção».
+-->
 
 ---
 layout: vs
@@ -373,14 +377,16 @@ right:
   title: Potenciação
   items:
     - "A magnitude da resposta <strong>aumenta</strong>"
-    - "É o efeito oposto, e ocorre em outros reflexos"
-    - "Cada nova eliciação produz resposta mais forte"
-    - "Depende de qual reflexo está em jogo"
+    - "A torneira pingando de madrugada: cada pingo incomoda mais"
+    - "Cutucar um machucado: cada toque dói mais que o anterior"
+    - "Coçar a picada de mosquito: a coceira volta mais forte a cada vez"
 ---
 
-<!-- Condição necessária para os dois efeitos: mesmo estímulo, mesma intensidade,
+<!--
+Condição necessária para os dois efeitos: mesmo estímulo, mesma intensidade,
 várias vezes seguidas, em curtos intervalos. Se o intervalo for longo, o efeito
-não aparece — e isso importa na hora de planejar uma exposição terapêutica. -->
+não aparece — e isso importa na hora de planejar uma exposição terapêutica.
+-->
 
 ---
 layout: diagram
@@ -431,9 +437,9 @@ title: As leis do reflexo em um quadro
   realce="coluna:1"
 />
 
-<!-- Este é o quadro para copiar. Todas as seis linhas voltam no capítulo 2, agora
-aplicadas a reflexos aprendidos: elas não valem só para o inato. -->
-
+<!--
+E
+-->
 
 ---
 layout: section
@@ -471,11 +477,13 @@ Não sentimos medo, alegria ou raiva sem motivo. Sentimos essas emoções **quan
 - Ela pode ser um pensamento, uma lembrança, uma música, uma palavra
 
 <Callout icon="lucide:search">
-Quando não encontramos o estímulo, a conclusão correta não é «veio de dentro» — é que <strong>ainda não o identificamos</strong>. O capítulo 2 vai explicar por que ele costuma ser difícil de achar.
+Quando não encontramos o estímulo, a conclusão correta não é «veio de dentro» — é que <strong>ainda não o identificamos</strong>. Ainda vamos explicar por que ele costuma ser difícil de achar.
 </Callout>
 
-<!-- Aqui a aula 01 volta: dizer que a emoção "veio de dentro" é exatamente a ficção
-explicativa que Baum descreveu. Vale nomear isso em voz alta. -->
+<!--
+Aqui a aula 01 volta: dizer que a emoção "veio de dentro" é exatamente a ficção
+explicativa que Baum descreveu. Vale nomear isso em voz alta.
+-->
 
 ---
 layout: default
@@ -589,29 +597,9 @@ fisiologia da digestão. O achado é um bom exemplo do que a aula 01 chamou de c
 que parte da observação, e não de pressupostos. -->
 
 ---
-layout: diagram
-kicker: Figuras 2.1 e 2.2
-title: O aparato experimental
-note: O cão contido no aparato, a fístula junto à glândula salivar e o tubo que
-  leva a saliva ao recipiente graduado — é assim que a <strong>magnitude da
-  resposta</strong> vira número.
+layout: iframe
+url: https://www.youtube.com/embed/C40cXKi4c3Y
 ---
-
-<svg viewBox="0 0 960 300" role="img" aria-label="Espaço reservado para a imagem do laboratório de Pavlov.">
-  <rect x="5" y="5" width="950" height="290" rx="14" fill="var(--fundo-2)" stroke="var(--linha-forte)" stroke-width="3" stroke-dasharray="14 11" />
-  <text x="480" y="118" text-anchor="middle" fill="var(--acento)" style="font-family:var(--fonte-corpo);font-size:20px;font-weight:700;letter-spacing:2px">IMAGEM A INSERIR</text>
-  <text x="480" y="163" text-anchor="middle" fill="var(--frente)" style="font-family:var(--fonte-corpo);font-size:24px">O laboratório de Pavlov: o cão no aparato, a fístula e o tubo coletor</text>
-  <text x="480" y="205" text-anchor="middle" fill="var(--frente-2)" style="font-family:var(--fonte-mono);font-size:19px">aulas/public/pavlov-aparato.jpg</text>
-</svg>
-
-<!--
-PLACEHOLDER. Para trocar por uma imagem de verdade:
-  1. salve o arquivo em aulas/public/pavlov-aparato.jpg
-  2. apague o bloco <svg> acima e ponha no lugar exatamente esta linha:
-     <img src="/pavlov-aparato.jpg" alt="O laboratório de Pavlov: o cão no aparato, a fístula e o tubo coletor" />
-O tema já limita a imagem à altura do quadro (regra `.quadro img` em
-tema/styles/base.css); nada de CSS no .md.
--->
 
 ---
 layout: timeline
@@ -631,10 +619,26 @@ layout: steps
 kicker: O experimento clássico
 title: Como Pavlov produziu um reflexo novo
 steps:
-  - { title: "Antes", desc: "o som da sineta não elicia salivação; a carne elicia", icon: "lucide:bell-off" }
-  - { title: "Emparelhamento", desc: "som da sineta e, logo em seguida, carne — cerca de 60 vezes", icon: "lucide:link" }
-  - { title: "Teste", desc: "apenas o som da sineta, e a saliva é medida", icon: "lucide:flask-conical" }
-  - { title: "Depois", desc: "o som sozinho elicia salivação: um reflexo novo foi aprendido", icon: "lucide:bell" }
+  - {
+      title: "Antes",
+      desc: "o som da sineta não elicia salivação; a carne elicia",
+      icon: "lucide:bell-off"
+    }
+  - {
+      title: "Emparelhamento",
+      desc: "som da sineta e, logo em seguida, carne",
+      icon: "lucide:link"
+    }
+  - {
+      title: "Teste",
+      desc: "apenas o som da sineta, e a saliva é medida",
+      icon: "lucide:flask-conical"
+    }
+  - {
+      title: "Depois",
+      desc: "o som sozinho elicia salivação: um reflexo novo foi aprendido",
+      icon: "lucide:bell"
+    }
 ---
 
 <!--
@@ -697,7 +701,7 @@ uma vez; depois use só as siglas, como a literatura faz. -->
 ---
 layout: default
 kicker: O vocabulário
-title: Cinco siglas, e nenhuma delas é opcional
+title: Cinco siglas e cinco funções
 ---
 
 <Tabela
@@ -713,8 +717,10 @@ title: Cinco siglas, e nenhuma delas é opcional
   realce="linha:5"
 />
 
-<!-- Cobre essas cinco siglas em toda avaliação. O par que mais confunde é NS/CS:
-é o MESMO estímulo, nomeado conforme a função que exerce naquele momento. -->
+<!--
+Cobre essas cinco siglas em toda avaliação. O par que mais confunde é NS/CS:
+é o MESMO estímulo, nomeado conforme a função que exerce naquele momento.
+-->
 
 ---
 layout: vs
@@ -736,11 +742,13 @@ right:
     - "Som da sineta → salivação"
     - "<strong>Depende</strong> de aprendizagem"
     - "Foi construído por emparelhamento"
-    - "Pode ser desfeito — veja a Parte 6"
+    - "Pode ser desfeito"
 ---
 
-<!-- Insista: um reflexo condicionado só se constrói a partir de um reflexo que já
-existe. Sem US, não há o que emprestar ao NS. -->
+<!--
+Insista: um reflexo condicionado só se constrói a partir de um reflexo que já
+existe. Sem US, não há o que emprestar ao NS.
+-->
 
 ---
 layout: define
@@ -779,6 +787,20 @@ title: Quatro fatores que decidem se o reflexo se instala
 que às vezes precede a comida e às vezes não condiciona pior que um som confiável.
 Pavlov já havia observado que o intervalo ótimo gira em torno de meio segundo. -->
 
+---
+layout: iframe
+url: https://www.youtube.com/watch?v=C1i0Os8WEG4
+---
+
+---
+layout: iframe
+url: https://www.youtube.com/watch?v=BB7AIrt06ck
+---
+
+---
+layout: iframe
+url: https://www.youtube.com/watch?v=PBb1CH18Smg
+---
 
 ---
 layout: section

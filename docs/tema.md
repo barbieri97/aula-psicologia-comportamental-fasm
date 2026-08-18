@@ -82,6 +82,12 @@ parte no rodapé. Marque de três a seis partes numa aula longa.
 | `timeline` | sequência datada | `kicker`, `title`, `events`*`[{date, title, desc}]` | — |
 | `metric` | um número grande | `kicker`, `value`*, `unit`, `label`, `ghost` | — |
 | `diagram` | Mermaid, figura, esquema | `kicker`, `title`, `note` | o desenho |
+| `iframe` | vídeo ou página externa | `url`*, `scale` | — |
+
+`iframe` é layout **nativo do Slidev**, não do tema: ele não desenha moldura, kicker, título nem
+rodapé — a página externa ocupa o quadro inteiro. Para um vídeo do YouTube, a `url` é a forma
+`embed` (`https://www.youtube.com/embed/<id>`), não a de `watch?v=`, que o YouTube recusa a exibir
+em iframe. Slide de vídeo não sai no PDF: o export renderiza só o player parado.
 
 Campos universais: `foot` (troca o nome do deck no rodapé), `ghost` (glifo gigante ao fundo) e o que
 o próprio Slidev define (`transition`, `clicks`, `hide`, `src`…).
