@@ -824,48 +824,48 @@ Segue-se que os organismos podem <strong>aprender a sentir emoções</strong> qu
 
 Foi exatamente isso que Watson foi verificar em 1920, num experimento que ficou conhecido como **o caso do pequeno Albert**.
 
-<!-- Este é o slide da dedução: a conclusão sai de duas premissas que a turma já
-aceitou. Deixe que a turma complete a frase antes de você revelá-la. -->
+<!--
+Este é o slide da dedução: a conclusão sai de duas premissas que a turma já
+aceitou. Deixe que a turma complete a frase antes de você revelá-la.
+-->
+
+---
+layout: iframe
+url: https://www.youtube.com/watch?v=Ob90nboZmYU
+---
 
 ---
 layout: steps
 kicker: Watson, 1920
 title: O procedimento com o pequeno Albert
 steps:
-  - { title: "Verificar o US", desc: "som estridente de uma haste de metal elicia choro e contração — reflexo inato", icon: "lucide:hammer" }
-  - { title: "Verificar o NS", desc: "diante de um rato branco, o bebê demonstra interesse e tenta tocá-lo", icon: "lucide:search" }
-  - { title: "Emparelhar", desc: "quando Albert toca o rato, Watson bate na haste; algumas repetições", icon: "lucide:link" }
-  - { title: "Testar", desc: "apenas o rato, e Albert responde como respondia ao som: medo condicionado", icon: "lucide:activity" }
+  - {
+      title: "Verificar o US",
+      desc: "som estridente de uma haste de metal elicia choro e contração — reflexo
+        inato",
+      icon: "lucide:hammer"
+    }
+  - {
+      title: "Verificar o NS",
+      desc: "diante de um rato branco, o bebê demonstra interesse e tenta tocá-lo",
+      icon: "lucide:search"
+    }
+  - {
+      title: "Emparelhar",
+      desc: "quando Albert toca o rato, Watson bate na haste; algumas repetições",
+      icon: "lucide:link"
+    }
+  - {
+      title: "Testar",
+      desc: "apenas o rato, e Albert responde como respondia ao som: medo
+        condicionado",
+      icon: "lucide:activity"
+    }
 ---
-
-<!-- Note o rigor do desenho: Watson não presume o US nem o NS, ele testa os dois
-antes. É o mesmo cuidado que se espera de uma avaliação funcional em clínica. -->
-
----
-layout: diagram
-kicker: Figuras 2.5 e 2.8
-title: O registro do experimento
-note: Nos registros da generalização, Albert reage do mesmo modo a estímulos
-  parecidos com o rato branco — um cão branco, um animal de pelúcia, uma barba
-  branca.
----
-
-<svg viewBox="0 0 960 300" role="img" aria-label="Espaço reservado para a imagem do experimento com o pequeno Albert.">
-  <rect x="5" y="5" width="950" height="290" rx="14" fill="var(--fundo-2)" stroke="var(--linha-forte)" stroke-width="3" stroke-dasharray="14 11" />
-  <text x="480" y="118" text-anchor="middle" fill="var(--acento)" style="font-family:var(--fonte-corpo);font-size:20px;font-weight:700;letter-spacing:2px">IMAGEM A INSERIR</text>
-  <text x="480" y="163" text-anchor="middle" fill="var(--frente)" style="font-family:var(--fonte-corpo);font-size:24px">O pequeno Albert diante do rato branco e da barba branca</text>
-  <text x="480" y="205" text-anchor="middle" fill="var(--frente-2)" style="font-family:var(--fonte-mono);font-size:19px">aulas/public/albert.jpg</text>
-</svg>
 
 <!--
-PLACEHOLDER. Para trocar por uma imagem de verdade:
-  1. salve o arquivo em aulas/public/albert.jpg
-  2. apague o bloco <svg> acima e ponha no lugar exatamente esta linha:
-     <img src="/albert.jpg" alt="O pequeno Albert diante do rato branco e da barba branca" />
-
-As fotos originais são fotogramas do filme de Watson e Rayner, de 1920, e circulam
-amplamente em manuais. Se for publicar o site, confira a procedência do arquivo que
-usar antes de subir.
+Note o rigor do desenho: Watson não presume o US nem o NS, ele testa os dois
+antes. É o mesmo cuidado que se espera de uma avaliação funcional em clínica.
 -->
 
 ---
@@ -882,9 +882,11 @@ Ele também é um exemplo de pesquisa que os comitês de ética atuais <strong>n
 
 Estudamos o procedimento pelo que ele demonstra — não como modelo de conduta.
 
-<!-- Vale gastar um minuto aqui. Alunos frequentemente conhecem o caso pela polêmica
+<!--
+Vale gastar um minuto aqui. Alunos frequentemente conhecem o caso pela polêmica
 e não pelo conceito; nomear a questão ética evita que ela sequestre a discussão
-conceitual e mostra que a crítica é nossa também. -->
+conceitual e mostra que a crítica é nossa também.
+-->
 
 ---
 layout: columns
@@ -905,9 +907,11 @@ columns:
       - "Uma música ligada a um período feliz → bem-estar"
 ---
 
-<!-- Todos esses exemplos estão no capítulo 2. O ponto é responder à pergunta que a
+<!--
+Todos esses exemplos estão no capítulo 2. O ponto é responder à pergunta que a
 turma sempre faz: por que o mesmo estímulo elicia coisas diferentes em pessoas
-diferentes? Porque as histórias de emparelhamento foram diferentes. -->
+diferentes? Porque as histórias de emparelhamento foram diferentes.
+-->
 
 ---
 layout: default
@@ -925,25 +929,32 @@ Conhecemos tanta gente com **medo de altura** que a suposição natural é que s
 Mesma estrutura no <strong>medo de falar em público</strong>: é comum encontrar quem o tenha, e igualmente comum encontrar quem tenha passado por uma situação constrangedora ao falar em público.
 </Callout>
 
-<!-- Aqui o critério é o da aula 01: antes de postular uma disposição inata, procure
+<!--
+Aqui o critério é o da aula 01: antes de postular uma disposição inata, procure
 a história. Emoções compartilhadas costumam sair de condicionamentos compartilhados,
-não de uma natureza humana. -->
+não de uma natureza humana.
+-->
 
 ---
 layout: define
 kicker: Um reflexo não fica onde nasceu
 term: Generalização respondente
-definition: Depois do condicionamento, estímulos <span class="destaque">fisicamente semelhantes</span> ao CS passam a eliciar a CR.
+definition: Depois do condicionamento, estímulos <span
+  class="destaque">fisicamente semelhantes</span> ao CS passam a eliciar a CR.
 points:
-  - "Quem passou por uma situação aversiva com uma galinha teme outras galinhas — e outras aves"
+  - "Quem passou por uma situação aversiva com uma galinha teme outras galinhas
+    — e outras aves"
   - "A semelhança em jogo é física: cor, tamanho, textura, forma"
   - "Partes do CS bastam: o bico, as penas, as pernas"
-  - "Watson observou o fenômeno em Albert — barba branca, cão branco, animal de pelúcia"
+  - "Watson observou o fenômeno em Albert — barba branca, cão branco, animal de
+    pelúcia"
 ---
 
-<!-- Sem generalização, um reflexo condicionado seria quase inútil: só serviria para
+<!--
+Sem generalização, um reflexo condicionado seria quase inútil: só serviria para
 o estímulo exato da aprendizagem. É ela que torna o fenômeno relevante na clínica —
-e é ela que sustenta a dessensibilização sistemática, na Parte 6. -->
+e é ela que sustenta a dessensibilização sistemática, na Parte 6.
+-->
 
 ---
 layout: diagram
@@ -981,17 +992,22 @@ hierarquia, e ela ainda elicia medo. -->
 layout: define
 kicker: A partir de um CS, outro reflexo
 term: Condicionamento de ordem superior
-definition: Um estímulo neutro emparelhado a um <span class="destaque">estímulo condicionado</span> — e não a um incondicionado — também passa a eliciar a CR.
+definition: Um estímulo neutro emparelhado a um <span class="destaque">estímulo
+  condicionado</span> — e não a um incondicionado — também passa a eliciar a CR.
 points:
   - "Pavlov: carne (US) + sineta (NS) → a sineta vira CS para salivar"
-  - "Depois: sineta (CS) + quadro-negro (NS) → o quadro-negro passa a eliciar salivação"
-  - "O novo reflexo é de <strong>segunda ordem</strong>; o processo pode continuar"
+  - "Depois: sineta (CS) + quadro-negro (NS) → o quadro-negro passa a eliciar
+    salivação"
+  - "O novo reflexo é de <strong>segunda ordem</strong>; o processo pode
+    continuar"
   - "Quanto mais alta a ordem, <strong>menor a força</strong> do reflexo"
 ---
 
-<!-- É o emparelhamento CS-NS, em contraste com o US-NS que vimos até aqui. Este
+<!--
+É o emparelhamento CS-NS, em contraste com o US-NS que vimos até aqui. Este
 processo explica boa parte do repertório emocional adulto: quase nada do que nos
-emociona hoje foi emparelhado diretamente a um estímulo incondicionado. -->
+emociona hoje foi emparelhado diretamente a um estímulo incondicionado.
+-->
 
 ---
 layout: default
@@ -1009,9 +1025,11 @@ Muitos casais têm uma música especial. Ela foi emparelhada a beijos e carícia
 A magnitude decresce ao longo da cadeia: nome do cantor &lt; música &lt; beijos e carícias.
 </Callout>
 
-<!-- Peça exemplos da turma. Cheiros, lugares, horários e músicas aparecem sempre,
+<!--
+Peça exemplos da turma. Cheiros, lugares, horários e músicas aparecem sempre,
 e é um bom momento para mostrar que a análise do comportamento tem o que dizer
-sobre a vida afetiva — objeção comum de quem chega ao curso. -->
+sobre a vida afetiva — objeção comum de quem chega ao curso.
+-->
 
 ---
 layout: default
@@ -1031,8 +1049,10 @@ Palavras faladas são **estímulos auditivos**. Sua carga emocional vem de condi
 Por extensão, a voz e a simples visão do agressor tornam-se CS. É por isso que algumas crianças ficam paralisadas na presença dos pais.
 </Callout>
 
-<!-- Este slide costuma ser o mais lembrado da aula. Ele também é a ponte para
-comportamento verbal, mais adiante no curso: por ora, basta o efeito eliciador. -->
+<!--
+Este slide costuma ser o mais lembrado da aula. Ele também é a ponte para
+comportamento verbal, mais adiante no curso: por ora, basta o efeito eliciador.
+-->
 
 ---
 layout: panels
@@ -1091,15 +1111,17 @@ Durante o acidente, estímulos incondicionados para medo — barulho, impacto s�
 
 - Depois disso, entrar no carro (CS) elicia medo (CR)
 - Esse medo só deixará de ocorrer se a pessoa **se expuser ao carro**
-- E se expuser **sem** os estímulos incondicionados do acidente
+- E se expor **sem** os estímulos incondicionados do acidente
 
 <Callout tom="bom" icon="lucide:car">
 Não é preciso apagar a memória do acidente nem convencer ninguém de nada. É preciso que o CS ocorra repetidamente <strong>desacompanhado</strong> do US.
 </Callout>
 
-<!-- Repare no que a explicação NÃO exige: nada de trauma reprimido, nada de insight.
+<!--
+Repare no que a explicação NÃO exige: nada de trauma reprimido, nada de insight.
 A intervenção decorre diretamente da descrição do processo — é o poder pragmático
-que a aula 01 atribuiu às boas explicações. -->
+que a aula 01 atribuiu às boas explicações.
+-->
 
 ---
 layout: default
@@ -1161,9 +1183,11 @@ note: O que volta depois do intervalo volta <strong>mais fraco</strong>. Nova
   <text x="504" y="285" text-anchor="middle" fill="var(--frente-2)" style="font-family:var(--fonte-corpo);font-size:19px">apresentações do CS sem o US →</text>
 </svg>
 
-<!-- Este é o gráfico para deixar no quadro durante toda a Parte 6. Ele responde
+<!--
+Este é o gráfico para deixar no quadro durante toda a Parte 6. Ele responde
 sozinho à pergunta que sempre aparece: "então o medo nunca some de vez?". Some —
-mas por ciclos, e cada pico é menor que o anterior. -->
+mas por ciclos, e cada pico é menor que o anterior.
+-->
 
 ---
 layout: default
@@ -1181,14 +1205,17 @@ Você já sabe como fazer alguém perder um medo. Mas alguns estímulos eliciam 
 Duas técnicas resolvem o impasse: <strong>contracondicionamento</strong> e <strong>dessensibilização sistemática</strong>.
 </Callout>
 
-<!-- O segundo motivo é o mais interessante tecnicamente: desmaiar interrompe o
-contato com o CS, ou seja, a exposição excessiva impede a própria extinção. -->
+<!--
+O segundo motivo é o mais interessante tecnicamente: desmaiar interrompe o
+contato com o CS, ou seja, a exposição excessiva impede a própria extinção.
+-->
 
 ---
 layout: define
 kicker: Primeira técnica
 term: Contracondicionamento
-definition: Emparelhar o CS a um estímulo que elicia a <span class="destaque">resposta contrária</span> àquela que se quer enfraquecer.
+definition: Emparelhar o CS a um estímulo que elicia a <span
+  class="destaque">resposta contrária</span> àquela que se quer enfraquecer.
 points:
   - "Se o CS elicia ansiedade, emparelha-se o CS a algo que elicia relaxamento"
   - "Música suave e massagem são os exemplos usuais"
@@ -1196,10 +1223,12 @@ points:
   - "Também funciona na direção oposta, para tornar aversivo o que era agradável"
 ---
 
-<!-- A direção oposta é o exemplo do cigarro no livro: fumar elicia prazer; o xarope
+<!--
+A direção oposta é o exemplo do cigarro no livro: fumar elicia prazer; o xarope
 de ipeca elicia vômito. Emparelhados, fumar passa a eliciar náusea. É um exemplo
 histórico de terapia aversiva — comente também que ela é hoje pouco usada e
-eticamente controversa, para que a turma não a tome como recomendação. -->
+eticamente controversa, para que a turma não a tome como recomendação.
+-->
 
 ---
 layout: default
@@ -1270,9 +1299,11 @@ No caso do medo de cães: a exposição gradual aos estímulos da hierarquia aco
 
 Cada passo da hierarquia é, ao mesmo tempo, uma exposição ao CS sem o US e um emparelhamento do CS com um estímulo relaxante.
 
-<!-- Vale explicitar que o psicólogo não escolheu entre as técnicas: ele desenhou um
+<!--
+Vale explicitar que o psicólogo não escolheu entre as técnicas: ele desenhou um
 procedimento em que os dois processos ocorrem juntos. É assim que a análise do
-comportamento aplicada costuma trabalhar. -->
+comportamento aplicada costuma trabalhar.
+-->
 
 ---
 layout: default
@@ -1322,16 +1353,18 @@ das seis partes da aula. -->
 ---
 layout: statement
 kicker: A ideia que sustenta a aula
-title: Ninguém decide sentir medo — e é justamente por isso que o medo pode ser modificado.
+title: Ninguém decide sentir medo — Ele surge da <em>relação</em> entre o
+  organismo e o ambiente
 ---
 
-<!-- A frase é deliberadamente paradoxal para o senso comum: o determinismo da aula 01
+<!--
+A frase é deliberadamente paradoxal para o senso comum: o determinismo da aula 01
 não retira o controle, ele é a condição para que haja controle. Se a emoção fosse
-livre, nada do que vimos hoje funcionaria. -->
+livre, nada do que vimos hoje funcionaria.
+-->
 
 ---
 layout: end
 title: Até a próxima
 subtitle: "Aula 03 — A aprendizagem pelas consequências: o comportamento operante."
-contact: "Leitura de hoje: Moreira & Medeiros (2007), capítulos 1 e 2 · Princípios básicos de análise do comportamento"
 ---
