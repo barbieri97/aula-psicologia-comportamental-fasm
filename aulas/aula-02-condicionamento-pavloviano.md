@@ -243,6 +243,34 @@ e ele volta em avaliação funcional, em linha de base e no registro de sessão.
 
 
 ---
+layout: default
+kicker: Ponto de parada · 1
+title: "Nessa cena, o que é o <em>reflexo</em>?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Andando descalço pela casa, alguém pisa num caco de vidro e recolhe o pé no mesmo instante.
+</Callout>
+
+<v-click>
+
+- **A.** Recolher o pé — foi o que a pessoa fez
+- **B.** O caco de vidro — foi ele que provocou tudo
+- **C.** A relação entre o caco tocar o pé e o pé se recolher
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>C.</strong> O caco tocando a pele é o <strong>estímulo (S)</strong>; recolher o pé é a <strong>resposta (R)</strong>. O reflexo não é nenhum dos dois sozinho — é a <span class="destaque">interação entre eles</span>.
+</Callout>
+
+<!--
+Deixe a turma responder em voz alta antes de revelar. A alternativa A é a que
+mais aparece, e é exatamente o erro do «o reflexo do bebê é sugar»: quem escolhe
+A está usando a palavra no sentido cotidiano, não no técnico.
+-->
+
+---
 layout: section
 index: "02"
 kicker: Parte dois
@@ -439,6 +467,34 @@ title: As leis do reflexo em um quadro
 
 <!--
 E
+-->
+
+---
+layout: default
+kicker: Ponto de parada · 2
+title: "Que efeito do reflexo explica a mudança?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Você se muda para um apartamento em frente à linha do trem. Na primeira noite, cada trem faz você se sobressaltar; um mês depois, você nem nota que passou.
+</Callout>
+
+<v-click>
+
+- **A.** Potenciação
+- **B.** Habituação
+- **C.** Lei do limiar
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>B.</strong> O trem passa com a <strong>mesma intensidade</strong> de sempre — o que mudou foi o número de eliciações sucessivas. Seria limiar se o barulho tivesse enfraquecido.
+</Callout>
+
+<!--
+A alternativa C é a armadilha útil: ela supõe uma mudança no estímulo onde só
+houve mudança no organismo. Se alguém escolher C, pergunte «o trem ficou mais
+silencioso?» — a pergunta já resolve.
 -->
 
 ---
@@ -788,18 +844,47 @@ que às vezes precede a comida e às vezes não condiciona pior que um som confi
 Pavlov já havia observado que o intervalo ótimo gira em torno de meio segundo. -->
 
 ---
+layout: default
+kicker: Ponto de parada · 3
+title: "Nessa cena, qual estímulo é o CS?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Uma criança leva uma injeção dolorida no posto de saúde. Um mês depois, ela começa a chorar assim que o carro entra na rua do posto.
+</Callout>
+
+<v-click>
+
+- **A.** A dor da agulha
+- **B.** A visão da rua do posto
+- **C.** O choro da criança
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>B.</strong> A dor é o <strong>US</strong>, e chorar diante dela é a <strong>UR</strong>. A rua era <strong>NS</strong>; emparelhada à dor, virou <strong>CS</strong> — e o choro que ela elicia agora é a <strong>CR</strong>. A alternativa C troca resposta por estímulo.
+</Callout>
+
+<!--
+Vale escrever as cinco siglas no quadro enquanto revela a resposta: esta é a
+cena inteira do capítulo 2 em três linhas. Se sobrar tempo, peça uma cena
+equivalente inventada pela turma.
+-->
+
+
+---
 layout: iframe
-url: https://www.youtube.com/watch?v=C1i0Os8WEG4
+url: https://www.youtube.com/embed/BB7AIrt06ck?si=P-pw0gj3ZmhZovM2
 ---
 
 ---
 layout: iframe
-url: https://www.youtube.com/watch?v=BB7AIrt06ck
+url: https://www.youtube.com/embed/PBb1CH18Smg?si=EeF3h570FcsC8eqj
 ---
 
 ---
 layout: iframe
-url: https://www.youtube.com/watch?v=PBb1CH18Smg
+url: https://www.youtube.com/embed/xEDxRCa_wfc?si=RkYmqdFqXjfiCCaM
 ---
 
 ---
@@ -831,7 +916,7 @@ aceitou. Deixe que a turma complete a frase antes de você revelá-la.
 
 ---
 layout: iframe
-url: https://www.youtube.com/watch?v=Ob90nboZmYU
+url: https://www.youtube.com/embed/Ob90nboZmYU?si=EU8sj0i-QMbcAXuq
 ---
 
 ---
@@ -1079,6 +1164,34 @@ o nome técnico — e que a ordem CS→US é exatamente a que Pavlov descreveu. 
 
 
 ---
+layout: default
+kicker: Ponto de parada · 4
+title: "Que processo espalhou esse medo?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Depois de um acidente, alguém sente o coração disparar diante da própria moto. Meses depois, sente o mesmo diante de qualquer moto — e, mais fraco, diante de bicicletas.
+</Callout>
+
+<v-click>
+
+- **A.** Generalização respondente
+- **B.** Condicionamento de ordem superior
+- **C.** Potenciação
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>A.</strong> Nenhum emparelhamento novo ocorreu: estímulos <strong>fisicamente semelhantes</strong> ao CS passaram a eliciar a CR, e quanto menor a semelhança, menor a magnitude — é o gradiente.
+</Callout>
+
+<!--
+O «mais fraco diante de bicicletas» é a pista decisiva, e é ela que amarra esta
+resposta à Parte 6: essa gradação é a hierarquia da dessensibilização
+sistemática, já pronta.
+-->
+
+---
 layout: section
 index: "06"
 kicker: Parte seis
@@ -1191,6 +1304,34 @@ mas por ciclos, e cada pico é menor que o anterior.
 
 ---
 layout: default
+kicker: Ponto de parada · 5
+title: "O medo voltou. O que aconteceu?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Depois de várias viagens sob chuva sem nenhum susto, o medo de dirigir na chuva sumiu. Três semanas sem sair de casa e, na primeira chuva seguinte, ele reaparece — mais fraco.
+</Callout>
+
+<v-click>
+
+- **A.** A extinção fracassou
+- **B.** Houve um novo condicionamento
+- **C.** Recuperação espontânea
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>C.</strong> Não houve emparelhamento novo com o US — sem ele, não há condicionamento. E a extinção não fracassou: a recuperação é <strong>esperada</strong>, e volta mais fraca a cada ciclo.
+</Callout>
+
+<!--
+Esta é a pergunta com maior consequência clínica da aula. O paciente que volta
+dizendo «voltou tudo» está descrevendo a alternativa A; saber que a resposta é
+C muda o que se diz a ele na sessão seguinte.
+-->
+
+---
+layout: default
 kicker: O limite prático da extinção
 title: Por que não expor a pessoa diretamente
 ---
@@ -1271,19 +1412,65 @@ possível. A técnica só existe porque estímulos parecidos eliciam respostas
 proporcionalmente menores. -->
 
 ---
+layout: default
+kicker: Ponto de parada · 6
+title: "Que técnica o psicólogo está usando?"
+---
+
+<Callout icon="lucide:message-circle-question">
+Ele ensina à pessoa um exercício de respiração que produz relaxamento. Só então pede que ela olhe a foto de uma seringa — e, na semana seguinte, que segure uma seringa fechada.
+</Callout>
+
+<v-click>
+
+- **A.** Só contracondicionamento
+- **B.** Só dessensibilização sistemática
+- **C.** As duas ao mesmo tempo
+
+</v-click>
+
+<Callout v-click tom="bom" icon="lucide:circle-check">
+<strong>C.</strong> Subir por uma hierarquia — foto, depois seringa fechada — é <strong>dessensibilização sistemática</strong>. Emparelhar o CS ao relaxamento, resposta incompatível com a ansiedade, é <strong>contracondicionamento</strong>.
+</Callout>
+
+<!--
+A pergunta antecipa de propósito os dois slides seguintes: a hierarquia do medo
+de cães e o slide que diz que, na prática, as duas técnicas andam juntas. Quem
+respondeu C já entendeu por que elas se combinam.
+-->
+
+---
 layout: steps
 kicker: Uma hierarquia de ansiedade
 title: Do menor ao maior — o caso do medo de cães
 steps:
-  - { title: "Pensar e ver", desc: "pensar em cães; depois, ver fotografias de cães", icon: "lucide:image" }
-  - { title: "Tocar o substituto", desc: "tocar cães de pelúcia", icon: "lucide:teddy-bear" }
-  - { title: "Observar de longe", desc: "cães bem diferentes daquele que atacou, à distância", icon: "lucide:binoculars" }
-  - { title: "Aproximar e tocar", desc: "observar de perto, depois tocar — até entrar no canil sem medo", icon: "lucide:dog" }
+  - {
+      title: "Pensar e ver",
+      desc: "pensar em cães; depois, ver fotografias de cães",
+      icon: "lucide:image"
+    }
+  - {
+      title: "Tocar o substituto",
+      desc: "tocar cães de pelúcia",
+      icon: "lucide:panda"
+    }
+  - {
+      title: "Observar de longe",
+      desc: "cães bem diferentes daquele que atacou, à distância",
+      icon: "lucide:binoculars"
+    }
+  - {
+      title: "Aproximar e tocar",
+      desc: "observar de perto, depois tocar — até entrar no canil sem medo",
+      icon: "lucide:dog"
+    }
 ---
 
-<!-- A hierarquia é construída COM o paciente, e é dele: o que é o segundo passo para
+<!--
+A hierarquia é construída COM o paciente, e é dele: o que é o segundo passo para
 um pode ser o quinto para outro. Isso decorre de a história de condicionamento ser
-individual — o ponto que fechamos na Parte 5. -->
+individual — o ponto que fechamos na Parte 5.
+-->
 
 ---
 layout: default
