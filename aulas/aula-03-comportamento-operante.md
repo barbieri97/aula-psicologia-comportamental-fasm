@@ -10,7 +10,6 @@ download: true
 layout: lead
 index: "03"
 kicker: Psicologia Comportamental · FASM
-subtitle: "Moreira & Medeiros (2007), capítulo 3 — como as consequências selecionam o comportamento."
 ---
 
 <!--
@@ -67,10 +66,10 @@ ali se diz que a resposta é emitida.
 ---
 layout: quote
 kicker: Moreira & Medeiros (2007, cap. 3)
-quote: Classificamos como operante aquele comportamento que <span class="destaque">produz
-  consequências</span> (modificações no ambiente) e <span class="destaque">é afetado
-  por elas</span>.
-author: Princípios básicos de análise do comportamento
+quote: Classificamos como operante aquele comportamento que <span
+  class="destaque">produz consequências</span> (modificações no ambiente) e
+  <span class="destaque">é afetado por elas</span>.
+author: moreira & medeiros (2007)
 ---
 
 ---
@@ -273,8 +272,8 @@ as duas colunas são a mesma coisa.
 layout: diagram
 kicker: Por que a relação é circular
 title: O organismo age, o ambiente muda, e a mudança volta
-note: É esse retorno que faz do comportamento operante uma <strong>seleção</strong>:
-  o que acontece depois decide se aquilo volta a acontecer.
+note: "É esse retorno que faz do comportamento operante uma <strong>seleção</strong>:
+  o que acontece depois decide se aquilo volta a acontecer."
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Ciclo do comportamento operante: o organismo emite uma resposta, a resposta modifica o ambiente, e a modificação do ambiente afeta a probabilidade de a resposta voltar a ocorrer.">
@@ -628,13 +627,13 @@ kicker: Discussão · 10 min
 title: "Reforçar é «comprar» ou chantagear alguém?"
 ---
 
-<Momento tipo="discussao" tempo="10 min" titulo="A objeção mais comum ao conceito">
+<Momento tipo="discussao" titulo="A objeção mais comum ao conceito">
 
 Uma afirmação que se ouve com frequência:
 
 > «Você não deve comprar seu filho dando-lhe presentes para que ele estude. Você deve conscientizá-lo sobre a importância dos estudos para a vida dele.»
 
-Em grupos de três: a afirmação está correta? **O que deveria manter o comportamento de estudar?**
+a afirmação está correta? **O que deveria manter o comportamento de estudar?**
 
 </Momento>
 
@@ -1006,10 +1005,6 @@ Você manda uma mensagem para alguém (**resposta**) e recebe resposta (**refor�
 - Depois de um tempo, para de mandar
 
 </v-clicks>
-
-<Callout v-click icon="lucide:list-checks">
-Os três efeitos que a turma acabou de descrever são exatamente os três que o capítulo lista. Vejamos cada um.
-</Callout>
 
 <!--
 Exemplo escolhido por ser reconhecível para a turma. A sequência descrita
@@ -1503,8 +1498,8 @@ O exemplo é o do capítulo, e é deliberadamente simplificado. O ponto a susten
 layout: diagram
 kicker: A cadeia inteira
 title: Cada elo é a extinção do anterior mais o reforço da variação
-note: O reforço nunca esperou o alvo aparecer: foi <strong>entregue a cada
-  aproximação</strong> e retirado assim que a seguinte se tornou possível.
+note: "O reforço nunca esperou o alvo aparecer: foi <strong>entregue a cada
+  aproximação</strong> e retirado assim que a seguinte se tornou possível."
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Cadeia de aproximações sucessivas do balbucio até a palavra mamãe: gu da bê, depois mã, depois mãb mãg, depois mãmã, e por fim mamãe, com reforço a cada elo e extinção do elo anterior.">
