@@ -81,6 +81,13 @@ resolvido como caminho relativo ao próprio `.md` (`theme: ../tema` a partir de 
 do tema entra no `server.fs.allow` do Vite junto com a raiz do workspace. Layouts, componentes,
 `setup/` e `styles/` do tema são varridos a partir dela.
 
+Daí `src="/nome.jpg"` (raiz do `public/`, não `/aulas/public/nome.jpg`) — **e escrito no corpo do
+slide.** O Vite reescreve o caminho com a `--base` do build só quando ele está estático no
+template; num campo de frontmatter, que o tema injeta com `v-html`, ele é string em tempo de
+execução e sai cru. Local, com base `/`, os dois funcionam; publicado sob `/<repo>/<aula>/`, o
+segundo dá 404. Layout ou componente novo que aceite caminho de arquivo precisa passá-lo por
+`assetUrl()` (`tema/lib/asset.js`). Detalhe em [`docs/tema.md`](docs/tema.md#figuras-imagem-e-desenho).
+
 ## Build e deploy
 
 `scripts/build-site.mjs` roda um `slidev build` **por aula** (cada uma precisa do seu próprio

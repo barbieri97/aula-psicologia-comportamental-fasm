@@ -9,7 +9,6 @@ layout: lead
 index: "01"
 download: true
 kicker: Psicologia Comportamental · FASM
-subtitle: "Baum (2017), capítulos 1 a 3 — a posição filosófica que sustenta a análise do comportamento."
 ---
 
 ---

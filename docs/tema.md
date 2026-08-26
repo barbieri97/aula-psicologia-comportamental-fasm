@@ -149,6 +149,17 @@ de 19rem, e a regra `.quadro img` (em `tema/styles/base.css`) limita a imagem à
 essa regra uma foto de 1600px entraria no tamanho natural, atravessaria a borda **e** encolheria o
 slide inteiro, porque o `<Ajuste>` mede a altura do conteúdo.
 
+**O caminho da imagem vai no corpo do slide, nunca no frontmatter.** `<img src="/foto.jpg">`
+escrito no markdown é reescrito pelo Vite com a `--base` do build e sai
+`/<repo>/<aula>/foto.jpg` no site publicado. O mesmo `<img>` dentro de um campo de frontmatter
+(`note:`, `definition:`, um item de `columns:`) chega ao navegador como string em tempo de
+execução — o tema injeta esses campos com `v-html`, o Vite nunca os vê, e o caminho continua
+`/foto.jpg`. Local, com base `/`, os dois funcionam; no GitHub Pages, onde a aula é servida de
+`/<repo>/<aula>/`, o segundo pede o arquivo na raiz do domínio e leva 404. Por isso **a figura
+que quebra só quebra no site**. Para o futuro: layout ou componente novo que aceite caminho de
+arquivo por prop ou frontmatter precisa passá-lo por `assetUrl()`
+([`tema/lib/asset.js`](../tema/lib/asset.js)) antes de usar.
+
 Três armadilhas que custaram tempo e não precisam ser redescobertas:
 
 - **Em SVG, tamanho de fonte vai em `style`, nunca como atributo.** `<text font-size="20">` é um
