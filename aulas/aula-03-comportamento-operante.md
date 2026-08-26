@@ -53,10 +53,6 @@ Encerramos a aula passada com o comportamento respondente: um estímulo **elicia
 - Mas não cobre falar, ler, escrever, trabalhar, pedir, insistir
 - Hoje invertemos a direção da seta: o que o **organismo faz ao ambiente**
 
-<Callout icon="lucide:arrow-left-right">
-Ontem: o ambiente muda e o organismo responde. Hoje: o organismo responde e o <strong>ambiente muda</strong>.
-</Callout>
-
 <!--
 Eliciar: termo técnico do respondente. O estímulo "arranca" a resposta, sem que
 o organismo tenha de aprender a emiti-la. Não se usa "eliciar" para o operante —
@@ -91,10 +87,6 @@ O comportamento respondente sozinho não abarca a complexidade do comportamento 
 - O termo **comportamento operante** foi cunhado por B. F. Skinner
 - Ele é a base para entender como aprendemos falar, ler, escrever, raciocinar
 - E também como aprendemos a ser quem somos
-
-<Callout tom="alerta" icon="lucide:triangle-alert">
-Não é que o respondente esteja errado. É que ele descreve <strong>um</strong> tipo de relação, e existe outro.
-</Callout>
 
 <!--
 B. F. Skinner: Burrhus Frederic Skinner (1904–1990), psicólogo norte-americano,
@@ -171,9 +163,10 @@ note: À esquerda, o ambiente age sobre o organismo. À direita, o organismo age
 
   <path d="M855 178 L855 205 L605 205 L605 180" fill="none" stroke="var(--acento)" stroke-width="3" stroke-dasharray="7 5" />
   <polygon points="605,172 597,190 613,190" fill="var(--acento)" />
-  <text x="730" y="228" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:15px;fill:var(--acento)">e afeta a resposta que a produziu</text>
+  <text x="730" y="199" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:15px;fill:var(--acento)">volta sobre a resposta</text>
 
-  <text x="730" y="262" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">uma resposta emitida produz uma alteração no ambiente</text>
+  <text x="730" y="222" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">uma resposta emitida produz uma alteração no ambiente</text>
+  <text x="730" y="246" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">e essa alteração afeta a resposta que a produziu</text>
 </svg>
 
 <!--
@@ -185,13 +178,17 @@ nas Partes 2 e 3.
 layout: define
 kicker: O conceito central de hoje
 term: Comportamento operante
-definition: O comportamento que <span class="destaque">opera sobre o ambiente</span>,
-  modificando-o, e que é <span class="destaque">afetado por essa modificação</span>.
+definition: O comportamento que <span class="destaque">opera sobre o
+  ambiente</span>, modificando-o, e que é <span class="destaque">afetado por
+  essa modificação</span>.
 points:
-  - "Escrevemos a relação como <strong>R → C</strong>: resposta produz consequência"
-  - "A consequência é uma mudança no ambiente — o saleiro muda de lugar"
-  - "A mesma consequência pode ser produzida por respostas diferentes: esticar o braço ou pedir"
-  - "Continua sendo uma <strong>relação</strong> entre organismo e ambiente, não uma coisa dentro do organismo"
+  - "Escrevemos a relação como <strong>R → C</strong>: resposta produz
+    consequência"
+  - "A consequência é uma mudança no ambiente - a luz acende"
+  - "A mesma consequência pode ser produzida por respostas diferentes: esticar o
+    braço ou pedir"
+  - "Continua sendo uma <strong>relação</strong> entre organismo e ambiente, não
+    uma coisa dentro do organismo"
 ---
 
 <!--
@@ -203,16 +200,13 @@ ferramenta opera sobre um material.
 layout: diagram
 kicker: Quem cunhou o termo
 title: B. F. Skinner (1904–1990)
-note: <strong>Placeholder</strong> — substituir por um retrato de B. F. Skinner.
-  A imagem atual é gerada pelo Lorem Picsum e não tem relação com o conteúdo.
 ---
 
-<img src="https://picsum.photos/seed/skinner/960/300" alt="Placeholder a substituir por um retrato de B. F. Skinner" />
+<img src="/skinner-banner.jpg" alt="Fotografia de B. F. Skinner" />
 
 <!--
-Placeholder do Lorem Picsum (picsum.photos), serviço que devolve uma fotografia
-qualquer no tamanho pedido. O parâmetro "seed" fixa qual fotografia vem, para que
-ela não mude a cada carregamento.
+Skinner cunha o termo operante em 1937 e o desenvolve em The Behavior of
+Organisms (1938).
 -->
 
 ---
@@ -258,16 +252,6 @@ columns:
       - "fazer birra → obtenção de um brinquedo"
 ---
 
-<Callout tom="alerta" icon="lucide:scan-search">
-O que chamamos de inadequado também é <strong>mantido por consequências</strong> — e é por isso que pode ser modificado.
-</Callout>
-
-<!--
-Segunda tabela do capítulo. Vale registrar que "adequado" e "inadequado" são
-julgamentos sociais, não categorias da análise do comportamento: para o processo,
-as duas colunas são a mesma coisa.
--->
-
 ---
 layout: diagram
 kicker: Por que a relação é circular
@@ -301,27 +285,6 @@ expectativa.
 -->
 
 ---
-layout: default
-kicker: Atividade · 5 min
-title: Duas coisas que você fez hoje
----
-
-<Momento tipo="atividade" tempo="5 min" rotulo="Individual" titulo="O que veio depois?">
-
-Escolha **dois comportamentos seus de hoje** — um que você repete todo dia e um que fez pela primeira vez.
-
-Para cada um, escreva em uma linha: **o que eu fiz** e **o que aconteceu logo depois**.
-
-Depois responda: o que aconteceu depois torna mais provável, menos provável ou indiferente que você repita amanhã?
-
-</Momento>
-
-<!--
-Duplas ou individual, conforme o tamanho da turma. Três ou quatro exemplos lidos
-em voz alta bastam para a discussão.
--->
-
----
 layout: steps
 kicker: O que isso abre à psicologia
 title: Duas possibilidades práticas
@@ -349,10 +312,6 @@ kicker: Ponto de parada · 1
 title: "O que define um comportamento como <em>operante</em>?"
 ---
 
-<Callout icon="lucide:message-circle-question">
-Marque a alternativa correta.
-</Callout>
-
 <v-clicks>
 
 - **A.** Ser voluntário — o organismo escolhe emiti-lo
@@ -376,7 +335,7 @@ title: "A alternativa correta é a <span class=\"destaque\">C</span>"
 <Tabela
   :dados="[
     ['A', 'Errada — «voluntário» é explicação mentalista: joga a causa para dentro do indivíduo, e não descreve relação nenhuma'],
-    ['B', 'Errada — há estímulos antes do operante; o que os define não é eliciar a resposta (isso será a Parte 6 da aula 04)'],
+    ['B', 'Errada — há estímulos antes do operante; o que os define não é eliciar a resposta'],
     ['C', 'Correta — é exatamente a definição: opera sobre o ambiente e é afetado por essa modificação'],
     ['D', 'Errada — o respondente também se aprende, por emparelhamento: foi a aula 02 inteira'],
   ]"
@@ -399,14 +358,17 @@ subtitle: A consequência que aumenta a probabilidade do comportamento que a pro
 ---
 layout: define
 kicker: A consequência especial
-term: Reforço
-definition: Um tipo de consequência do comportamento que <span class="destaque">aumenta
-  a probabilidade</span> de aquele comportamento voltar a ocorrer.
+term: Reforço (SR)
+definition: Um tipo de consequência do comportamento que <span
+  class="destaque">aumenta a probabilidade</span> de aquele comportamento voltar
+  a ocorrer.
 points:
-  - "Nem toda consequência é reforço — só a que aumenta a probabilidade da resposta"
+  - "Nem toda consequência é reforço — só a que aumenta a probabilidade da
+    resposta"
   - "O rato pressiona a barra e recebe água; ele continua pressionando"
   - "A criança faz birra e é atendida; a birra fica mais provável na próxima vez"
-  - "Chamamos o estímulo que cumpre essa função de <strong>estímulo reforçador (SR)</strong>"
+  - "Chamamos o estímulo que cumpre essa função de <strong>estímulo reforçador
+    (SR)</strong>"
 ---
 
 <!--
@@ -418,12 +380,15 @@ ocorrência, não expectativa subjetiva.
 layout: define
 kicker: Como se escreve a relação
 term: Contingência de reforço
-definition: A relação entre organismo e ambiente na forma <span class="destaque">se…
-  então…</span> — se a resposta ocorrer, então a consequência ocorre.
+definition: A relação entre organismo e ambiente na forma <span
+  class="destaque">se… então…</span> — se a resposta ocorrer, então a
+  consequência ocorre.
 points:
-  - "Se o rato pressiona a barra, <strong>então</strong> ele recebe água"
-  - "Se a criança faz birra, <strong>então</strong> os pais a atendem"
-  - "Se eu digo «Oi!», <strong>então</strong> ouço um «Olá!»"
+  - "<strong>Se</strong> o rato pressiona a barra, <strong>então</strong> ele
+    recebe água"
+  - "<strong>Se</strong> a criança faz birra, <strong>então</strong> os pais a
+    atendem"
+  - "<strong>Se</strong> eu digo «Oi!», <strong>então</strong> ouço um «Olá!»"
   - "É a contingência que se manipula na pesquisa e que se programa na clínica"
 ---
 
@@ -437,8 +402,6 @@ resposta ocorrer.
 layout: diagram
 kicker: A forma da contingência
 title: "«Se… então…» com três conteúdos diferentes"
-note: A forma é sempre a mesma; o que muda é o que entra em cada caixa. Escrever
-  um caso nessa forma é o primeiro passo de qualquer análise.
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="A forma da contingência de reforço, se resposta então consequência, preenchida com três exemplos: pressionar a barra e receber água, fazer birra e ser atendido, dizer oi e ouvir olá.">
@@ -511,12 +474,9 @@ clínica, o que reforça o comportamento de cada pessoa é questão empírica.
 layout: diagram
 kicker: Onde essas relações foram estudadas
 title: A caixa de condicionamento operante
-note: <strong>Placeholder</strong> — substituir por uma fotografia ou esquema de
-  uma caixa de condicionamento operante (Figura 3.1a do capítulo). A imagem atual
-  vem do Lorem Picsum e não tem relação com o conteúdo.
 ---
 
-<img src="https://picsum.photos/seed/caixa-de-skinner/960/300" alt="Placeholder a substituir por uma fotografia da caixa de condicionamento operante" />
+<img src="/sniffy.jpg" alt="Tela do software Sniffy, the Virtual Rat: uma caixa de condicionamento operante com barra, comedouro e alto-falante, e um rato diante da barra" />
 
 <!--
 Caixa de condicionamento operante, também chamada caixa de Skinner: câmara
@@ -672,56 +632,6 @@ alternativa proposta ("conscientizar") também é uma contingência, e uma cujos
 reforços estão fora do alcance temporal da criança.
 -->
 
----
-layout: default
-kicker: O que a pesquisa empírica acrescenta
-title: A recompensa destrói o interesse pela tarefa?
----
-
-Duas meta-análises mediram a questão e chegam a leituras diferentes.
-
-<v-clicks>
-
-- **Cameron et al. (2001)**: o efeito negativo não é generalizado — elogio verbal **aumenta** o engajamento
-- **Deci et al. (2001)**: recompensa **tangível, esperada e desligada do desempenho** o reduz
-- Concordam sobre **onde** o efeito aparece; divergem sobre o quanto importa
-
-</v-clicks>
-
-<Callout v-click icon="lucide:book-open-check">
-O problema não é reforçar. É reforçar <strong>com o quê</strong> e <strong>por quanto tempo</strong>.
-</Callout>
-
-<!--
-Meta-análise: estudo que combina estatisticamente os resultados de muitos
-estudos anteriores sobre a mesma questão.
-Referências completas no slide de referências, ao final.
--->
-
----
-layout: columns
-kicker: O que fazer com isso na prática
-title: Onde os dois lados convergem
-columns:
-  - title: O que sustenta a objeção
-    items:
-      - "Recompensa <strong>tangível</strong> (dinheiro, brinquedo)"
-      - "<strong>Anunciada antes</strong>: «se fizer isto, ganha aquilo»"
-      - "Entregue por <strong>fazer</strong>, não por fazer bem"
-      - "Mantida indefinidamente"
-  - title: O que a evidência não sustenta
-    items:
-      - "Que <strong>elogio</strong> prejudique o engajamento"
-      - "Que reforço ligado ao <strong>desempenho</strong> prejudique"
-      - "Que o efeito valha para tarefas de <strong>baixo interesse inicial</strong>"
-      - "Que o arbitrário não possa ser <strong>retirado</strong> depois"
----
-
-<!--
-Este slide é o fecho da discussão. A resposta técnica à pergunta "reforçar é
-comprar?" é: reforço arbitrário é um recurso de instalação, planejado para ser
-substituído pelos reforços naturais que a própria resposta encontra.
--->
 
 ---
 layout: default
@@ -797,10 +707,6 @@ Nas primeiras vezes, o rato pressiona a barra de maneiras bem diferentes. À med
 - Se você responde a uma pergunta e é bem compreendido, responde igual da próxima vez
 - O modo como abrimos portas, falamos e dirigimos é quase sempre o mesmo
 
-<Callout icon="lucide:git-merge">
-O reforço torna a resposta <strong>mais frequente</strong> e <strong>mais uniforme</strong>. Guarde isto: na Parte 3 veremos o inverso.
-</Callout>
-
 <!--
 Topografia: a forma da resposta, o modo como ela é executada — com que membro,
 com que força, em que sequência. Duas respostas com topografias diferentes podem
@@ -845,10 +751,6 @@ kicker: Ponto de parada · 2
 title: "O que faz de um estímulo um <em>reforçador</em>?"
 ---
 
-<Callout icon="lucide:message-circle-question">
-Marque a alternativa correta.
-</Callout>
-
 <v-clicks>
 
 - **A.** Ser agradável para quem o recebe
@@ -886,6 +788,16 @@ adota para quase todos os seus conceitos.
 -->
 
 ---
+layout: iframe
+url: https://www.youtube.com/embed/8zlEKOSbzIQ?si=aePhAVLxhYRnrdjG
+---
+
+---
+layout: iframe
+url: https://www.youtube.com/embed/qkBHw35orik?si=TjfBxnWQ_u-C388G
+---
+
+---
 layout: section
 index: "03"
 kicker: Parte três
@@ -904,10 +816,6 @@ Vimos que o comportamento produz consequências e que algumas delas aumentam sua
 - O amigo muda de número e não avisa: você liga e não é atendido
 - O bebedouro da caixa é desligado: o rato pressiona a barra e não recebe água
 - Você toca a campainha da casa de alguém e ninguém atende
-
-<Callout icon="lucide:arrow-down-right">
-Quando isso acontece, observamos no comportamento efeitos <strong>exatamente contrários</strong> aos produzidos pelo reforço.
-</Callout>
 
 <!--
 Vale marcar que "suspender o reforço" é diferente de "apresentar algo
@@ -1094,41 +1002,6 @@ respostas — quanto mais inclinada, mais rápido o organismo responde.
 
 ---
 layout: default
-kicker: O que os dados mostram
-title: O surto é regra ou exceção?
----
-
-O capítulo apresenta o surto como característica do início da extinção. A pesquisa empírica das últimas três décadas permite ser mais preciso.
-
-- **Lerman e Iwata (1995)** analisaram 113 conjuntos de dados de extinção e encontraram surto em **24%** dos casos
-- **Muething e colaboradores (2024)** repetiram a contagem numa amostra clínica de 108 pessoas e chegaram ao **mesmo número**
-
-<Callout icon="lucide:ruler">
-Ou seja: o surto é <strong>frequente o bastante para se preparar para ele</strong>, e não frequente o bastante para se supor que sempre ocorrerá.
-</Callout>
-
-<!--
-Referências completas no slide de referências. As duas foram publicadas no
-Journal of Applied Behavior Analysis (JABA), o periódico de referência da
-análise do comportamento aplicada.
--->
-
----
-layout: metric
-kicker: Lerman & Iwata (1995) · Muething et al. (2024)
-value: "24"
-unit: "%"
-label: dos casos revisados apresentaram surto de respostas no início da extinção — nas duas contagens, feitas com 29 anos de distância
-ghost: "%"
----
-
-<!--
-As duas contagens são independentes: a de 1995 revisou dados publicados; a de
-2024, prontuários de uma amostra clínica de 108 pessoas em atendimento.
--->
-
----
-layout: default
 kicker: O que isso muda para quem aplica
 title: O surto depende de como a extinção é usada
 ---
@@ -1166,10 +1039,6 @@ Logo no início da extinção, a forma como o comportamento vinha sendo emitido 
 - Na campainha: além de apertar várias vezes, apertamos **com mais força**, com a mão toda, ou batemos à porta
 - No rato: a pressão à barra volta a ser com a pata esquerda, com a direita, de lado
 
-<Callout icon="lucide:sparkles">
-Guarde este efeito. É dele que sai a Parte 4: se a extinção faz a resposta <strong>variar</strong>, ela produz formas novas — e formas novas podem ser reforçadas.
-</Callout>
-
 <!--
 Este slide é a dobradiça entre a Parte 3 e a Parte 4. A modelagem depende
 inteiramente deste efeito: sem variabilidade não há aproximação nova a reforçar.
@@ -1193,28 +1062,6 @@ points:
 Aqui as duas aulas se encontram: um procedimento operante (suspender o reforço)
 funciona como operação eliciadora de respostas respondentes. Frustração, no
 vocabulário técnico, nomeia esse conjunto de respostas — não uma causa interna.
--->
-
----
-layout: default
-kicker: Atividade · 6 min
-title: Um comportamento seu em extinção
----
-
-<Momento tipo="atividade" tempo="6 min" titulo="Os três efeitos, na primeira pessoa">
-
-Lembre-se de uma vez em que **algum comportamento seu foi colocado em extinção** — algo que você fazia e que parou de produzir o resultado de sempre.
-
-Em duplas, identifique no seu caso: houve **surto**? A forma da resposta **variou**? Que **respostas emocionais** apareceram?
-
-Se algum dos três não apareceu, isso também é dado — diga qual.
-
-</Momento>
-
-<!--
-A última instrução importa: o surto ocorre em cerca de um quarto dos casos, e
-alunos cujo relato não o contém estão descrevendo o resultado mais comum, não
-uma exceção.
 -->
 
 ---
@@ -1266,9 +1113,9 @@ kicker: Três fatores
 title: O que decide a resistência à extinção
 steps:
   - title: Número de reforços anteriores
-    desc: Quanto mais vezes um comportamento foi reforçado antes da suspensão,
-      mais resistente à extinção ele será. É muito mais fácil reduzir a birra
-      quando ela começa a aparecer do que depois de anos.
+    desc: Quanto mais vezes um comportamento foi reforçado antes da suspensão, mais
+      resistente à extinção ele será. É muito mais fácil reduzir a birra quando
+      ela começa a aparecer do que depois de anos.
     icon: lucide:layers
   - title: Custo da resposta
     desc: "«Se for mais difícil, desisto mais rápido.» Quanto mais esforço a
@@ -1277,8 +1124,7 @@ steps:
     icon: lucide:dumbbell
   - title: Esquema de reforçamento
     desc: Um comportamento reforçado às vezes sim, às vezes não, fica bem mais
-      resistente do que um reforçado todas as vezes (CRF). O detalhe fica para a
-      aula 04.
+      resistente do que um reforçado todas as vezes (CRF).
     icon: lucide:dices
 ---
 
@@ -1368,10 +1214,6 @@ kicker: Ponto de parada · 3
 title: "O que caracteriza a <em>extinção operante</em>?"
 ---
 
-<Callout icon="lucide:message-circle-question">
-Marque a alternativa correta.
-</Callout>
-
 <v-clicks>
 
 - **A.** Apresentar uma consequência desagradável após a resposta
@@ -1449,21 +1291,6 @@ variabilidade do que o organismo já faz — inclusive a variabilidade produzida
 pela extinção, vista na Parte 3.
 -->
 
----
-layout: diagram
-kicker: O exemplo do capítulo
-title: O bebê, a mãe e os primeiros fonemas
-note: <strong>Placeholder</strong> — substituir por uma imagem de um bebê
-  balbuciando diante do adulto. A imagem atual vem do Lorem Picsum e não tem
-  relação com o conteúdo.
----
-
-<img src="https://picsum.photos/seed/balbucio/960/300" alt="Placeholder a substituir por uma imagem de um bebê balbuciando diante da mãe" />
-
-<!--
-Fonema: a menor unidade sonora que distingue palavras numa língua. Um bebê, ao
-nascer, é capaz de emitir os fonemas de todas as línguas do mundo.
--->
 
 ---
 layout: steps
@@ -1575,10 +1402,6 @@ columns:
       - "No bebê: «mã» sozinho, depois que «mãmã» já apareceu"
 ---
 
-<Callout icon="lucide:git-branch">
-É <strong>reforço e extinção operando ao mesmo tempo</strong>, sobre respostas parecidas. E o critério é de quem ensina — não do organismo.
-</Callout>
-
 <!--
 "Diferencial" refere-se ao tratamento diferente dado a respostas semelhantes: umas
 produzem reforço, outras não.
@@ -1672,9 +1495,8 @@ comportamento novo.
 
 ---
 layout: iframe
-url: https://www.youtube.com/embed/ZgxOTD544ts
+url: https://www.youtube.com/embed/DHNsN5gBy5o?si=gJU4dYNQvqT6nu4n&amp;start=147
 ---
-
 <!--
 Vídeo: "Experimento Caixa de Skinner: modelagem". Slide de vídeo não sai no PDF —
 o export renderiza apenas o player parado.
@@ -1734,62 +1556,9 @@ note: No caso atrasado, o reforço chega depois de <strong>outras respostas</str
 
 ---
 layout: default
-kicker: Atividade · 8 min
-title: Escreva um programa de modelagem
----
-
-<Momento tipo="atividade" tempo="8 min" rotulo="Em trios" titulo="Do repertório atual ao comportamento-alvo">
-
-Em trios, escolham **um comportamento-alvo** que hoje não existe no repertório de alguém: uma criança que não pede água, um cão que não senta, um paciente com fobia social que não olha nos olhos.
-
-Escrevam: qual o **repertório de partida**, quais as **quatro aproximações** e **o que será o reforço** em cada etapa.
-
-Uma exigência: nenhuma etapa pode ser tão distante da anterior que o organismo nunca a emita.
-
-</Momento>
-
-<!--
-A exigência final é o erro mais comum de quem programa modelagem pela primeira
-vez: saltos grandes demais entre aproximações colocam tudo em extinção.
--->
-
----
-layout: default
-kicker: Uma nota histórica
-title: 1943, o último andar de um moinho de farinha em Minneapolis
----
-
-Apesar dos estudos sobre diferenciação de respostas publicados em 1938, **Skinner nunca havia modelado uma resposta à mão** até um episódio de 1943, quando ele e seus colaboradores treinaram um pombo a deslizar uma bola pelo chão (Peterson, 2004).
-
-- O episódio foi o que o levou a **cunhar o termo** *shaping* — modelagem
-- E a dar peso ao reforço mediado pelo ambiente **social**, e não só pelo físico
-- Foi um ponto de virada em como ele passou a tratar o comportamento verbal
-
-<!--
-Referência completa no slide de referências. Shaping: o termo em inglês, traduzido
-no Brasil como modelagem.
--->
-
----
-layout: diagram
-kicker: O episódio
-title: Skinner e os pombos
-note: <strong>Placeholder</strong> — substituir por uma imagem de Skinner com os
-  pombos ou do laboratório de 1943. A imagem atual vem do Lorem Picsum e não tem
-  relação com o conteúdo.
----
-
-<img src="https://picsum.photos/seed/moinho-1943/960/300" alt="Placeholder a substituir por uma imagem de Skinner trabalhando com pombos" />
-
----
-layout: default
 kicker: Ponto de parada · 4
 title: "O que é <em>modelagem</em>?"
 ---
-
-<Callout icon="lucide:message-circle-question">
-Marque a alternativa correta.
-</Callout>
 
 <v-clicks>
 
@@ -1847,7 +1616,7 @@ Téo tem 6 anos. **No supermercado**, quando os pais recusam um pedido, ele grit
 
 Há três meses decidiram não ceder mais. Na primeira ida, Téo gritou **mais tempo e mais alto do que nunca**, e chorou até vomitar. Os pais cederam. Hoje o episódio dura o dobro.
 
-Em grupos: **o que aconteceu, tecnicamente, em cada etapa?**
+**o que aconteceu, tecnicamente, em cada etapa?**
 
 </Momento>
 
@@ -1953,10 +1722,6 @@ kicker: Ponto de parada · 5
 title: "Por que ceder no meio do surto <em>piora</em> o quadro?"
 ---
 
-<Callout icon="lucide:message-circle-question">
-Marque a alternativa correta.
-</Callout>
-
 <v-clicks>
 
 - **A.** Porque a criança aprende que é ela quem manda na relação
@@ -2045,31 +1810,6 @@ columns:
 <!--
 Cada frase corresponde a uma das partes da aula: a 1 à Parte 1, a 2 à Parte 2 e a
 3 às Partes 3 e 4.
--->
-
----
-layout: columns
-kicker: O que fica de fora
-title: O que a aula 04 acrescenta
-columns:
-  - title: Outras consequências
-    items:
-      - "<strong>Reforço negativo (SR−)</strong> — aumenta a frequência por ser <em>retirado</em>"
-      - "<strong>Punição (SP+ e SP−)</strong> — as consequências que <em>reduzem</em> a frequência"
-  - title: O que vem antes, e a que ritmo
-    items:
-      - "<strong>Estímulo discriminativo (S<sup>d</sup>)</strong> — o antecedente que sinaliza a contingência"
-      - "<strong>Esquemas de reforçamento</strong> — o terceiro fator da resistência, hoje só anunciado"
----
-
-<Callout icon="lucide:arrow-right">
-As siglas estão aqui só para situar o que vem: <strong>nenhuma delas é matéria desta aula</strong>.
-</Callout>
-
-<!--
-SR− = estímulo reforçador negativo · SP+ = estímulo punitivo positivo ·
-SP− = estímulo punitivo negativo · Sd = estímulo discriminativo. Nenhum desses
-conceitos está no capítulo 3; todos pertencem aos capítulos seguintes.
 -->
 
 ---
