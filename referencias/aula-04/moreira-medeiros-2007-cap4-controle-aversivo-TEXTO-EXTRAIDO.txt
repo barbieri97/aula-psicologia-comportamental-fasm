@@ -1,0 +1,940 @@
+===== PAG 1 =====
+Aprendizagem 
+pelas conseqüências 
+o controle aversivo
+Como já sabemos, o comportamento operante é aquele que 
+produz modificações no ambiente e que é afetado por elas.
+Chamamos tais modificações no ambiente de conseqüências 
+do comportamento. Já se conhece também um tipo dessas 
+conseqüências: o reforço. Mais especificamente, foi aborda­
+do o reforço positivo (reforço porque aumenta a probabilidade 
+do comportamento reforçado voltar a ocorrer; positivo porque a modificação produzida no 
+ambiente era sempre a adição de um estímulo). Por exemplo, quando o rato pressio­
+na a barra, aparece uma gota de água em seu ambiente; quando a criança pede 
+um doce, ela recebe um doce (ela não tinha o doce, agora tem). Nos exemplos de 
+reforço positivo vistos no Capítulo 3, o organismo comportava-se para que algo 
+acontecesse, para que um estímulo fosse produzido.
+Nesse capítulo, veremos que existem outros tipos de conseqüências do compor­
+tamento que também aumentam sua freqüência (reforço negativo), e outras 
+que diminuem sua freqüência (punição positiva e punição negativa). A esses 
+tipos de conseqüências damos o nome de controle aversivo do comportamento.
+Por que “controle aversivo do comportamento”?
+Quase todos os seres vivos agem buscando livrar-se de contatos prejudiciais... Provavelmente, esse 
+tipo de comportamento desenvolve-se devido ao seu valor de sobrevivência.
+(Skinner, 1983, p. 24).
+Dizemos que o reforço positivo é uma conseqüência controladora do comporta­
+mento, já que a sua ocorrência torna o comportamento mais provável. Ou seja,
+
+===== PAG 2 =====
+ApusiâZagern pelas conseqüências: o controle aversivo
+se faço algo que produz uma conseqüência reforçadora, 
+continuo agindo assim, senão paro. Reforço negativo e 
+punição (positiva e negativa) também são conseqüên­
+cias do comportamento que exercem controle sobre ele, 
+pois interferem na probabilidade de sua ocorrência futu­
+ra: se faço algo que tem como conseqüência um reforço 
+negativo, voltarei a fazê-lo; se faço algo que tem como 
+conseqüência uma punição, seja positiva, seja negativa, 
+não farei mais. Por esse motivo, dizemos que esses três 
+tipos de conseqüência do comportamento também o 
+controlam. Mas por que controle aversivo?
+Defende-se que o controle exercido pelos três tipos 
+de conseqüências é aversivo porque o indivíduo se  
+comporta para que algo não aconteça, ou seja, para 
+subtrair um estímulo do ambiente ou para fazer com 
+que ele nem mesmo ocorra. Os organismos tendem a 
+evitar ou fugir daquilo que lhes é aversivo. Muitas pes­
+soas respeitam o limite de velocidade para não serem 
+multadas; muitos estudantes freqüentam as aulas para não ficarem com falta, 
+muitas pessoas não expõem suas idéias para não serem criticadas; mentem para 
+não serem punidas, e assim por diante. De fato, é possível que, em boa parte de 
+seu dia-a-dia, o indivíduo passe emitindo comportamentos ou deixa de emiti-los 
+para que algo não aconteça.
+O controle aversivo diz respeito à modificação na freqüência do comportamento 
+utilizando-se o reforço negativo (aumento na freqüência) e punição positiva ou 
+negativa (diminuição na freqüência). De certa forma, a extinção também se confi­
+gura como algo aversivo, sendo observadas fortes reações emocionais, principal­
+mente quando a extinção segue ao reforçamento contínuo do comportamento (isto 
+é, todas as respostas eram seguidas de reforço). Contudo, não se considera a extinção 
+como controle aversivo, principalmente ao envolver reforçamento diferencial.
+Estímulo Aversivo é um conceito relacional (envolve relações entre eventos) 
+e funcional. Não existem estímulos eminentemente aversivos que serão aversivos 
+para todas as pessoas. Por exemplo, uma música do Bruno e Marrone pode ser 
+um estímulo extremamente aversivo para algumas pessoas, mas um estímulo 
+reforçador poderoso para outras. Sendo assim, os estímulos aversivos serão defi­
+nidos como aqueles que reduzem a freqüência do comportamento que os produ­
+zem (estímulos punidores positivos), ou aumentam a freqüência do comporta­
+mento que os retiram (estímulos reforçadores negativos). Por conseguinte, so­
+mente faz sentido falar em estímulos aversivos no reforço negativo e na punição 
+positiva. Muitas vezes, utiliza-se reforço negativo no lugar de estímulo aversivo, 
+como se a punição positiva fosse a apresentação de um reforço negativo, o que é 
+um erro. Vale lembrar que o reforço negativo produz um aumento na freqüência 
+do comportamento, não podendo participar da punição. Nesse caso, o correto 
+seria dizer que, na punição positiva, o comportamento produz a apresentação de 
+um estímulo aversivo, resultando na diminuição da probabilidade de emissão 
+do mesmo comportamento no futuro.
+
+===== PAG 3 =====
+Contingências de reforço negativo
+O reforço não se dá apenas com a apresentação de estímulos (como os aplausos 
+para um solo de guitarra e água para a pressão à barra), mas também pela retirada 
+de estímulos do ambiente. Por exemplo, quando estamos com dor de cabeça, 
+podemos tomar um analgésico. Nesse caso, concluímos que o comportamento 
+de tomar analgésico é provável de ocorrer em circunstâncias semelhantes no 
+futuro, pois o comportamento teve como conseqüência à retirada de um estímulo 
+do ambiente: a dor de cabeça. Sendo assim, a relação de contingência é chamada 
+reforço (porque houve um aumento na freqüência/probabilidade de um compor­
+tamento) negativo (porque a conseqüência foi a retirada de um estímulo do 
+ambiente). O estímulo retirado do ambiente é chamado de reforçador negativo. 
+No exemplo anterior, a dor de cabeça era o reforçador negativo.
+Alguns exemplos comuns de comportamentos  
+mantidos por reforço negativo
+1) Colocar óculos de sol para amenizar a luminosidade na retina é um exem­
+plo de comportamento mantido por reforço negativo. A luminosidade é 
+um estímulo reforçador negativo cessado pela resposta de colocar os óculos. 
+A relação entre a resposta de colocar os óculos e a retirada de luz da retina 
+é chamada reforço negativo.
+2) Passar protetor solar para evitar queimaduras é um comportamento manti­
+do por reforço negativo. Ficar com queimaduras é o estímulo reforçador 
+negativo evitado pela resposta de passar protetor solar. A contingência 
+em vigor é a de reforço negativo, uma vez que a resposta de usar protetor 
+solar é fortalecida (tem probabilidade aumentada) por evitar a apresenta­
+ção de um estímulo reforçador negativo.
+3) Caso a namorada brigue com seu namorado quando ele fuma, é provável 
+que o namorado passe a chupar um drops após fumar um cigarro. Com 
+isso, o namorado evita a briga, uma vez que ela não percebe que ele fumara. 
+Nesse caso, a briga é um estímulo reforçador negativo, evitado pela resposta 
+de chupar um drops. Novamente, temos uma contingência de reforço nega­
+tivo em que a resposta de chupar um drops é reforçada por evitar a apresen­
+tação da briga (que é um estímulo reforçador negativo).
+É importante notar que, em todos os exemplos, os comportamentos tiveram 
+sua freqüência aumentada ou mantida. O reforço negativo, assim como o reforço 
+positivo, é um tipo de conseqüência do comportamento que aumenta a probabilidade 
+de ele voltar a ocorrer. A diferença básica entre reforço positivo e reforço negativo 
+reside na natureza da operação, ou seja, no reforço positivo, um estímulo é acrescen­
+tado ao ambiente; no reforço negativo, um estímulo é retirado do ambiente. Por 
+exemplo, podemos aumentar a probabilidade de um rato pressionar uma barra 
+utilizando reforço positivo ou reforço negativo. Veja o exemplo da Tabela 4.1.
+A correta compreensão do que é reforço negativo e de como ele atua sobre o 
+comportamento dos organismos é de fundamental importância para a compreen-
+
+===== PAG 4 =====
+Aprendizagem pdas conseqüências: o controle aversivo
+Reforço positivo
+Situação Animal na caixa de Skinner 
+privado de água
+Comportamento Pressionar a barra
+Conseqüência Apresentação de água
+Tipo de operação Adicionar  estímulo (água) ao 
+ambiente
+Animal na caixa de Skinner 
+recebendo choque elétrico
+Pressionar a barra
+Retirada do choque
+Retirar estímulo (choque elétrico) 
+do ambiente
+Reforço negativo
+Natureza do estímulo Estímulo reforçador positivo (SR +) Estímulo reforçador negativo (SR)
+são do comportamento humano. Essa importância se deve ao fato de que vários 
+de nossos comportamentos cotidianos produzem supressão, adiamento ou can­
+celamento de estímulos aversivos do ambiente, e não a apresentação de estímulos 
+reforçadores. Leis, normas, códigos de ética, todos estabelecem conseqüências 
+para nossos comportamentos que queremos evitar: mentimos, inventamos histó­
+rias, apresentamos "desculpas esfarrapadas" para os outros e para nós mesmos 
+para evitar conseqüências aversivas. Via de regra, dois tipos de comportamento 
+operante são mantidos por contingências de reforço negativo: comportamento  
+de fuga e comportamento de esquiva.
+Comportamento de fuga e comportamento de esquiva
+Dois tipos de comportamento são mantidos por reforço negativo. Consideramos 
+que um comportamento é uma fuga no momento em que um determinado estímu­
+lo aversivo está presente no ambiente, e esse comportamento retira-o do ambiente, 
+como no caso de um adolescente usar um creme para secar uma acne que já está 
+em seu rosto. Nesse caso, a resposta de usar o creme é uma fuga, mantida pela 
+retirada da espinha da face, que é um estímulo aversivo já presente. Já a esquiva 
+é um comportamento que evita ou atrasa o contato com um estímulo aversivo, 
+isto é, o comportamento de esquiva ocorre quando um determinado estímulo 
+aversivo não está presente no ambiente, e emitir este comportamento (de esquiva) 
+faz com que o estímulo não apareça, ou demore mais para aparecer. Por exemplo, 
+se o adolescente faz uma dieta menos calórica para evitar o aparecimento de 
+espinhas, nesse caso, as espinhas ainda não estão presentes, e a resposta (compor­
+tamento) de fazer dieta evitou a apresentação do estímulo aversivo, constituindo- 
+se em uma esquiva.
+Efeito sobre Aumenta a probabilidade
+o comportamento de ocorrência
+Notação (representação) R -* SR +
+Aumenta a probabilidade  
+de ocorrência
+R-*SR -
+
+===== PAG 5 =====
+Moreira & Medeiros
+Alguns exemplos comuns de fuga e esquiva
+1) Arrumar o quarto logo que acordamos para evitar reclamações da mãe é 
+um exemplo de esquiva, pois a mãe ainda não está reclamando. Por outro 
+lado, se a mãe vê o quarto desarrumado e começa a brigar, nós o arrumamos 
+para que ela pare, o que é um exemplo de fuga. Nesse caso, a briga já está 
+presente.
+2) Fazer uma revisão no carro antes de viajar é um exemplo de esquiva. O 
+carro está funcionando perfeitamente, mas a revisão é feita para que o 
+carro não apresente problemas no meio da viagem. Note que o carro ainda 
+não está com problemas e a revisão é feita para evitar sua apresentação. 
+Entretanto, se o carro começa a fazer um barulho atípico no meio da estra­
+da, o comportamento de levá-lo a um mecânico é um exemplo de fuga, 
+pois o estímulo aversivo (ou seja, o barulho) já está presente.
+3) Fazer a barba quando a namorada já está reclamando dos beijos que arra­
+nham sua face é um exemplo de fuga, pois a reclamação já está presente. 
+Seria esquiva caso o namorado fizesse a barba antes de encontrá-la para 
+evitar a reclamação que ainda não está presente.
+4) Alguém está lhe contando uma história muito chata e você diz: "A migo, 
+me desculpe, mas estou atrasado para um compromisso, tenho que ir...". Sair de 
+perto do "chato" é um exemplo de fuga; já se você "desconversa" e sai de 
+perto do sujeito antes de ele começar a contar histórias chatas, você está 
+se esquivando.
+Portanto, uma estratégia interessante de diferenciar os dois tipos de comporta­
+mento consiste em considerar a esquiva como uma prevenção, e a fuga como 
+uma remediação e, considerando-se que "prevenir é melhor do que remediar", 
+emitimos mais comportamentos de esquiva do que de fuga. Isto é, na esquiva, 
+prevenimos a apresentação de estímulo aversivo, enquanto na fuga remediamos 
+a situação de forma que o estímulo aversivo já presente seja suprimido.
+É importante notar que os comportamentos fuga e esquiva somente são esta­
+belecidos e mantidos em contingências de reforço negativo. Logo, não observare­
+mos fuga e esquiva em contingências de reforço positivo e de punição.
+A fuga é sempre a primeira a ser aprendida
+De início, somos modelados a emitir repostas que retirem estímulos aversivos já 
+presentes, como fugir de um predador, por exemplo. Não temos como explicar o 
+comportamento que ocorre sob o controle de algo que não está ocorrendo ainda. 
+De fato, certos estímulos, por terem precedido a apresentação de estímulos aver­
+sivos no passado, tornam a resposta de esquiva mais provável. Como o sol forte 
+precedeu as queimaduras no passado, este se torna um estímulo que aumenta a 
+probabilidade de emissão de um comportamento que as previne (no caso, a emis­
+são da resposta de passar protetor solar). Todavia, é importante notar que o sol 
+só adquiriu tal função comportamental por ter precedido queimaduras no pas­
+sado. Ou seja, tivemos que fugir das queimaduras no passado para aprender a 
+função aversiva do sol, e só assim somos conduzidos a emitir uma resposta que
+
+===== PAG 6 =====
+Aprendizagem ptías conseqüências: o conlroie aversivo
+evite as queimaduras em sua presença. Para alguns autores, não existe o com­
+portamento de esquiva, e, sim, comportamentos de fuga, uma vez que sempre 
+estamos fugindo de estímulos que sinalizam a apresentação de outros estímulos 
+aversivos (que é o caso do sol). Chamamos o sol forte de estímulo pré-aversivo 
+ao sinalizar a probabilidade de apresentação de um outro estímulo aversivo, as 
+queimaduras.
+Um experimento simples com um rato albino exemplifica bem a distinção 
+entre comportamento de fuga e comportamento de esquiva: um rato está em 
+uma caixa de condicionamento operante (dividida em dois compartimentos) 
+onde a apresentação de um choque elétrico pode ser feita eletrificando-se o piso 
+da caixa. Um timer controla a apresentação do choque: a cada 30 segundos, o 
+timer ativa o choque elétrico, que só é retirado (desligado) se rato mudar de lado 
+dentro da caixa. Rapidamente o rato aprende o comportamento de fuga (Figura 
+4.1), ou seja, assim que o choque é ativado, o rato muda de compartimento. 
+Podemos programar para que a mudança de um compartimento para outro "zere" 
+o contador do timer, ou seja, se o rato, antes do final de 30 segundos, mudar de 
+lado dentro da caixa, o contador do timer é reiniciado, e um novo intervalo de 30 
+segundos até que o choque seja apresentado é ativado. Nesse caso (Figura 4.2), 
+se o rato mudar de lado um pouco antes da apresentação do choque, o animal 
+evita que tal situação seja apresentada (falamos, então, em um comportamento 
+de esquiva).
+Comportamento de fuga. Para fugir do choque elétrico, o rato passa de um lado para outro da 
+caixa. 0 rabo levantado indica que o piso da caixa está eletrificado.
+
+===== PAG 7 =====
+Comportamento de esquiva (procedimento esquiva de Sidman). 0 rato aprendeu, depois 
+de algumas fugas, que, se passar de uma lado para outro antes de 30 segundos, ele evita o choque, 
+e é isso o que ele está fazendo.
+Sendo assim, denominamos comportamento de fuga aqueles em que um estí­
+mulo aversivo está presente no ambiente no momento em que o comportamento 
+é emitido e em que a conseqüência produzida por ele é a retirada do estímulo 
+aversivo do ambiente. Chamamos comportamento de esquiva aqueles em que um 
+estímulo aversivo não está presente no ambiente no momento em que o compor­
+tamento é emitido, e sua conseqüência é o atraso ou o cancelamento do con­
+tato com o estímulo aversivo.
+Tanto o reforço positivo como o reforço negativo aumentam a probabilidade 
+de o comportamento voltar a ocorrer: a diferença está apenas no fato de a conse­
+qüência ser a adição ou a retirada de um estímulo do ambiente:
+• Reforço positivo: aumenta a probabilidade de o comportamento voltar a 
+ocorrer pela adição de um estímulo reforçador ao ambiente.
+• Reforço negativo: aumenta a probabilidade de o comportamento voltar 
+a ocorrer pela retirada de um estímulo aversivo (punitivo) do ambiente 
+(comportamentos de fuga e esquiva).
+Punição
+A punição destina-se a eliminar comportamentos inadequados, ameaçadores ou, por outro lado,  
+indesejáveis de um dado repertório, com base no princípio de que quem é punido apresenta mmor
+
+===== PAG 8 =====
+Aprendizagem pelas conseqüências: o controle aversivo
+possibilidade de repetir seu comportamento. Infelizmente, o pro­
+blema não é tão simples como parece. A recompensa (reforço) e  
+a punição não diferem unicamente com relação aos efeitos que  
+produzem. Uma criança castigada de modo severo por brincadei­
+ras sexuais não ficará necessariamente desestimulada de conti­
+nuar, da mesma forma que um homem preso por assalto violen­
+to não terá necessariamente diminuída sua tendência à violência. 
+Comportamentos sujeitos a punições tendem a se repetir assim  
+que as contingências punitivas forem removidas.
+( Skinner, 1983, p. 50)
+Algumas conseqüências do comportamento tomam 
+sua ocorrência menos provável. São elas: punição
+positiva e punição negativa. Punição, em outras palavras, é um tipo de conseqüên­
+cia do comportamento que torna sua ocorrência menos provável. A distinção 
+entre punição positiva e punição negativa incide na mesma distinção feita 
+com relação ao reforço (positivo ou negativo): se um estímulo é acrescentado ou 
+subtraído do ambiente. Tanto a punição positiva como a punição negativa d i­
+minuem a probabilidade de o comportamento ocorrer.
+A punição foi o termo escolhido por Skinner para substituir os "maus efeitos" 
+da lei do efeito de Thorndike. O termo é definido funcionalmente como a 
+conseqüência que reduz a freqüência do comportamento que a produz. Por exemplo, 
+se ingerirmos diferentes bebidas alcoólicas e tivermos ressaca no dia seguinte, esse 
+comportamento será menos provável no futuro. Dizemos, portanto, que tal compor­
+tamento foi punido pela ressaca do dia seguinte. Outra vez, o termo punição refere- 
+se a uma relação de contingência entre um comportamento e uma conseqüência, 
+só que, nesse caso, o efeito da contingência é a redução da freqüência ou da proba­
+bilidade de ocorrência desse comportamento no futuro. A conseqüência será de­
+nominada de estímulo punidor ou punitivo, o qual, no exemplo, foi a "ressaca".
+É fundamental chamar a atenção para o fato de que a punição é definida fun­
+cionalmente, ou seja, para dizermos que houve uma punição, é necessário que se 
+observe uma diminuição na freqüência do comportamento. Por isso, não existe 
+um estímulo que seja punidor por natureza, só podemos dizer que o estímulo é 
+punidor caso ele reduza a freqüência do comportamento do qual é conseqüente. É 
+possível pensar que para homens heterossexuais terem de ficar rolando no chão 
+com outro homem suado só de calção de banho puniria qualquer comportamento. 
+Entretanto, muitos homens pagam caro para ter acesso a esse estímulo, fazendo 
+luta livre em uma academia. Nesse situação, o estímulo citado não pode ser con­
+siderado punidor, já que não reduz a freqüência do comportamento que o produz.
+Dois tipos de punição
+De forma similar ao reforço, existem dois tipos de punição: a positiva e a negativa. 
+A punição positiva é uma contingência em que um comportamento produz a 
+apresentação de um estímulo que reduz sua probabilidade de ocorrência futura.
+
+===== PAG 9 =====
+Moreira & Medeiros
+Por exemplo, uma pessoa alérgica a camarão passa mal ao comê-lo. A partir 
+desse dia, não come mais camarão. No caso, o comportamento de comer camarão 
+produziu a apresentação dos sintomas. Como houve uma diminuição na freqüên­
+cia desse comportamento, afirmamos que este comportamento foi positivamente 
+punido. Já na punição negativa, a conseqüência de um comportamento é a 
+retirada de reforçadores (de outros comportamentos). Essa conseqüência tomará 
+o comportamento menos provável no futuro. Por exemplo, uma pessoa que acessa 
+sites não-confiáveis na internet pode ter seu computador infectado por vírus, de 
+forma que ele deixe de funcionar. A pessoa deixou de acessar sites não-confiá­
+veis. Sendo assim, a conseqüência do comportamento de acessar sites não-seguros 
+foi a retirada dos reforçadores (de outros comportamentos) disponibilizados pelo 
+computador funcionando. Como houve uma diminuição na freqüência do com­
+portamento de acessar sites não-seguros pela retirada dos reforçadores associados 
+ao computador funcionando, concluímos que houve uma punição negativa.
+É importante notar que a punição, seja positiva, seja negativa, resulta, por 
+definição, na redução da freqüência ou da probabilidade do comportamento. Os 
+termos “positivo" e "negativo" indicam apenas apresentação ou retirada de estí­
+mulos, respectivamente. Lembre-se de ignorar seus significados na língua coti­
+diana. Em análise do comportamento, positivo não é bom e negativo não é ruim; 
+simplesmente positivo é apresentação, e negativo é supressão.
+• Punição positiva: diminui a probabilidade de o comportamento ocorrer 
+novamente pela adição de um estímulo aversivo (punitivo) ao ambiente.
+• Punição negativa: diminui a probabilidade de o comportamento ocorrer 
+novamente pela retirada de um estímulo reforçador do ambiente.
+Exemplos de punição positiva (adição de um estímulo aversivo)
+• Um rato, modelado a pressionar uma barra para obter água, recebe, além 
+da água, um choque quando age assim e pára de fazê-lo;
+• jogar bola dentro de casa, "levar uma surra" e não jogar mais bola nesse local;
+• ultrapassar o sinal vermelho, ser multado e não infringir mais essa regra;
+• "dizer palavrão", "receber uma bronca" e diminuir bastante a freqüência 
+dessa atitude.
+Exemplos de punição negativa (retirada de um estímulo reforçador  
+de outro comportamento do ambiente)
+• Fazer traquinagens, perder a "mesada" e diminuir bastante a freqüência 
+com que se faz traquinagens;
+• cometer um assalto, ser preso (perder a liberdade) e não cometer mais 
+crimes;
+• fumar, não receber beijos da namorada por isso e diminuir bastante o 
+número de cigarros fumados por dia;
+• dirigir embriagado, perder a carteira de motorista e não mais dirigir em­
+briagado.
+
+===== PAG 10 =====
+Aprendizagem pelas conseqüências: o controle aversivo
+Suspensão da contingência punitiva: recuperação da resposta
+Um comportamento que outrora fora punido pode deixar de sê-lo e talvez tenha 
+sua freqüência restabelecida. Uma menina que namora um rapaz que implicava 
+com suas minissaias pode parar de usá-las. Sendo assim, o comportamento de 
+usar minissaia era positivamente punido pelas brigas com o namorado. Caso ela 
+troque esse namorado por outro menos chato, que não implique com suas roupas, 
+seu comportamento de usar minissaia talvez volte a ocorrer. Nesse caso, houve 
+uma suspensão da contingência de punição em que o comportamento de usar 
+minissaia produzia brigas e agora não produz mais. Definidos nesse caso, que 
+houve recuperação da resposta.
+Skinner (1938) tem um estudo clássico sobre a quebra da contingência de 
+punição, no qual dois grupos de ratos foram modelados a pressionar uma barra 
+para obterem alimento. O grupo experimental passou a receber um choque toda 
+vez que a pressionava. Tal procedimento fez com que os animais rapidamente 
+parassem de fazê-lo, enquanto o grupo controle, que não recebera choques, conti­
+nuou pressionando a barra, mantendo uma taxa constante de respostas de pres­
+são à barra. Então, o choque foi desligado para o grupo experimental (isto é, 
+quebra na contingência de punição-recuperação) e foi observado um aumento 
+na freqüência de respostas de pressão à barra. Desse modo, a quebra da contingên­
+cia de punição produziu um restabelecimento na força do responder, o que conhe­
+cemos por recuperação da resposta (Figura 4.3).
+Um ponto importante a ser considerado é: afim de que o comportamento 
+volte a ocorrer com a quebra da contingência de punição, o reforço deve ser
+Quebra da contingência. Quando há quebra da contingência, a freqüência do comportamento 
+retorna a seu nível operante (linha de base).
+
+===== PAG 11 =====
+mantido, e, obviamente, o organismo deve se expor outra vez à contingência. 
+Em outras palavras, se os animais do grupo experimental do estudo de Skinner 
+não fossem reforçados ao pressionar a barra e não tentassem pressioná-la pelo 
+menos uma vez, seu comportamento não voltaria a ocorrer. É fundamental que 
+o organismo se exponha outras vezes à contingência para que ele discrimine a 
+mudança, ou seja, o estímulo punidor não é mais contingente ao comportamento. 
+Tal ponto é fundamental para a clínica, uma vez que temos clientes que foram 
+punidos no passado e, mesmo com a ausência da punição, não voltam a emitir o 
+comportamento previamente punido. Dessa forma, não têm como perceber a 
+mudança na contingência. Um dos objetivos terapêuticos é, portanto, criar condi­
+ções para que o cliente se exponha novamente às contingências. Por exemplo, 
+um rapaz que um dia se declarou para a namorada, e ela o deixou logo em 
+seguida, teve o comportamento de se declarar negativamente punido. Sendo 
+assim, esse rapaz talvez nunca mais se declare para ninguém, o que também 
+gera a perda de reforçadores. Portanto, a terapia poderia criar condições para 
+que ele tentasse de novo se declarar em uma situação com baixa probabilidade 
+de punição, a fim de que o comportamento fosse restabelecido.
+Punição negativa e extinção
+Um ponto que gera muita confusão entre aprendizes é a distinção entre a extin­
+ção e a punição negativa. Os dois casos são similares, porque em ambos não se 
+tem acesso a reforçadores outrora disponíveis. Entretanto, na extinção, um com­
+portamento produzia uma conseqüência reforçadora (telefonar para a namorada 
+era reforçado por sua voz do outro lado quando ela atendia). Caso o namoro 
+acabe e a ex-namorada se recuse a atender os telefonemas, o comportamento de 
+telefonar para ela estará em extinção. Ou seja, não produz mais a conseqüência 
+reforçadora que produzia.
+Por outro lado, na punição negativa, um comportamento passa a ter uma 
+nova conseqüência, a qual é a perda de reforçadores. Retomando ao exemplo 
+anterior, digamos que esse namorado era infiel pelo reforçamento social provido 
+pelos amigos, até que ele fora descoberto, ocasionando o fim da relação. Supondo 
+que, em namoros futuros, esse rapaz deixe de ser infiel. Aqui temos um exemplo 
+de punição negativa, pois o comportamento de ser infiel foi punido pela perda 
+dos reforçadores associados ao namoro. Essa conseqüência reduziu a freqüência 
+do comportamento de ser infiel. Note que as conseqüências que mantinham o 
+comportamento de ser infiel permaneceram intactas. Caso ele continue a ser 
+assim, seus amigos ainda reforçarão seu comportamento. Então, não podemos 
+falar em extinção. O que houve foi a apresentação de uma nova conseqüência: 
+retirada dos reforçadores contingentes a outros comportamentos relacionados 
+ao namoro.
+Outra diferença entre punição e extinção refere-se ao processo: a punição 
+suprime rapidamente a resposta, enquanto a extinção produz uma diminuição 
+gradual na probabilidade de ocorrência da resposta. Imagine um rato em um 
+esquema de reforçamento contínuo (CRF: toda vez que pressiona a barra ele 
+recebe água). Nesse caso, o comportamento de pressionar a barra produz uma
+
+===== PAG 12 =====
+74 Aprendizagem pdas conseqüências: o controle aversivo
+R = resposta de pressão à barra
+SR  = apresentação de água (estímulo reforçador)
+Sp = apresentação de choque (estímulo punidor)
+Reforço
+R ^ S R
+Extinção
+Punição
+R  - t^ S r
+R — ►  (SR  + Sp)
+conseqüência reforçadora: 
+apresentação da água. Como já 
+se sabe, se desligássemos o be­
+bedouro, o comportamento de 
+pressionar a barra não mais 
+produziria a conseqüência re­
+forçadora (a apresentação de 
+água). Falamos então de extin­
+ção, ou seja, houve a suspensão 
+da conseqüência reforçadora, a 
+qual teria como efeito final no 
+comportamento a redução de 
+sua probabilidade de ocorrência.
+Na extinção, o reforço não é mais apresentado. Já na punição, o reforço 
+continua sendo apresentado, mas junto a ele é apresentado o estímulo punidor 
+(ou aversivo).
+Imagine agora que não te­
+mos condições de desligar o be­
+bedouro, mas temos que fazer 
+com que o rato pare de pressio­
+nar a barra. Como poderíamos 
+levá-lo a tal atitude? Isso mes­
+mo: devemos usar a punição. É
+possível, nesse caso, "dar" um choque no rato toda vez que ele pressionar a 
+barra. Se assim o fizéssemos, o rato desistiria de que estava fazendo.
+Note que, no segundo exemplo, não suspendemos a conseqüência reforça­
+dora, ou seja, em momento algum a água deixou de ser apresentada quando o 
+rato pressionava a barra. A punição, nesse exemplo, é a apresentação do choque. 
+Ao aludirmos à punição, não nos referimos à suspensão da conseqüência que 
+reforça o comportamento, mas, sim, de uma outra conseqüência que diminui a 
+probabilidade de sua ocorrência (ver Figura 4.3).
+Imagine agora o seguinte exemplo: quando Joãozinho fala palavras inadequa­
+das, seus colegas riem bastante dele (a risada de seus colegas é uma conseqüência 
+reforçadora para o comportamento: é o que mantém Joãzinho portando-se de 
+tal forma). A mãe de Joãozinho quer que ele pare com isso; para tanto, ela retira 
+a "mesada" de Joãozinho, cessando o comportamento. Nesse caso, a mãe de 
+Joãozinho puniu o comportamento dele, ou colocou-o em extinção? Para respon­
+der a essa pergunta, devemos fazer a seguinte análise:
+• A freqüência do comportamento aumentou ou diminuiu?
+- Ela diminui; portanto, a retirada da "mesada" não pode ser um reforço.
+- Se a freqüência diminuiu, só pode ser extinção ou punição:
+• A conseqüência reforçadora (risada dos colegas) foi retirada?
+- Não, por isso não é extinção, já que não houve a suspensão da conse­
+qüência reforçadora.
+• Se a freqüência do comportamento diminuiu e a conseqüência reforçadora 
+não foi retirada, falamos então em punição.
+• A punição, nesse exemplo, foi a retirada de um estímulo reforçador ou a 
+adição de um estímulo aversivo?
+
+===== PAG 13 =====
+- A conseqüência foi a perda da "mesada” (retirada de um estímulo 
+reforçador); portanto, trata-se de punição negativa.
+No exemplo anterior, para que a freqüência do comportamento de dizer pala­
+vras inadequadas diminuísse utilizando extinção, o que deveria ser feito? Deveria 
+ser feito exatamente isso: retirar (suspender) a consequência reforçadora, a qual, 
+no caso, são as risadas dos amigos de Joãozinho, ou seja, a mãe de Joãozinho 
+poderia falar com os amigos dele para não rirem mais quando seu filho dissesse 
+palavras de baixo nível.
+Moreira & Medeiros
+Efeitos colaterais do controle aversivo
+O controle aversivo, de acordo com o que vimos, é uma forma legítima e eficiente 
+de aumentar ou de diminuir a probabilidade de emissão do comportamento. 
+Punir comportamentos inadequados ou indesejados é muito mais fácil e tem 
+efeitos mais imediatos do que reforçar positivamente comportamentos adequa­
+dos. Entretanto, o controle aversivo apresenta uma série de efeitos colaterais 
+que tornam seu uso desaconselhado por vários autores comportamentais.
+Eliciação de respostas emocionais
+No momento em que os organismos entram em contato com estímulos aversivos, 
+é observada a eliciação de várias respostas emocionais, como tremores, taquicar- 
+dia, palpitações, choro, etc. Existem algumas desvantagens na eliciação de respos­
+tas emocionais. Uma desvantagem comum ocorre quando o administrador da 
+punição observa as respostas emocionais do organismo punido. Essas respostas 
+emocionais eliciam outras respostas emocionais no indivíduo que pune, comu- 
+mente conhecidas por respostas emocionais de pena ou culpa. Elas são aversivas, 
+e o indivíduo que pune, pode passar a liberar reforçadores ao organismo punido 
+como forma de se esquivar dos sentimentos de pena ou cul­
+pa. Um exemplo bem comum ocorre quando uma criança 
+faz birra na rua para ganhar um pirulito. Seus pais podem 
+lhe dar uma palmada para punir a birra. Ao receber a pal­
+mada, a criança começa a chorar, e seu choro elicia respos­
+tas emocionais aversivas nos pais, as quais costumamos 
+chamar de pena ou culpa. Para se esquivar dessas respostas 
+emocionais aversivas, os pais podem dar o pirulito no fim 
+das contas. Esse procedimento é prejudicial por duas razões 
+principais: 1) Os pais treinam a relação entre o comporta­
+mento de chorar e ganhar o que se quer, aumentando a pro­
+babilidade do choro ocorrer no futuro. De fato, o choro dei­
+xa de ser exclusivamente um comportamento respondente, 
+sendo controlado principalmente por suas conseqüências, 
+isto é, torna-se primordialmente um operante. 2) A palmada 
+ou a punição vai preceder o reforço. Sendo assim, as crianças
+
+===== PAG 14 =====
+podem aprender a emitir respostas que levem a uma palmada, pois tal ação 
+adquire funções reforçadoras condicionadas. Em outras palavras, uma palmada 
+deixa de ser punitiva, tornando-se reforçadora. Existem experimentos muito 
+interessantes, nos quais a resposta de pressão à barra de um rato produz água 
+apenas na presença de um leve choque. Quando o choque não está presente, as 
+respostas de pressão à barra não são reforçadas. Se incluirmos uma nova barra 
+na caixa de Skinner e a sua pressão tiver como conseqüência a produção do 
+choque, os animais aumentarão a freqüência do comportamento de pressão à 
+barra que produz o choque. Ou seja, o choque reforçará as respostas de pressão 
+à segunda barra.
+Outro problema na eliciação de respostas emocionais ocorre com o condiciona­
+mento respondente. Ora, quem pune ou reforça negativamente em excesso acaba­
+rá tornando-se um estímulo condicionado que eliciará as 
+mesmas respostas emocionais outrora eliciadas pelos estí­
+mulos aversivos envolvidos. Trata-se do exemplo típico da 
+criança que teme o pai severo. Esse pai dirá que seu filho o 
+respeita. Na realidade, seu filho o teme, uma vez que a sua 
+presença eliciará respostas emocionais aversivas. De forma 
+similar, uma namorada que controla o comportamento do 
+namorado com chantagens emocionais, isto é, usa o reforço 
+negativo e a punição, pode tornar-se um estímulo aversivo 
+condicionado. O namorado passará a se sentir mal na presen­
+ça da namorada, pois ela se transformou em um estímulo 
+condicionado que elicia as mesmas respostas emocionais 
+provocadas por suas chantagens emocionais.
+Um outro fenômeno observado é o paradoxo da apren­
+dizagem por reforço negativo. Conforme apresentado, o 
+reforço negativo aumenta a probabilidade do comporta­
+mento que o suprime. Entretanto, a apresentação do estí­
+mulo aversivo pode eliciar respostas reflexas que dificul­
+tam a emissão do comportamento operante que retiraria o estímulo aversivo. 
+Em outras palavras, o único comportamento que retiraria o estímulo aversivo 
+torna-se menos provável devido às respostas reflexas eliciadas por ele, o que 
+certamente representa um paradoxo. Tomemos um gago como exemplo. Caso a 
+criança gaga fale corretamente, seu pai não fala nada. Por outro lado, quando 
+essa criança gagueja, ouve a crítica do pai. Podemos dizer que falar corretamen­
+te é mantido por reforço negativo. Quando o pai critica a criança ao gaguejar, ela 
+passa a emitir respostas reflexas que quase impedem a emissão do comporta­
+mento operante de falar corretamente. Nesse caso, gaguejar torna-se muito mais 
+provável do que falar sem gaguejar. Sendo assim, o estímulo que serviria para 
+"motivar" é justamente o que impede que o falar corretamente ocorra.
+Supressão de outros comportamentos além do punido
+O efeito da punição não se restringe apenas ao comportamento que produziu a 
+conseqüência punitiva. Outros comportamentos que estiverem ocorrendo tempo-
+
+===== PAG 15 =====
+Morara A  M#tewt
+ralmente próximos ao momento da punição podem ter sua freqüência reduzida. 
+Por exemplo, imagine uma festa de crianças em que o Joãozinho está correndo, 
+pulando, conversando e dançando. Em sua empolgação, Joãozinho estoura um 
+balão próximo a um adulto, que se assusta. O adulto imediatamente dá uma 
+forte palmada em Joãozinho. É provável que Joãozinho pare de estourar balões, 
+mas, além disso, os demais comportamentos citados deixarão de ocorrer. Nesse 
+sentido, o efeito da punição possivelmente interferirá nos comportamentos aos 
+quais ela não foi contingente.
+O efeito disso na terapia pode ser muito prejudicial. Uma vez que o terapeuta 
+puna algum comportamento do cliente durante a sessão, outros comportamentos 
+dentro da sessão, muitas vezes desejáveis ao processo terapêutico, podem deixar 
+de ocorrer.
+Emissão de respostas incompatíveis ao comportamento punido
+Após a punição de um comportamento, os organismos, em geral, 
+passam a emitir uma segunda resposta que torne improvável a 
+repetição do comportamento punido. Essa segunda resposta é cha­
+mada resposta incompatível ou resposta controladora, uma vez 
+que é uma forma de o organismo controlar seu próprio comporta­
+mento. A resposta é negativamente reforçada por diminuir a pro­
+babilidade de emissão de um comportamento punido e, por con­
+seguinte, de o organismo entrar em contato com a punição.
+Um triste exemplo desse conceito pode ser o caso do rapaz que 
+às 3 da manhã, depois de ingerir cerveja, telefona para à ex-namora­
+da fazendo juras de amor. Mas, para infelicidade do rapaz, quem 
+atende é o novo namorado dela com voz de sono. Certamente, essa é uma punição 
+positiva que dispensa comentários, a qual, na verdade, diminuirá a probabilidade 
+de ele telefonar outras vezes. Entretanto, ao beber novamente, às 3 da manhã, 
+ele pode sentir-se tentado a fazer o “maldito" telefonema. Para evitar que repita 
+esse comportamento, o ex-namorado simplesmente entrega o celular a um amigo, 
+pegando-o só no dia seguinte. Entregar o celular ao amigo é uma resposta incom­
+patível ao comportamento de telefonar, uma vez que o torna menos provável.
+Um outro exemplo muito comum é o da menina que teve um namoro em 
+que investiu muito. Mas, para infelicidade da moça, seu namorado a trocou por 
+outra pessoa. Essa menina sofreu muito com o término, ou seja, seu comporta­
+mento de investir em um relacionamento estável foi severamente punido. Ela 
+pode desenvolver o seguinte padrão: quando começar a se envolver com alguém 
+e perceber que está começando a gostar dessa pessoa, ela rompe o relacionamento 
+antes de se estabelecer o namoro. Nesse caso, a resposta de romper relacionamen­
+tos ainda no início pode ser considerada incompatível com o comportamento de 
+namorar, o qual foi punido no passado.
+Daí decorre a grande desvantagem da emissão de respostas incompatíveis. 
+Elas tornam impossível para o organismo discriminar que a contingência de 
+punição não está mais em vigor, uma vez que impede que o organismo se exponha 
+à contingência novamente. No caso de nossa amiga, ela pode ter perdido muitas
+
+===== PAG 16 =====
+Aprendizagem pelas conseqüências: o controle aversivo
+oportunidades de ser feliz com alguém que não a 
+abandonaria. Como ela termina uma relação an­
+tes de começá-la, não tem meios de perceber que, 
+dessa vez, a situação será diferente.
+Contracontrole
+Este talvez seja o efeito colateral do controle aver­
+sivo mais indesejado. No contracontrole, o orga­
+nismo controlado emite uma nova resposta que 
+impede que o agente controlador mantenha o 
+controle sobre o seu comportamento. No caso da 
+punição, garante-se que o comportamento punido 
+continue a ocorrer sem entrar em contato com 
+ela. Um exemplo banal ocorre quando freiamos o carro diante de um radar, 
+colocando-o na velocidade permitida pela via e, assim, nos esquivamos da multa. 
+Na realidade, a função punitiva do radar seria suprimir o fato de dirigir acima da 
+velocidade permitida em toda a sua extensão, e não apenas na presença dos 
+radares. A resposta de frear na presença apenas do radar é negativamente reforça­
+da (não levar multa). Entretanto, não foi esta a resposta esperada pelo controlador 
+de trânsito, o qual programou essa contingência de punição.
+No caso do reforço negativo, a resposta de contracontrole suprime ou evita o 
+estímulo aversivo sem a emissão da resposta programada pelo controlador. Um 
+professor de educação física que utiliza reforço negativo para fazer com que seus 
+alunos se empenhem nos exercícios costuma gerar respostas de contracontrole. 
+Os alunos fazem os exercícios determinados pelo professor, este não tece nenhum 
+comentário. Entretanto, se ele vê algum aluno parado, dá-lhe uma bronca na 
+frente dos colegas. Em outras palavras, os alunos somente fazem os exercícios 
+para evitar a repreensão do professor (reforço negativo). Um contracontrole óbvio 
+é fazer o exercício apenas no momento em que o professor está olhando; assim 
+que vira as costas, os alunos ficam parados a enrolar. Nesse caso, a resposta de 
+observação, que é agir discriminativamente ao comportamento do professor 
+(atentar ao que o professor está fazendo), é de modo negativo reforçada pelas 
+broncas. Outro exemplo ocorre quando a mãe obriga o filho a comer. Se ele está 
+comendo, sua mãe não diz nada. Por outro lado, se o filho pára de comer, a mãe 
+começa a brigar com ele. É provável que essa criança dê sua comida para o cachor­
+ro quando sua mãe não estiver por perto, e diga que já comeu tudo. Ligar o 
+chuveiro, mas não se molhar, fingindo que está tomando banho, também é um 
+exemplo de contracontrole comum emitido por crianças e adolescentes. Como 
+diz o verso da antiga música “No mundo da lua", do Biquíni Cavadão: "Não 
+quero mais ouvir a minha mãe reclamar, quando eu entrar no banheiro, ligar o 
+chuveiro e não me molhar".
+A mentira como um contracontrole. A mentira, muitas vezes, funciona como 
+uma resposta de contracontrole, como no caso do Bart Simpson dizendo para a 
+Sra. Krabappel (sua professora) que o Ajudante de Papai Noel (seu cachorro) 
+havia comido o dever de casa. Caso Bart chegasse à escola sem o dever feito, sua
+
+===== PAG 17 =====
+Moreira & Medeiros 79
+professora administraria alguma punição, como uma bronca ou uma advertên­
+cia. A fim de evitar entrar em contato com o estímulo aversivo, Bart inventa a 
+história de que seu cachorro comeu o dever de casa, esquivando-se.
+Um exemplo mais banal que esse é muito comum entre namorados. A namo­
+rada, que está oito quilos acima do peso, emite aquela pergunta infeliz: "Benzinho, 
+você acha que eu engordei?".
+O pobre do namorado está em uma situação desesperadora, pois, caso seja 
+sincero, sua namorada, mesmo chateada, pode começar uma dieta, ficando mais 
+atraente para ele. Entretanto, a conseqüência de longe mais provável é a de que 
+uma resposta sincera leve a uma briga homérica, a qual certamente representa 
+uma punição positiva, além da punição negativa pela perda dos reforçadores 
+primários aos quais teria acesso estando de bem com a namorada. A resposta 
+que se torna provável, obviamente é: "O que é isso meu amor? Você está linda!"
+Apesar de faltar com a verdade, o namorado será recompensado por isso, 
+evitando a punição administrada pela namorada caso falasse a verdade e ainda 
+entrando em contato com os reforçadores providos por ela. Sendo assim, a menti­
+ra, nesse caso, é uma resposta de contracontrole, pois garante que nosso amigo 
+evite a punição.
+Um ratinho esperto. Para finalizar a discussão acerca do contracontrole, deve­
+mos saber que não se restringe a animais humanos. Um experimento de controle 
+aversivo ilustra esse ponto de maneira muito interessante. Trata-se de um experi­
+mento simples em que um rato previamente modelado a obter comida com res­
+postas de pressão à barra passa a receber um choque pela grade metálica no 
+chão da caixa quando a pressiona, continuando a receber comida como conse­
+qüência dessa resposta (ou seja, punição sem extinção). O pêlo do animal é um 
+isolante elétrico e, mesmo sem ser um eletricista, nosso ratinho desenvolveu um 
+método muito interessante de obter seus reforçadores, evitando o contato com o 
+estímulo aversivo. Ele simplesmente deitava de costas na grade do chão da caixa, 
+colocava a cabeça no comedouro e pressionava a barra cilíndrica com o rabo. 
+Nosso malandrinho, portanto, com essa resposta de contracontrole, obtinha ali­
+mento e evitava o choque.
+Por que punimos tanto?
+Ao observarmos todos esses efeitos colaterais indesejáveis do controle 
+aversivo, uma questão permanece: por que esse é o método mais 
+utilizado para controlar o comportamento? A resposta a essa pergun­
+ta compreende três pontos:
+1. Imediaticidade da conseqüência. Quem pune para supri­
+mir um comportamento é negativamente reforçado de forma 
+quase imediata. Digamos que Homer esteja assistindo a um 
+jogo de futebol americano na TV enquanto Lisa pratica seu 
+saxofone. O som do instrumento o incomoda, isto é, represen­
+ta um estímulo aversivo que reforçará negativamente o com­
+
+===== PAG 18 =====
+AfReRdizagem pelas £onse$il«CM»: o controle aversivo
+portamento de Homer com sua retirada. Homer prontamente pune o com­
+portamento de Lisa gritando: "Lisa, pare de tocar esse maldito saxofo­
+ne!". Lisa pára de tocar o instrumento de imediato, reforçando de modo 
+negativo o comportamento de Homer.
+2. Eficácia não dependente da privação. Para controlarmos positivamen­
+te um comportamento, temos de identificar quais eventos serão reforça- 
+dores para o indivíduo. Além disso, mesmo os reforçadores primários não 
+são eficazes o tempo todo. Caso o organismo não esteja privado do refor- 
+çador em questão, esse não será eficaz. Daí vem a outra vantagem do 
+controle aversivo para quem controla: uma palmada será aversiva indepen­
+dentemente de privação. Ou seja, uma palmada será eficaz para punir ou 
+para reforçar negativamente o comportamento de uma criança em qual­
+quer situação. Supondo que queremos que uma criança faça o dever de 
+casa. Podemos reforçar positivamente seu comportamento com balas. En­
+tretanto, se ela não tiver privada de balas, estas não serão eficazes como 
+estímulos reforçadores, ou seja, não aumentarão a probabilidade do com­
+portamento de fazer o dever. Entretanto, se dermos uma palmada nela 
+caso não faça o dever de casa (isto é, reforçamento negativo), é provável 
+que ela faça o dever para evitar a palmada. Note que, para a palmada 
+reforçar negativamente seu comportamento, não foi necessário privar a 
+criança de coisa alguma.
+3. Facilidade no arranjo das contingências. Existem alternativas ao con­
+trole aversivo, como discutiremos a seguir. Sem dúvida, essas alternativas 
+são muito mais aconselháveis do que o controle aversivo. Entretanto, elas 
+dão muito mais trabalho de organizar do que as contingências de controle 
+aversivo. No caso do exemplo do Homer e da Lisa, ele poderia, por exemplo, 
+sentar, perto da filha para ouvi-la quando ela tocasse o saxofone em outro 
+horário que não o do jogo. Elogiá-la nessas ocasiões ou saírem ambos 
+para tomar um sorvete quando acabasse um ensaio: certamente, essas 
+alternativas fariam com que a pequena Lisa parasse de tocar o instrumento 
+na hora do jogo e evitariam os efeitos colaterais da punição. Entretanto, 
+Homer teria muito mais trabalho para controlar o comportamento de Lisa: 
+1) ouvi-la tocar, o que não é muito reforçador para ele; 2) levá-la para 
+tomar sorvete, organizando sua privação de sorvete; 3) prestar atenção 
+nos momentos em que estivesse tocando; 4) organizar a passagem de um 
+esquema de reforçamento em CRF para esquemas intermitentes. Frente 
+ao comportamento de dar um berro, não há dúvida de que o controle 
+positivo do comportamento envolve respostas muito mais custosas, que 
+demorarão mais para produzirem seus efeitos.
+A conseqüência final desse processo é a de que tendemos mais a punir ou a 
+reforçar negativamente o comportamento do que controlá-lo por reforço positivo, 
+a despeito de todas as desvantagens do controle aversivo. Por outro lado, a divul­
+gação e a comprovação empírica dos efeitos indesejáveis desse tipo de controle
+
+===== PAG 19 =====
+Moreira & Medeiros
+pode sensibilizar pais e educadores para que ambos utilizem meios mais positivos 
+para controlar o comportamento. O controle existe; negá-lo somente aumenta a 
+chance de sermos controlados. Em concordância com Freud, a principal razão 
+que leva ao sofrimento psicológico é o histórico de controle aversivo do comporta­
+mento.
+Quais as alternativas ao controle aversivo?
+Ao desaconselharmos com tanta ênfase o uso do controle aversivo, temos que 
+sugerir algumas alternativas. Felizmente elas existem, tendo maior ou menor 
+eficácia, mas, na verdade, apresentam menos efeitos colaterais.
+Reforço positivo em lugar de reforço negativo
+Essa opção é óbvia. Caso queiramos aumentar a probabilidade de emissão do 
+comportamento, podemos fazê-lo por reforçamento positivo em vez de negativo. 
+Um professor de boxe pode elogiar os golpes corretos de seus alunos em vez de 
+criticar os incorretos. Uma namorada pode ser mais carinhosa com seu namorado 
+quando ele consegue combinar o sapato com o cinto, em vez de ficar emburrada 
+toda vez que ele usa pochete na cintura.
+Extinção em vez de punição
+Uma alternativa muito comum é o 
+uso da extinção para diminuir a fre­
+qüência do comportamento em lugar 
+da punição. Na verdade, este é o mé­
+todo menos aversivo, mas também 
+gera respostas emocionais. Um expe­
+rimento com pombos ilustra esse 
+ponto muito bem. Um pombo previa­
+mente reforçado a bicar um disco 
+para a obtenção de alimento é sub­
+metido ao procedimento de extinção.
+Durante a sessão de extinção, abre- 
+se uma porta na caixa de Skinner 
+dando acesso a um novo comparti­
+mento com outro pombo dentro. O 
+animal em extinção bica o outro 
+pombo até a morte. Caso coloquemos 
+um novo disco na caixa que sirva 
+apenas para abrir a porta do outro 
+compartimento, o animal bica esse 
+disco para ter acesso ao outro pombo.
+Um exemplo comum é o da criança
+Caixa de condicionamento operante para pombos. Pombos são 
+muito utilizados em pesquisas em Análise do Comportamento. Nos 
+três discos (em frente ao pombo), cores e figuras são projetadas. Bicar 
+um disco específico aciona o comedouro (dando milho ao pombo pri­
+vado de comida).
+
+===== PAG 20 =====
+Aprendizagem pelas conseqüências: o controle aversivo
+que joga seu carrinho de bombeiros na parede quando este deixa de funcionar. 
+Uma outra desvantagem da extinção é que nem sempre podemos suprimir o 
+reforçador que mantém o comportamento indesejado. A maconha não deixará 
+de produzir seus efeitos, e caso sejam eles que mantenham o comportamento de 
+consumi-la, não poderemos utilizar extinção, já que não podemos retirar o re­
+forçador. Por fim, a extinção apenas diminui a freqüência do comportamento 
+em vez de treinar novas respostas desejáveis do ponto de vista do controlador. A 
+ausência de reforçamento também pode agravar um quadro depressivo, por exem­
+plo. Digamos que um terapeuta opte por extinguir respostas queixosas de sua 
+cliente deprimida. Sendo assim, quando a cliente começar a se queixar dos filhos, 
+do marido, das amigas, etc., o terapeuta pode colocar em extinção tal relato, 
+deixando de dar atenção. De fato, a cliente pode parar de falar sobre isso; entretan­
+to, não estará aprendendo novas formas de obter a atenção das pessoas. Uma 
+outra conseqüência é a de abandonar a terapia, uma vez que não está recebendo 
+reforçadores.
+Reforçamento diferencial
+Mais uma vez iremos nos referir ao reforçamento diferencial. Sem dúvida, esse é 
+um processo comportamental de fundamental importância para explicação, pre­
+dição e controle do comportamento. Relembrando: o reforçamento diferencial en­
+volve sempre reforço e extinção. Como alternativa à punição, poderíamos extin­
+guir a resposta indesejada e reforçar comportamentos alternativos. Nesse caso, os 
+efeitos emocionais da extinção seriam atenuados, uma vez que o organismo co­
+ntinuaria a entrar em contato com os reforçadores contingentes a outros compor­
+tamentos. Além disso, produziria o aumento da probabilidade de emissão dos com­
+portamentos desejáveis. No exemplo da cliente deprimida, descrito anteriormente, 
+o terapeuta poderia reforçá-la com atenção quando falasse de outros assuntos que 
+não as queixas. Sendo assim, ela aprenderia a obter reforçadores de outras formas 
+que não pelas queixas, além de suprimi-las com menos efeitos emocionais.
+Aumento da densidade de reforços para outras alternativas
+Goldiamond foi um analista do comportamento que se preocupou em construir 
+repertórios em vez de extirpar comportamentos de um repertório comportamen­
+tal. Conforme já discutido, a extinção também traz fortes respostas emocionais 
+aversivas. Nesse sentido, Goldiamond desaconselha até o reforçamento diferen­
+cial, uma vez que é composto de extinção. A sugestão, portanto, é a de reforçar 
+com mais freqüência outros comportamentos do que os indesejáveis, mesmo 
+que se mantenha o reforçamento para os indesejáveis também. No caso da cliente 
+deprimida, seria dar atenção a suas reclamações também, mas com freqüência e 
+magnitude bem menores do que a dada para seus demais relatos verbais. Essa 
+alternativa também é útil para comportamentos que não podem ser extintos, 
+como o do exemplo da maconha, ou mesmo o de Lisa. Uma vez que não podemos 
+tirar os reforçadores dos efeitos da droga ou do próprio som do instrumento, 
+podemos reforçar com muita freqüência outros comportamentos, para que ocu­
+
+===== PAG 21 =====
+pem o espaço daquele comportamento cuja freqüência queremos diminuída. 
+Sem dúvida, essa é a intervenção mais lenta; por outro lado, é a menos aversiva 
+para o organismo que se comporta, trazendo menos efeitos colaterais indesejados.
+Algumas conclusões importantes
+Baseado em tudo o que fora discutido até aqui, algumas conclusões podem ser 
+tiradas, e mais alguns pequenos pontos precisam ser discutidos. Em primeiro 
+lugar, fica claro para a Análise do Comportamento que o uso de controle aversivo 
+para alterar a probabilidade de emissão de um comportamento deve ser aplicado 
+apenas em último caso, o que não significa que devemos parar de estudar esse 
+tipo de controle, tão freqüente em nosso dia-a-dia. Além disso, o controle aversivo 
+não é somente social. Caso coloquemos o dedo na tomada, o choque é uma 
+punição positiva que provavelmente diminuirá a probabilidade desse comporta­
+mento no futuro. Sendo assim, por mais que o evitemos, o controle aversivo é 
+natural e continuará existindo em nossa interação com a natureza.
+Por fim, não podemos confundir a recomendação de evitar o controle aversivo 
+com a noção de que tudo é permitido. Muitos pais, nas décadas de 1970 e 1990, 
+confundiram o conselho de "não punir" com o de "deixe seu filho fazer tudo o 
+que quiser". Sem dúvida, a criação sem limites é quase tão prejudicial quando a 
+criação extremamente rigorosa. De fato, alguns comportamentos de nossos filhos 
+precisam ter sua freqüência reduzida; entretanto, se tivermos outras alternativas 
+à punição, estas devem sempre ser as escolhidas.
+Principais conceitos apresentados neste capítulo
+Controle
+aversivo
+Reforço negativo  
+Estímulo aversivo
+Comportamento  
+de fuga
+Controle do comportamento por 
+contingências de reforço negativo e 
+punição (positiva e negativa).
+Conseqüência do comportamento que 
+aumenta sua freqüência peia retirada ou 
+pela evitação de um estímulo aversivo.
+Estímulo cuja retirada ou evitação 
+aumenta a freqüência do comportamento, 
+ou cuja adição reduz a freqüência do 
+comportamento que o produziu.
+Comportamento mantido por reforço 
+negativo, pela remoção de um estímulo 
+aversivo do ambiente.
+Mentir geralmente é um comportamento mantido 
+por reforço negativo. Evitamos inúmeros estímulos 
+aversivos mentindo.
+Se você mente, apanha, passando a mentir menos. 
+Para você, apanhar é um estímulo aversivo.
+Você está em uma sessão terapêutica, e o 
+psicólogo só faz perguntas que eliciam em você 
+respostas de ansiedade extrema. Você se levanta e 
+vai embora no meio da sessão.
+continua..
+
+===== PAG 22 =====
+Aprendizagem pdas conseqüências: o controle aversivo
+Comportamento  
+de esquiva
+Punição positiva
+Punição negativa
+Contracontrole
+Comportamento mantido por reforço 
+negativo, pela evitação do contato com 
+um estímulo aversivo.
+Conseqüência do comportamento que 
+reduz sua freqüência pela adição de 
+um estímulo aversivo ao ambiente.
+Conseqüência do comportamento que 
+reduz sua freqüência pela retirada de 
+um estímulo reforçador (de outros 
+comportamentos) do ambiente.
+Comportamento que impede o 
+comportamento de um agente punidor.
+Após o evento descrito (fuga), você sempre 
+inventa uma desculpa para não ir à terapia.
+Joãozinho chega em casa embriagado, toma uma 
+bela surra de seu pai por ter bebido e pára de 
+beber.
+Joãozinho chega em casa embriagado, perde a 
+"mesada" do mês por ter bebido e pára de 
+beber.
+Joãozinho dorme na casa de amigos quando 
+sai à noite e "toma uns drinks a mais".
+Bibliografia consultada e sugestões de leitura
+Catania. A. C. (1999). Aprendizagem: comportamento, linguagem e cognição.  Porto Alegre: 
+Artmed. Capítulo 6: As conseqüências do responder: controle aversivo
+Millenson, J. R. (1975). Princípios de análise do comportamento. Brasília: Coordenada. Capí­
+tulo 17: Contingências aversivas
+Skinner, B.F. (1983). O mito da liberdade. São Paulo: Summus.
