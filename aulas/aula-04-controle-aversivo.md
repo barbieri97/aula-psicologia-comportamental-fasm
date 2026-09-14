@@ -10,7 +10,8 @@ download: true
 layout: lead
 index: "04"
 kicker: Psicologia Comportamental · FASM
-subtitle: "As consequências que reduzem a frequência do comportamento — e as que a aumentam pela retirada de um estímulo."
+subtitle: "As consequências que reduzem a frequência do comportamento  e as que
+  a aumentam pela retirada de um estímulo."
 ---
 
 <!--
@@ -51,11 +52,11 @@ title: A aula 03 parou numa única contingência
 
 Encerramos a aula passada com o comportamento operante e um tipo de consequência: o **reforço positivo**. A resposta produzia a **adição** de um estímulo ao ambiente, e a sua frequência aumentava.
 
-- O rato pressiona a barra e **aparece** água: <strong>R → Sᴿ⁺</strong>
+- O rato pressiona a barra e **aparece** comida: <strong>R → Sᴿ⁺</strong>
 - A criança pede um doce e **recebe** o doce
 - Em todos os exemplos, o organismo se comportava **para que algo acontecesse**
 
-Hoje trabalhamos as outras três contingências — e nelas o organismo se comporta para que algo **não** aconteça.
+Hoje trabalhamos as outras três contingências e nelas o organismo se comporta para que algo **não** aconteça.
 
 <!--
 Sᴿ⁺ (lê-se "S-erre positivo"): estímulo reforçador positivo, o estímulo
@@ -78,7 +79,7 @@ layout: section
 index: "01"
 kicker: Parte um
 title: Controle aversivo e estímulo aversivo
-subtitle: Onde ele se situa entre as consequências do comportamento operante
+subtitle: O que é e sua relação com o comportamento operante.
 ---
 
 ---
@@ -89,9 +90,11 @@ definition: O controle do comportamento exercido por <span
   class="destaque">reforço negativo</span> e por <span class="destaque">punição
   positiva e negativa</span>.
 points:
-  - "As três <strong>controlam</strong>: alteram a probabilidade de o comportamento voltar a ocorrer"
-  - "O que as reúne é o indivíduo se comportar <strong>para que algo não aconteça</strong>"
-  - "Respeitar o limite de velocidade para não ser multado"
+  - "As três <strong>controlam</strong>: alteram a probabilidade de o
+    comportamento voltar a ocorrer"
+  - "O que as reúne é o indivíduo se comportar <strong>para que algo não
+    aconteça</strong>"
+  - "Ex: Respeitar o limite de velocidade para não ser multado"
 ---
 
 <!--
@@ -101,11 +104,9 @@ qualidade do estímulo, e sim a direção do comportamento em relação a ele.
 
 ---
 layout: diagram
-kicker: As quatro contingências
-title: Dois critérios, quatro casos
-note: As colunas são a <strong>operação</strong> sobre o ambiente; as linhas, o
-  <strong>efeito</strong> sobre a frequência. As três células destacadas são o
-  controle aversivo.
+kicker:
+title: Os quatros tipos de consequências.
+note: As três células destacadas são o <strong>controle aversivo</strong>.
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Matriz de duas por duas colunas: adicionar ou retirar estímulo cruzado com aumentar ou reduzir a frequência, gerando reforço positivo, reforço negativo, punição positiva e punição negativa.">
@@ -142,7 +143,7 @@ estímulo reforçador retirado, respectivamente.
 
 ---
 layout: default
-kicker: O primeiro obstáculo do capítulo
+
 title: "«Positivo» e «negativo» não querem dizer bom e ruim"
 ---
 
@@ -171,7 +172,6 @@ title: O indivíduo se comporta para que algo <span class="destaque">não</span>
 ---
 layout: default
 kicker: As quatro em uma linha cada
-title: A mesma tabela, em exemplos do dia a dia
 ---
 
 <Tabela
@@ -193,17 +193,19 @@ aconteceu com a frequência não é possível classificar nenhum dos quatro caso
 
 ---
 layout: define
-kicker: Um conceito relacional, não uma propriedade
+kicker: Para não confundir.
 term: Estímulo aversivo
 definition: O estímulo cuja <span class="destaque">retirada aumenta</span> a
   frequência do comportamento que o retira, ou cuja <span
   class="destaque">adição reduz</span> a frequência do comportamento que o
   produz.
 points:
-  - "<strong>Nenhum estímulo é aversivo por natureza</strong>: a definição é funcional"
-  - "A mesma música pode ser aversiva para uns e reforçadora para outros"
-  - "Só há estímulo aversivo no <strong>reforço negativo</strong> e na <strong>punição positiva</strong>"
-  - "Na punição negativa retira-se um <em>reforçador</em>, não um estímulo aversivo"
+  - "<strong>Nenhum estímulo é aversivo por natureza</strong>: a definição é
+    funcional"
+  - "Só há estímulo aversivo no <strong>reforço negativo</strong> e na
+    <strong>punição positiva</strong>"
+  - "Na punição negativa retira-se um <em>reforçador</em>, não um estímulo
+    aversivo"
 ---
 
 <!--
@@ -1362,7 +1364,6 @@ title: O que se sabe hoje sobre punição física, e o que está em disputa
     ['Gershoff &amp; Grogan-Kaylor (2016)', 'meta-análise, 111 efeitos', 'associação com desfechos prejudiciais em 13 de 17 medidas'],
     ['Heilmann et al. (2021), <em>Lancet</em>', '69 estudos prospectivos', 'punição física prediz aumento de problemas de comportamento'],
     ['Cuartas et al. (2025), <em>Nat. Hum. Behav.</em>', '189 estudos, 92 países', 'mesma direção em países de renda baixa e média'],
-    ['Ferguson (2013); Larzelere et al. (2024)', 'reanálises longitudinais', 'com controles mais estritos, os efeitos ficam pequenos ou triviais'],
   ]"
   cabecalho
   compacta
@@ -1982,18 +1983,6 @@ panels:
 <!--
 Acerto parcial: qualquer aproximação da resposta-alvo. É a lógica da modelagem,
 vista na aula 03, aplicada agora ao repertório acadêmico.
--->
-
----
-layout: iframe
-url: https://www.youtube.com/embed/WQeF1ftVgY4
----
-
-<!--
-"Princípios Básicos de Análise do Comportamento — Cap 4 — O Controle Aversivo —
-Parte 1". Material de revisão, não de aula: o vídeo percorre o mesmo capítulo.
-Dois avisos: o canal pode bloquear a incorporação em iframe, e slide de vídeo
-não sai no PDF exportado — o export renderiza apenas o player parado.
 -->
 
 ---
