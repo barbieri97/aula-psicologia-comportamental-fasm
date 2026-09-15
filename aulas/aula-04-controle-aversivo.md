@@ -104,7 +104,6 @@ qualidade do estímulo, e sim a direção do comportamento em relação a ele.
 
 ---
 layout: diagram
-kicker:
 title: Os quatros tipos de consequências.
 note: As três células destacadas são o <strong>controle aversivo</strong>.
 ---
@@ -143,7 +142,6 @@ estímulo reforçador retirado, respectivamente.
 
 ---
 layout: default
-
 title: "«Positivo» e «negativo» não querem dizer bom e ruim"
 ---
 
@@ -219,7 +217,7 @@ layout: diagram
 kicker: O mesmo estímulo, duas funções
 title: Depende do que a resposta faz com ele
 note: O choque é o mesmo. O que muda é a <strong>operação</strong> — e com ela a
-  função do estímulo e a direção do efeito sobre a frequência.
+   <strong>função</strong> do estímulo.
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="O mesmo choque elétrico em duas contingências: quando a resposta o retira, funciona como reforçador negativo e a frequência aumenta; quando a resposta o apresenta, funciona como punidor positivo e a frequência diminui.">
@@ -261,19 +259,9 @@ O reforço negativo, por definição, **aumenta** a frequência do comportamento
 - Errado: "na punição positiva, apresenta-se um **reforço negativo**"
 - Certo: "na punição positiva, o comportamento produz a apresentação de um **estímulo aversivo**"
 
-<Callout tom="ruim" icon="lucide:circle-x">
-Santos e Leite (2013) examinaram 13 livros de ensino da área: todos usam a distinção tradicional, e só dois discutem os problemas conceituais apontados por Michael (1975).
-</Callout>
-
-<!--
-Michael (1975) propôs abandonar a distinção positivo/negativo, argumentando que
-ela não se sustenta: toda adição de um estímulo é também a retirada da condição
-anterior. A proposta não foi adotada pela literatura de ensino.
--->
 
 ---
 layout: vs
-kicker: Uma fronteira que o capítulo marca
 title: Extinção não é controle aversivo
 label: ×
 left:
@@ -289,15 +277,8 @@ right:
     - "Reforço negativo, punição positiva e punição negativa"
     - "O organismo se comporta para que um estímulo seja subtraído ou não ocorra"
     - "É a aversividade que caracteriza o conjunto, não a emoção que ele produz"
-    - "A extinção volta na Parte 5, como <em>alternativa</em> ao controle aversivo"
 ---
 
-<!--
-Hunziker (2011) observa que a literatura não oferece uma definição de controle
-aversivo, apenas uma lista de relações assim classificadas: nenhuma operação,
-efeito ou natureza de estímulo é comum às três. A fronteira, portanto, é
-convencional — e vale conhecê-la como convenção.
--->
 
 ---
 layout: default
@@ -316,11 +297,6 @@ Sempre que o alarme do prédio dispara, o porteiro corre ao painel e digita o c�
 
 </v-clicks>
 
-<!--
-As quatro alternativas correspondem a quatro leituras que aparecem com
-frequência em prova. Só a frequência do comportamento de digitar o código
-permite decidir entre elas.
--->
 
 ---
 layout: default
@@ -373,20 +349,14 @@ consequência.
 
 ---
 layout: default
-kicker: Três exemplos do capítulo
 title: Comportamentos mantidos por reforço negativo
 ---
 
-- **Colocar óculos escuros.** A luminosidade sobre a retina é o reforçador negativo, cessado pela resposta
-- **Passar protetor solar.** A queimadura é o reforçador negativo, evitado pela resposta
-- **Chupar um drops depois do cigarro.** A briga com a namorada é o reforçador negativo, evitado pelo disfarce do cheiro
+- **Colocar óculos escuros.** A luminosidade sobre a retina é o Sav, diminuido pela resposta de colocar o óculos.
+- **Passar protetor solar.** A queimadura é o Sav, evitado pela resposta de passar protetor.
+- **Chupar um drops depois do cigarro.** A briga com a namorada é o Sav, evitado pelo comportamento de chupar a bala.
 
 Em todos, a frequência do comportamento foi **aumentada ou mantida**. É exatamente o que o reforço positivo faz — por outra operação.
-
-<!--
-Retina: a camada de células fotossensíveis no fundo do olho. O exemplo do
-capítulo descreve o estímulo aversivo no nível físico em que ele incide.
--->
 
 ---
 layout: vs
@@ -419,10 +389,9 @@ Esse detalhe volta na Parte 5.
 
 ---
 layout: diagram
-kicker: O que a Tabela 4.1 demonstra
 title: A mesma caixa, as duas contingências
 note: A barra é a mesma e o efeito sobre a frequência é o mesmo. Muda só a
-  operação: a água <strong>entra</strong> no ambiente, o choque <strong>sai</strong> dele.
+  operação a água <strong>entra</strong> no ambiente, o choque <strong>sai</strong> dele.
 ---
 
 <img src="/caixa-skinner.jpg" alt="Caixa de condicionamento operante, com barra, comedouro e piso gradeado de metal" />
@@ -435,7 +404,6 @@ controle aversivo.
 
 ---
 layout: diagram
-kicker: A distinção central da Parte 2
 title: Fuga e esquiva, lado a lado
 note: A diferença é <strong>quando</strong> a resposta ocorre em relação ao
   estímulo aversivo — se ele já está presente, ou se ainda não está.
@@ -483,7 +451,6 @@ torna a esquiva possível.
 
 ---
 layout: define
-kicker: A primeira das duas
 term: Comportamento de fuga
 definition: O comportamento emitido <span class="destaque">com o estímulo
   aversivo presente</span> no ambiente, e cuja consequência é a retirada desse
@@ -529,18 +496,17 @@ columns:
   - title: "Fuga · remediação"
     items:
       - "O estímulo aversivo <strong>já</strong> está presente"
-      - "A resposta o suprime"
-      - "É a primeira a ser aprendida, sempre"
-      - "Fugir de um predador é o caso que o capítulo usa para explicar por quê"
+      - "A resposta o suprime/elimina"
+      - "É a primeira a ser aprendida"
 ---
 
 ---
 layout: default
-kicker: Atividade · 8 min
+kicker: Atividade
 title: Fuga ou esquiva?
 ---
 
-<Momento tipo="atividade" tempo="8 min" titulo="Classifique os três pares">
+<Momento tipo="discussao" titulo="Classifique os três pares">
 
 Em cada par, as duas situações descrevem o **mesmo comportamento** em momentos diferentes. Classifique cada uma como fuga ou esquiva, e diga **qual é o estímulo aversivo** em cada caso.
 
@@ -688,7 +654,6 @@ respostas de esquiva, não que algo mudou nele fisicamente.
 
 ---
 layout: panels
-kicker: O fecho da Parte 2
 title: Onde fuga e esquiva podem existir
 panels:
   - icon: "lucide:lock"
@@ -700,7 +665,7 @@ panels:
     title: O que isso abre para a clínica
     items:
       - "Boa parte do sofrimento clínico tem topografia de esquiva"
-      - "A esquiva experiencial aparece hoje como processo transdiagnóstico em ansiedade e depressão (Kashdan et al., 2006; Valderrama-Díaz et al., 2025)"
+      - "A <strong>esquiva experiencial</strong> aparece hoje como processo transdiagnóstico em ansiedade e depressão (Kashdan et al., 2006; Valderrama-Díaz et al., 2025)"
 ---
 
 <!--
@@ -753,20 +718,14 @@ fosse um estímulo apresentado. O que a resposta produziu foi a retirada da
 obstrução.
 -->
 
----
-layout: pausa
-kicker: Metade do caminho
-title: Intervalo
-tempo: 15 min
-note: Na volta, a outra metade do controle aversivo — as consequências que reduzem a frequência do comportamento.
----
+
 
 ---
 layout: section
 index: "03"
 kicker: Parte três
 title: Punição positiva e negativa
-subtitle: A consequência que reduz a frequência — e o que a separa da extinção
+subtitle: A consequência que reduz a frequência.
 ---
 
 ---
@@ -779,21 +738,7 @@ quote: Uma criança castigada de modo severo por brincadeiras sexuais não ficar
 author: skinner (1983)
 ---
 
----
-layout: diagram
-kicker: Quem escolheu o termo
-title: Skinner, e o que ele substituiu
-note: <strong>Punição</strong> é o termo que Skinner adotou no lugar dos «maus
-  efeitos» da lei do efeito de Thorndike.
----
 
-<img src="/skinner-banner.jpg" alt="Fotografia de B. F. Skinner" />
-
-<!--
-Lei do efeito: formulação de Edward Thorndike (1874–1949) segundo a qual
-respostas seguidas de efeitos satisfatórios se fortalecem e respostas seguidas
-de efeitos incômodos se enfraquecem.
--->
 
 ---
 layout: define
@@ -821,8 +766,8 @@ title: Nenhum estímulo é punidor por natureza
 
 Para dizer que houve punição é preciso **observar a frequência diminuir**. Sem isso não há como classificar a contingência — e a intuição sobre o que é desagradável não substitui a observação.
 
-- Rolar no chão com outra pessoa suada, apanhando, pareceria punir qualquer comportamento
-- Mas há quem **pague caro** para fazer exatamente isso, num treino de luta, e volte toda semana
+- Boca ardendo, suor escorrendo, olho lacrimejando: pareceria punir qualquer comportamento
+- Mas há quem **pague mais caro** pelo molho mais ardido e peça o mesmo na semana seguinte
 - Nesse caso o estímulo não é punidor: ele não reduz a frequência do comportamento que o produz
 
 <!--
@@ -840,58 +785,25 @@ left:
   title: "Punição positiva · R → Sᴾ⁺"
   items:
     - "<strong>Adiciona</strong> um estímulo aversivo ao ambiente"
-    - "Comer camarão, passar mal e não comer mais camarão"
-    - "Jogar bola dentro de casa, apanhar e parar de jogar ali"
-    - "Ultrapassar o sinal vermelho, ser multado e não infringir mais"
+    - "Comentar num post polêmico, levar uma chuva de ofensas e não comentar mais"
+    - "Passar o dia na praia sem protetor, queimar as costas e não repetir"
+    - "Andar acima do limite, ser multado pelo radar e passar a respeitar a placa"
 right:
   title: "Punição negativa · R → Sᴾ⁻"
   items:
     - "<strong>Retira</strong> reforçadores de outros comportamentos"
-    - "Acessar sites não confiáveis, o computador parar por vírus e não acessar mais"
-    - "Fazer traquinagens, perder a mesada e reduzir as traquinagens"
-    - "Dirigir embriagado, perder a carteira e não dirigir mais assim"
+    - "Clicar no link do golpe do Pix, ter a conta bloqueada e não clicar mais"
+    - "Passar do tempo de tela, perder o celular no fim de semana e reduzir o excesso"
+    - "Dirigir depois de beber, perder a carteira na blitz e não dirigir mais assim"
 ---
 
 <!--
 Na punição negativa, o que se perde são os reforçadores de outros
-comportamentos: o computador infectado deixa de dar acesso a tudo o que ele
-dava, e não apenas ao site visitado.
+comportamentos: a conta bloqueada deixa de pagar, receber e transferir — perde-se
+tudo o que ela dava, e não apenas o link clicado.
 -->
 
----
-layout: diagram
-kicker: Figura 4.4 do capítulo
-title: Reforço, extinção e punição em notação
-note: Na <strong>extinção</strong>, o reforço deixa de ser apresentado. Na
-  <strong>punição</strong>, o reforço continua — e o estímulo punidor é
-  acrescentado a ele.
----
 
-<svg viewBox="0 0 960 300" role="img" aria-label="Três notações: no reforço a resposta produz o estímulo reforçador; na extinção a resposta não produz mais o estímulo reforçador; na punição a resposta produz o estímulo reforçador junto com o estímulo punidor.">
-  <text x="70" y="60" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--acento);letter-spacing:.06em">REFORÇO</text>
-  <text x="420" y="64" style="font-family:var(--fonte-mono);font-size:32px;fill:var(--tinta)">R → Sᴿ</text>
-  <text x="660" y="60" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">a água é apresentada</text>
-
-  <line x1="70" y1="92" x2="890" y2="92" stroke="var(--linha)" stroke-width="1" />
-
-  <text x="70" y="150" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--acento);letter-spacing:.06em">EXTINÇÃO</text>
-  <text x="420" y="154" style="font-family:var(--fonte-mono);font-size:32px;fill:var(--tinta)">R ↛ Sᴿ</text>
-  <text x="660" y="150" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">o bebedouro foi desligado</text>
-
-  <line x1="70" y1="182" x2="890" y2="182" stroke="var(--linha)" stroke-width="1" />
-
-  <text x="70" y="240" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--acento);letter-spacing:.06em">PUNIÇÃO</text>
-  <text x="420" y="244" style="font-family:var(--fonte-mono);font-size:32px;fill:var(--tinta)">R → (Sᴿ + Sᴾ)</text>
-  <text x="660" y="230" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">a água continua sendo</text>
-  <text x="660" y="254" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">apresentada — e o choque também</text>
-
-  <text x="70" y="288" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">R = pressão à barra · Sᴿ = estímulo reforçador · Sᴾ = estímulo punidor</text>
-</svg>
-
-<!--
-A seta cortada (↛) indica que a resposta deixou de produzir aquela
-consequência. É o símbolo que o capítulo usa para representar a extinção.
--->
 
 ---
 layout: default
@@ -901,16 +813,17 @@ title: Punição negativa não é extinção
 
 Nos dois casos deixa-se de ter acesso a reforçadores. A diferença está em **o que aconteceu com a consequência que mantinha o comportamento**.
 
-- **Extinção.** Telefonar para a namorada era reforçado pela voz dela; o namoro acaba, ela não atende mais, e o comportamento deixa de produzir o que produzia
-- **Punição negativa.** A infidelidade era reforçada pelos amigos; descoberta, custa o relacionamento — e os amigos **continuam** reforçando
+- **Extinção.** Jogar de madrugada era reforçado pelas partidas com os amigos; eles trocam de horário, ninguém mais entra, e o comportamento deixa de produzir o que produzia
+- **Punição negativa.** Os amigos **continuam** entrando e as partidas rendem o mesmo; é acrescentado o Sav de briga da mãe por estar tarde jogando.
 
 <Callout icon="lucide:scissors">
 Na extinção, retira-se a consequência <strong>que mantinha</strong> o comportamento. Na punição, acrescenta-se uma consequência <strong>nova</strong> ao que já existia.
 </Callout>
 
 <!--
-O exemplo do capítulo trabalha as duas situações com o mesmo casal, de
-propósito: o que muda não é a cena, e sim qual contingência foi alterada.
+As duas leituras usam a mesma cena de propósito: o que muda não é o episódio, e
+sim qual contingência foi alterada — a consequência que mantinha a resposta, ou
+uma consequência nova somada a ela. No capítulo a cena é a de um casal.
 -->
 
 ---
@@ -923,13 +836,13 @@ columns:
       - "A consequência reforçadora <strong>deixa de ocorrer</strong>"
       - "Notação: R ↛ Sᴿ"
       - "A queda da frequência é <strong>gradual</strong>"
-      - "Elicia respostas emocionais e agressão — assunto da Parte 5"
+      - "Elicia respostas emocionais e agressão."
   - title: "Punição"
     items:
       - "A consequência reforçadora <strong>se mantém</strong>"
       - "Notação: R → (Sᴿ + Sᴾ)"
       - "A supressão da resposta é <strong>rápida</strong>"
-      - "Traz os efeitos colaterais da Parte 4"
+      - "Traz efeitos colaterais."
 ---
 
 ---
@@ -970,14 +883,13 @@ de frequência nos experimentos de caixa de condicionamento operante.
 
 ---
 layout: default
-kicker: Figura 4.3 do capítulo
 title: Suspensa a punição, a resposta se recupera
 ---
 
 Skinner (1938) modelou dois grupos de ratos a pressionar a barra por alimento. O grupo experimental passou a levar choque a cada pressão e parou rapidamente; o grupo controle manteve a taxa. Desligado o choque, a taxa do grupo experimental **voltou a subir**.
 
 - É o que se chama **recuperação da resposta**: a frequência retorna ao nível anterior
-- A moça que parou de usar minissaia por causa das brigas volta a usá-la com outro namorado
+- A moça que parou de usar minissaia por causa das brigas volta a usá-la em outro relacionamento saudável.
 - O comportamento punido não foi eliminado do repertório — apenas suprimido enquanto a contingência vigorava
 
 <!--
@@ -1000,11 +912,6 @@ steps:
       estímulo punidor não é mais contingente a ela. Sem exposição, não há como
       perceber que a contingência mudou.
     icon: lucide:door-open
-  - title: Para classificar, pergunte na ordem
-    desc: A frequência aumentou ou diminuiu? A consequência reforçadora foi
-      suspensa? Houve adição ou retirada de estímulo? As três perguntas separam
-      reforço, extinção, punição positiva e punição negativa.
-    icon: lucide:list-checks
 ---
 
 <!--
@@ -1015,9 +922,7 @@ não está — o que só é possível com contato com as duas condições.
 
 ---
 layout: diagram
-kicker: O algoritmo aplicado
-title: O caso de Joãozinho, passo a passo
-note: Joãozinho fala palavras inadequadas, os colegas riem, e a mãe retira a
+title: Joãozinho fala palavras inadequadas, os colegas riem, e a mãe retira a
   mesada. Ele para. A mãe puniu ou colocou em extinção?
 ---
 
@@ -1077,7 +982,6 @@ panels:
     items:
       - "Sem nova exposição não há como discriminar que a contingência mudou"
       - "Criar condições para emitir a resposta onde a punição é pouco provável"
-      - "É a segunda condição da recuperação, aplicada fora do laboratório"
 ---
 
 <!--
@@ -1088,15 +992,15 @@ contato com reforçadores disponíveis no ambiente.
 
 ---
 layout: default
-kicker: Discussão · 10 min
+kicker: Discussão
 title: A prisão pune o assalto?
 ---
 
-<Momento tipo="discussao" tempo="10 min" titulo="Duas afirmações do mesmo capítulo">
+<Momento tipo="discussao" titulo="Duas afirmações do mesmo capítulo">
 
 A epígrafe de Skinner diz que o homem preso por assalto violento **não tem necessariamente** reduzida sua tendência à violência. Poucas páginas depois, o capítulo lista "cometer um assalto, ser preso e não cometer mais crimes" como exemplo de **punição negativa**.
 
-Como as duas afirmações convivem? O que seria preciso observar para decidir, em cada caso, se houve punição?
+**Qual conclusões chegamos?**
 
 </Momento>
 
@@ -1109,13 +1013,13 @@ punição nomeia o efeito observado, não o procedimento aplicado.
 ---
 layout: statement
 kicker: O fecho da discussão
-title: Punição é um efeito observado, não um procedimento pretendido
+title: Punição somente diz o que não fazer e em contexto específico, o que ensina é o reforço.
 ---
 
 ---
 layout: default
 kicker: Ponto de parada · 3
-title: "Um caso de escola e redes sociais"
+title: Qual a contingência?
 ---
 
 Bruno publica vídeos provocativos e recebe dezenas de comentários dos seguidores. A escola descobre e o suspende do time de futsal por um mês. Bruno para de publicar. Os seguidores, esses, continuariam comentando.
@@ -1172,7 +1076,6 @@ title: Quatro efeitos que não estavam no plano de quem controla
 steps:
   - title: Eliciação de respostas emocionais
     desc: O contato com estímulos aversivos elicia tremores, taquicardia, choro.
-      Daí decorrem três problemas distintos, que veremos um a um.
     icon: lucide:activity
   - title: Supressão de outros comportamentos
     desc: O efeito da punição não se restringe ao comportamento que produziu a
@@ -1265,9 +1168,6 @@ title: Quando a punição passa a preceder o reforço
 
 Holz e Azrin (1961, 1962) mostraram em laboratório que o estímulo punidor pareado com períodos de reforço passa a exercer **controle discriminativo** sobre o responder.
 
-<Callout tom="alerta" icon="lucide:triangle-alert">
-⚠︎ verificar — o experimento das duas barras descrito no capítulo, em que o rato pressiona uma barra <em>para produzir</em> o choque, não traz fonte primária, e não localizei o estudo original.
-</Callout>
 
 <!--
 Reforçador condicionado: estímulo que adquire função reforçadora por ter sido
@@ -1329,6 +1229,7 @@ Comportamentos que estiverem ocorrendo **temporalmente próximos** ao momento da
 - Numa festa, Joãozinho corre, pula, conversa e dança; estoura um balão e leva uma palmada
 - É provável que pare de estourar balões — e também de correr, conversar e dançar
 - Na sessão, punir um comportamento do cliente pode suprimir outros, úteis ao processo terapêutico
+- Na sala, punir um comportamento inadequado de um aluno pode suprimir outros comportamentos como vir a aula ou participar.
 
 <!--
 O efeito é o mesmo descrito na literatura sobre supressão condicionada: o
@@ -1336,26 +1237,11 @@ conjunto de respostas em curso é afetado, e não apenas a resposta que produziu
 a consequência.
 -->
 
----
-layout: metric
-kicker: Punição física · o que a literatura recente mede
-value: "160927"
-unit: crianças
-label: reunidas na meta-análise de Gershoff e Grogan-Kaylor (2016), que encontrou
-  associação entre palmada e <strong>risco aumentado</strong> em 13 de 17
-  desfechos — sem nenhum desfecho favorável.
-ghost: "%"
----
-
-<!--
-Meta-análise: estudo que combina estatisticamente os resultados de muitos
-estudos primários sobre a mesma questão, para estimar um efeito médio.
--->
 
 ---
 layout: default
 kicker: O estado da evidência
-title: O que se sabe hoje sobre punição física, e o que está em disputa
+title: O que se sabe hoje sobre punição física.
 ---
 
 <Tabela
@@ -1389,8 +1275,7 @@ points:
 
 ---
 layout: panels
-kicker: Dois exemplos e um custo
-title: O que a resposta controladora resolve, e o que ela cobra
+title: Exemplos e consequências da resposta controladora.
 panels:
   - icon: "lucide:smartphone"
     title: Entregar o celular ao amigo
@@ -1464,44 +1349,36 @@ layout: columns
 kicker: Mais três contracontroles
 title: A mesma estrutura, em três cenas
 columns:
-  - title: "O exercício sob o olhar"
+  - title: "A justificativa pronta"
     items:
-      - "O professor só comenta quando vê alguém parado"
-      - "Os alunos se exercitam enquanto ele olha e enrolam quando vira as costas"
-      - "A resposta reforçada foi <strong>observar o professor</strong>"
-  - title: "A mentira"
+      - "Chegar sem a tarefa produziria bronca ou advertência"
+      - "Dizer que o portal ficou fora do ar evita o contato com o aversivo"
+      - "A mentira é frequentemente mantida por <strong>reforço negativo</strong>"
+  - title: "O status verde"
     items:
-      - "Chegar sem o dever produziria bronca ou advertência"
-      - "Inventar que o cachorro comeu o dever evita o contato com o estímulo aversivo"
-      - "A mentira é frequentemente mantida por reforço negativo"
-  - title: "O rato de costas"
+      - "A chefia mede o trabalho pelo tempo on-line no aplicativo"
+      - "O funcionário mexe o mouse de vez em quando e cuida de outras coisas"
+      - "A resposta reforçada foi <strong>parecer disponível</strong>"
+  - title: "A véspera da consulta"
     items:
-      - "Pressionar a barra passou a produzir comida <em>e</em> choque pela grade"
-      - "O pelo isola: ele deitou de costas e pressionou a barra com o rabo"
-      - "Obteve o reforço e evitou o estímulo aversivo"
+      - "A balança do consultório cobra o que se comeu no mês"
+      - "O paciente come pouco nos dois dias anteriores à pesagem"
+      - "A resposta reforçada foi <strong>passar na pesagem</strong>"
 ---
 
 <!--
-O experimento do rato deitado é relatado no capítulo como ilustração de que o
-contracontrole não é exclusivo de humanos.
+O capítulo ilustra o mesmo efeito com um rato: quando pressionar a barra passou
+a produzir comida <em>e</em> choque pela grade, ele deitou de costas — o pelo
+isola — e pressionou a barra com o rabo, obtendo o reforço sem o choque.
+Contracontrole não é exclusivo de humanos.
 -->
 
----
-layout: statement
-kicker: Discussão · 8 min
-title: O filho respeita ou teme o pai severo?
----
 
-<Momento tipo="discussao" tempo="8 min" titulo="Respeito ou esquiva?">
-
-Que dados permitiriam distinguir os dois, num caso concreto? E o que isso implica para a relação terapêutica e para a relação entre professor e turma?
-
-</Momento>
 
 ---
 layout: default
 kicker: Ponto de parada · 4
-title: "Um caso de chão de fábrica"
+title: Qual o efeito?
 ---
 
 Numa fábrica, o supervisor chama a atenção em voz alta de quem estiver sem protetor auricular. Os operadores passaram a colocar o protetor assim que ouvem os passos dele no corredor e a retirá-lo quando ele se afasta.
@@ -1552,21 +1429,20 @@ subtitle: O que torna o controle aversivo atraente para quem controla
 
 ---
 layout: steps
-kicker: Três razões, e nenhuma delas é a eficácia a longo prazo
-title: Por que a punição é o método mais usado
+title: Por que a punição é o método mais usado?
 steps:
   - title: Imediaticidade da consequência
     desc: Quem pune para suprimir um comportamento é negativamente reforçado quase
       no ato. O pai grita durante o jogo, a filha para de tocar o instrumento na
-      hora — e o comportamento de gritar fica mais provável.
+      hora e o comportamento de gritar fica mais provável.
     icon: lucide:timer
   - title: Eficácia não dependente de privação
     desc: A bala só reforça a criança privada de balas. A palmada é aversiva em
       qualquer situação, sem que seja preciso arranjar privação nenhuma.
     icon: lucide:battery-full
   - title: Facilidade no arranjo das contingências
-    desc: As alternativas existem e são melhores, mas exigem mais trabalho: prestar
-      atenção aos momentos certos, organizar reforçadores, manejar esquemas — e
+    desc: As alternativas existem e são melhores, mas exigem mais trabalho prestar
+      atenção aos momentos certos, organizar reforçadores, manejar esquemas e
       demoram mais a produzir efeito.
     icon: lucide:wrench
 ---
@@ -1624,7 +1500,7 @@ kicker: Segunda alternativa
 term: Extinção no lugar da punição
 definition: Suspender a consequência reforçadora que mantém o comportamento
   indesejado, em vez de acrescentar uma consequência punitiva. É <span
-  class="destaque">o método menos aversivo</span> — e ainda assim tem limites.
+  class="destaque">o método menos aversivo</span>.
 points:
   - "Não acrescenta nenhum estímulo aversivo ao ambiente"
   - "Mas gera respostas emocionais, inclusive agressão"
@@ -1640,7 +1516,7 @@ title: O que a extinção não resolve
 
 - **Respostas emocionais e agressão.** Pombos em extinção atacam outro pombo presente na caixa — e bicam um disco só para ter acesso a ele (Azrin, Hutchinson & Hake, 1966)
 - **Nem sempre dá para suspender o reforçador.** Os efeitos de uma droga não deixam de ocorrer porque decidimos isso
-- **Não treina respostas novas.** A cliente que para de se queixar não aprendeu, com isso, outra forma de obter atenção — e pode abandonar a terapia
+- **Não treina respostas novas.** A cliente que para de se queixar não aprendeu, com isso, outra forma de obter atenção
 
 <!--
 Azrin, N. H., Hutchinson, R. R., & Hake, D. F. (1966). Extinction-induced
@@ -1696,7 +1572,6 @@ definition: Reforçar com <span class="destaque">muito mais frequência</span>
   comportamento indesejado.
 points:
   - "Goldiamond (1974) propôs <strong>construir repertórios</strong> em vez de extirpar comportamentos"
-  - "Ele desaconselha até o reforçamento diferencial, por este conter extinção"
   - "Com a cliente deprimida: atender às queixas também, mas com frequência e magnitude bem menores"
   - "Serve justamente aos casos em que o reforçador não pode ser retirado"
 ---
@@ -1750,8 +1625,6 @@ manipula frequência e magnitude em vez de suspender o reforço.
 layout: diagram
 kicker: Um eixo para escolher
 title: Rapidez de um lado, efeitos colaterais do outro
-note: Nenhuma das quatro é gratuita. A escolha se faz sabendo o que se troca —
-  e o capítulo é explícito sobre qual extremo deve ser o último recurso.
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Eixo horizontal das intervenções, da punição, mais rápida e com mais efeitos colaterais, até o aumento da densidade de reforços, mais lenta e com menos efeitos colaterais.">
@@ -1782,8 +1655,8 @@ para organizar a escolha, não para quantificar as opções.
 
 ---
 layout: panels
-kicker: As conclusões dos autores
-title: Três pontos com que o capítulo se encerra
+kicker: Conclusões
+title: Três pontos para se encerrar
 panels:
   - icon: "lucide:hand"
     title: Último recurso
@@ -1799,7 +1672,7 @@ panels:
     title: Evitar não é permitir tudo
     items:
       - "Criação sem limites é quase tão prejudicial quanto criação rigorosa"
-      - "Alguns comportamentos precisam ter a frequência reduzida — por outros meios"
+      - "Alguns comportamentos precisam ter a frequência reduzida por outros meios"
 ---
 
 <!--
@@ -1811,7 +1684,7 @@ quiser".
 ---
 layout: default
 kicker: Ponto de parada · 5
-title: "Uma escolha de intervenção em sala"
+title: Qual a contigência?
 ---
 
 Letícia interrompe a aula com piadas e a turma ri. A professora não tem como impedir que os colegas riam. Ela passa a dar atenção e elogios sempre que Letícia pergunta sobre a matéria, com frequência muito maior do que a atenção que continua dando às piadas.
@@ -1864,8 +1737,6 @@ subtitle: Um caso de sala de aula, analisado com o que a aula construiu
 layout: diagram
 kicker: Síntese
 title: As duas ferramentas da aula
-note: À esquerda, onde cada contingência se situa. À direita, a ordem das
-  perguntas que classifica qualquer caso.
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Síntese com a matriz das quatro contingências à esquerda e as três perguntas de classificação à direita.">
@@ -1898,92 +1769,6 @@ note: À esquerda, onde cada contingência se situa. À direita, a ordem das
   <text x="704" y="262" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">sempre nessa ordem</text>
 </svg>
 
----
-layout: default
-kicker: Atividade final · 10 min
-title: O aluno do 7º ano
----
-
-<Momento tipo="atividade" tempo="10 min" titulo="Analise o caso inteiro">
-
-Um aluno do 7º ano é repreendido na frente da turma sempre que erra um exercício no quadro. O professor também chama a atenção de quem fica parado durante as atividades.
-
-Com o tempo, o aluno deixa de tirar dúvidas e passa a faltar nos dias de matemática. Quando está presente, finge copiar apenas quando o professor passa pela carteira. Ao descobrirem as faltas, os pais retiram o videogame.
-
-</Momento>
-
-<!--
-O caso reúne, de propósito, os seis fenômenos trabalhados nas Partes 3 e 4, e
-termina com uma contingência que não resolve o problema que pretende resolver.
--->
-
----
-layout: columns
-kicker: O que a turma deve produzir
-title: Três tarefas
-columns:
-  - title: "1 · Identificar"
-    items:
-      - "Quais contingências estão em vigor no caso"
-      - "Punição positiva, supressão de outros comportamentos, esquiva, contracontrole, estímulo aversivo condicionado e punição negativa"
-  - title: "2 · Prever"
-    items:
-      - "Qual o efeito provável da retirada do videogame sobre um comportamento mantido por esquiva"
-      - "Justificar com a contingência, não com a intenção dos pais"
-  - title: "3 · Propor"
-    items:
-      - "Uma alternativa ao controle aversivo para o professor"
-      - "Dizer qual das quatro da Parte 5 e por que ela cabe aqui"
----
-
----
-layout: default
-kicker: Tarefa 1 — gabarito
-title: As seis contingências do caso
----
-
-<Tabela
-  :dados="[
-    ['O que ocorre', 'Como se classifica'],
-    ['Repreensão pública a cada erro no quadro', 'punição positiva do comportamento de responder'],
-    ['O aluno deixa de tirar dúvidas', 'supressão de comportamentos além do punido'],
-    ['Faltar nos dias de matemática', 'esquiva — a repreensão ainda não ocorreu'],
-    ['Fingir copiar quando o professor passa', 'contracontrole — evita a bronca sem fazer a tarefa'],
-    ['O professor passa a eliciar reações emocionais', 'estímulo aversivo condicionado'],
-    ['Os pais retiram o videogame', 'punição negativa do comportamento de faltar'],
-  ]"
-  cabecalho
-  compacta
-/>
-
-<!--
-Fingir copiar é análogo ao aluno de educação física que só se exercita sob o
-olhar do professor, e ao motorista que só freia diante do radar.
--->
-
----
-layout: panels
-kicker: Tarefas 2 e 3 — gabarito
-title: A previsão e a proposta
-panels:
-  - icon: "lucide:trending-down"
-    title: O videogame retirado
-    items:
-      - "Faltar é mantido por <strong>reforço negativo</strong>: evita a repreensão"
-      - "A punição negativa acrescenta um custo, mas não retira o estímulo aversivo da sala"
-      - "O provável é que o aluno passe a esquivar-se das <em>duas</em> consequências — faltando sem que os pais saibam"
-  - icon: "lucide:lightbulb"
-    title: Uma alternativa para o professor
-    items:
-      - "O reforçador da repreensão pública é do professor, não do aluno — não há o que extinguir no aluno"
-      - "Cabe <strong>reforço positivo</strong> das tentativas, corretas ou não, e atenção frequente aos acertos parciais"
-      - "Corrigir o erro em particular retira a plateia, que é parte do estímulo aversivo"
----
-
-<!--
-Acerto parcial: qualquer aproximação da resposta-alvo. É a lógica da modelagem,
-vista na aula 03, aplicada agora ao repertório acadêmico.
--->
 
 ---
 layout: default
