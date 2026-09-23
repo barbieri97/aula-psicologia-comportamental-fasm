@@ -23,7 +23,7 @@ kicker: O que tem aqui
 title: O catálogo
 items:
   - { topic: "Aberturas e fechos", desc: "lead, section, statement, quote, pausa, end" }
-  - { topic: "Layouts de conteúdo", desc: "default, define, agenda, steps, panels, columns, vs, timeline, metric, diagram" }
+  - { topic: "Layouts de conteúdo", desc: "default, define, agenda, steps, panels, columns, vs, timeline, metric, diagram, figura" }
   - { topic: "Componentes", desc: "Callout, Tabela, Circular, Momento, Cronometro, Icon" }
   - { topic: "As regras", desc: "o que o tema faz por você e o que não fazer" }
 ---
@@ -203,6 +203,20 @@ flowchart LR
   A["Uma ideia<br/>que é estrutura"] --> B["Vira desenho"]
   B --> C["E não bullet"]
 ```
+
+---
+layout: figura
+image: /exemplo-paisagem.svg
+alt: Imagem de exemplo em paisagem, ocupando o quadro inteiro
+---
+
+<!--
+layout: figura — a imagem e nada mais, de borda a borda: sem moldura, título
+nem rodapé. `fit` padrão é `cover` (a imagem cobre o quadro e o que sobra é
+cortado); `fit: contain` mostra o arquivo inteiro, com faixas escuras nos lados.
+O caminho é absoluto e sem o nome da pasta — numa aula, o arquivo está em
+`aulas/public/`.
+-->
 
 ---
 layout: section

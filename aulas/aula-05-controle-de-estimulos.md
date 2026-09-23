@@ -13,23 +13,10 @@ kicker: Psicologia Comportamental · FASM
 subtitle: "O que vem antes do comportamento também controla a sua frequência."
 ---
 
-<!--
-Aula 05, 180 minutos. Base primária: Moreira, M. B., & Medeiros, C. A. (2007).
-Princípios básicos de análise do comportamento, cap. 6 — "Controle de estímulos:
-o papel do contexto". Porto Alegre: Artmed.
 
-Siglas usadas ao longo do deck:
-R = resposta · S = estímulo · C = consequência · O = ocasião
-Sᴰ (lê-se "S-dê") = estímulo discriminativo
-Sᐞ (lê-se "S-delta") = estímulo delta
-Sᴿ = estímulo reforçador · Sᴿ⁺ = reforçador positivo · Sᴿ⁻ = reforçador negativo
-Sᴾ⁺ e Sᴾ⁻ = estímulo punitivo positivo e negativo
-A seta → lê-se "produz". O traço – lê-se "dá ocasião a".
--->
 
 ---
 layout: agenda
-kicker: Três horas, seis partes
 title: O caminho de hoje
 items:
   - { topic: "Controle de estímulos e a contingência de três termos" }
@@ -40,10 +27,7 @@ items:
   - { topic: "Fechamento e aplicação" }
 ---
 
-<!--
-A trilha no topo dos slides mostra em qual das seis partes a aula está.
-O intervalo fica entre a Parte 3 e a Parte 4.
--->
+
 
 ---
 layout: default
@@ -59,11 +43,6 @@ Até aqui a contingência tinha dois termos. O comportamento operante produzia u
 
 Hoje entra o que acontece **antes** da resposta, e o que o contexto faz com ela.
 
-<!--
-Contingência: a relação de dependência entre a resposta e a consequência.
-Extinção: o procedimento de suspender o reforço que mantinha uma resposta, e o
-processo de queda de frequência que se segue a ele.
--->
 
 ---
 layout: quote
@@ -93,15 +72,8 @@ points:
   - "Mas o operante não ocorre no vácuo: ele ocorre sempre em algum contexto"
 ---
 
-<!--
-Estímulo antecedente: qualquer evento ambiental presente antes da resposta.
-Probabilidade, aqui, é lida na frequência observada — quantas vezes a resposta
-ocorre naquele contexto e quantas vezes ocorre fora dele.
--->
-
 ---
 layout: default
-kicker: A pergunta que vem antes de tudo
 title: Por que o antecedente controla o comportamento
 ---
 
@@ -148,7 +120,7 @@ columns:
       - "Na presença da mãe, dizer «pai» não é atendido"
 ---
 
-Cada estímulo antecedente controla **qual** resposta produzirá consequência reforçadora. Não é a resposta que está certa ou errada: é a combinação dela com o contexto.
+Cada estímulo antecedente controla **qual** resposta produzirá consequência reforçadora.
 
 ---
 layout: diagram
@@ -200,7 +172,7 @@ mesma consequência.
 ---
 layout: default
 kicker: A unidade básica de análise
-title: Três termos, e cada um com variações
+title: Três termos
 ---
 
 <Tabela
@@ -224,7 +196,7 @@ A segunda forma é mais geral: cobre também o caso em que a ocasião é um Sᐞ
 ---
 layout: define
 kicker: O que se faz com os três termos
-term: Analisar funcionalmente
+term: Análise funcional
 definition: Encaixar um comportamento numa <span class="destaque">contingência de
   três termos</span>.
 points:
@@ -252,7 +224,7 @@ Numa clínica-escola, um menino de 7 anos xinga durante a sessão apenas quando 
 - **A.** O xingamento é o Sᴰ, porque é ele que produz a aproximação da estagiária
 - **B.** O fone é o Sᴰ para xingar, e a atenção da estagiária é a consequência que mantém a resposta
 - **C.** A estagiária sem o fone é o Sᴰ, porque é nela que o menino consegue atenção
-- **D.** Não há Sᴰ no caso: o fone elicia o xingamento
+- **D.** O fone elicia o xingamento
 
 </v-clicks>
 
@@ -348,15 +320,23 @@ O símbolo ᐞ é a letra grega delta. Lê-se "S-delta". O capítulo escreve SΔ
 layout: vs
 kicker: Os dois antecedentes
 title: O que separa um do outro
-label: sinalizam
-left: "<strong>Sᴰ</strong><br>A resposta será reforçada.<br>A sua frequência é <strong>alta</strong> na presença dele."
-right: "<strong>Sᐞ</strong><br>A resposta não será reforçada.<br>A sua frequência é <strong>baixa</strong> na presença dele."
+label: ×
+left:
+  title: Sᴰ
+  items:
+    - "Sinaliza que a resposta <strong>será</strong> reforçada"
+    - "A frequência dela é <strong>alta</strong> na presença dele"
+right:
+  title: Sᐞ
+  items:
+    - "Sinaliza que a resposta <strong>não será</strong> reforçada"
+    - "A frequência dela é <strong>baixa</strong> na presença dele"
 ---
+
 
 ---
 layout: default
-kicker: O ponto que costuma passar despercebido
-title: A função é da relação, não do estímulo
+title: A função é da consequência, não do contexto
 ---
 
 Um mesmo estímulo é Sᴰ para uma resposta e Sᐞ para outra. Quem define a função é a consequência que a resposta produz naquele contexto.
@@ -377,7 +357,6 @@ title: O controle está estabelecido quando a resposta é <span class="destaque"
 
 ---
 layout: define
-kicker: O procedimento que produz o controle
 term: Treino discriminativo
 definition: Reforçar a resposta na presença do Sᴰ e <span
   class="destaque">extingui-la</span> na presença do Sᐞ.
@@ -436,30 +415,15 @@ exemplo com que o capítulo apresenta o procedimento (Figura 6.3).
 
 ---
 layout: default
-kicker: O alcance do processo
 title: Quase tudo o que sabemos fazer passou por aqui
 ---
-
-O treino discriminativo não é um procedimento de laboratório. É o que ocorre o tempo todo, fora dele.
 
 - Ler: cada palavra que você reconhece foi reforçada diante daquela forma escrita e não de outra
 - Nomear pessoas, objetos e cores — boa parte da aquisição de linguagem
 - Comportar-se de um jeito na sala de aula e de outro no bar
 - Usar um aparelho novo, obedecer a sinais de trânsito, responder a um e-mail de trabalho
 
----
-layout: default
-kicker: Uma correção para quem for ler o capítulo
-title: O quadro-resumo troca um símbolo pelo outro
----
 
-No quadro «Principais conceitos apresentados neste capítulo», a definição de treino discriminativo aparece como «reforçar o comportamento na presença do Sᴰ e extingui-lo na presença do **Sᴰ**».
-
-<Callout tom="alerta" icon="lucide:triangle-alert">
-O correto é <strong>extingui-lo na presença do Sᐞ</strong>. Extinguir a resposta no mesmo estímulo em que ela é reforçada não produziria discriminação nenhuma.
-</Callout>
-
-O corpo do capítulo traz a definição certa. O erro está apenas no quadro final.
 
 ---
 layout: diagram
@@ -536,9 +500,17 @@ compõem o padrão respondente de ansiedade.
 layout: vs
 kicker: O critério que separa os dois casos
 title: Eliciada ou emitida
-label: a resposta é
-left: "<strong>Eliciada</strong><br>Dado o estímulo, a resposta ocorre.<br>O cisco no olho faz lacrimejar, queira a pessoa ou não."
-right: "<strong>Emitida</strong><br>Dado o Sᴰ, a resposta fica mais provável.<br>Ver o cisco não obriga ninguém a dizer «isto é um cisco»."
+label: ×
+left:
+  title: Eliciada
+  items:
+    - "Dado o estímulo, a resposta ocorre"
+    - "O cisco no olho faz lacrimejar, queira a pessoa ou não"
+right:
+  title: Emitida
+  items:
+    - "Dado o Sᴰ, a resposta fica mais provável"
+    - "Ver o cisco não obriga ninguém a dizer «isto é um cisco»"
 ---
 
 ---
@@ -571,7 +543,7 @@ title: "A alternativa correta é a <span class=\"destaque\">B</span>"
     ['C', 'Errada — ela fala do assunto em um contexto e não no outro, que é o oposto de generalizar'],
     ['D', 'Errada — a mãe não apresenta nem retira estímulo; ela deixa de reforçar, e isso é extinção'],
   ]"
-  realce="linha:3"
+  realce="linha:2"
 />
 
 <!--
@@ -585,7 +557,6 @@ layout: section
 index: "03"
 kicker: Parte três
 title: Generalização de estímulos e gradiente de generalização
-subtitle: O que acontece diante de um estímulo que nunca esteve no treino.
 ---
 
 ---
@@ -596,7 +567,7 @@ definition: A resposta é emitida diante de <span class="destaque">estímulos
 points:
   - "O Sᴰ é aquele na presença do qual a resposta foi reforçada no passado"
   - "Quanto maior a similaridade física, maior a probabilidade de a resposta ocorrer"
-  - "É o mesmo raciocínio da generalização respondente, da aula 02"
+  - "É o mesmo raciocínio da generalização respondente, do comportamento respondente"
 ---
 
 <!--
@@ -644,28 +615,24 @@ atinja a topografia desejada. Foi o procedimento estudado na aula 03.
 -->
 
 ---
-layout: diagram
-title: O gradiente de generalização
-note: O pico está no Sᴰ, e a frequência cai à medida que o estímulo se afasta dele fisicamente.
+layout: figura
+image: /generalizacao-bola.png
+alt: Bolas de futebol, basquete, futebol americano e golfe, um globo e um vaso, cada vez menos parecidos com a bola de futebol
 ---
 
-<svg viewBox="0 0 960 300" role="img" aria-label="Três barras horizontais de comprimento decrescente, uma para cada bola: futebol, que é o estímulo discriminativo, tem a barra mais longa; vôlei, intermediária; futebol americano, a mais curta.">
-  <text x="24" y="34" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">FREQUÊNCIA DA RESPOSTA «BOLA»</text>
+---
+layout: figura
+image: /generalizacao-elsa.png
+alt: A personagem Elsa e várias versões dela, das mais fiéis às mais distantes do original
+---
 
-  <circle cx="48" cy="92" r="24" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
-  <text x="90" y="99" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">bola de futebol (Sᴰ)</text>
-  <rect x="360" y="73" width="540" height="38" rx="6" fill="var(--acento)" />
+---
+layout: figura
+image: /generalizacao-michael.png
+alt: Fotos de Michael Jackson ao lado de imagens cada vez menos parecidas com ele
+---
 
-  <circle cx="48" cy="162" r="22" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="90" y="169" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">bola de vôlei</text>
-  <rect x="360" y="143" width="380" height="38" rx="6" fill="var(--acento)" opacity="0.62" />
 
-  <ellipse cx="48" cy="232" rx="30" ry="19" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="90" y="239" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">bola de futebol americano</text>
-  <rect x="360" y="213" width="150" height="38" rx="6" fill="var(--acento)" opacity="0.32" />
-
-  <text x="480" y="284" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta-2)">nenhuma das duas últimas esteve no treino</text>
-</svg>
 
 ---
 layout: default
@@ -690,51 +657,7 @@ points:
   - "O que se lê é o formato da curva, não um ponto isolado dela"
 ---
 
----
-layout: steps
-kicker: O teste de generalização
-title: Cinco decisões de procedimento
-steps:
-  - { title: "Escolher as variações", desc: "Do Sᴰ até a ausência dele: 100%, 75%, 50%, 25% e 0% de intensidade de luz", icon: "lucide:sliders-horizontal" }
-  - { title: "Igualar as apresentações", desc: "Cada intensidade aparece o mesmo número de vezes", icon: "lucide:equal" }
-  - { title: "Sortear a ordem", desc: "A sequência de apresentação é aleatória", icon: "lucide:shuffle" }
-  - { title: "Fixar a duração", desc: "Cada apresentação dura um minuto", icon: "lucide:timer" }
-  - { title: "Manter tudo em extinção", desc: "Nenhuma resposta é reforçada durante o teste", icon: "lucide:circle-slash" }
----
 
-<!--
-O procedimento descrito é o do experimento da caixa operante, com a luz acesa
-como Sᴰ e a luz apagada como Sᐞ. As cinco decisões valem para qualquer teste de
-generalização, mudando o que varia.
--->
-
----
-layout: default
-kicker: A decisão que sustenta as outras quatro
-title: Por que o teste é feito em extinção
----
-
-Reforçar durante o teste contamina a medida, e contamina para os dois lados.
-
-- Reforçar numa **só** intensidade faz a resposta ocorrer só nela: o gradiente **subestima** a generalização
-- Reforçar em **todas** faz a resposta ocorrer em todas: o gradiente a **superestima**
-- Em extinção, o que aparece é o que a história anterior produziu, e nada mais
-
-<Callout tom="alerta" icon="lucide:triangle-alert">
-Por estar em extinção, o teste tem de ser <strong>curto</strong>. Prolongado, a frequência cai a zero em todas as intensidades, e não sobra gradiente nenhum para ler.
-</Callout>
-
----
-layout: default
-kicker: Discussão
-title: O elogio estraga o teste?
----
-
-<Momento tipo="discussao" titulo="Um teste de generalização fora do laboratório">
-Um estagiário quer saber se o «obrigado» que a criança aprendeu com a mãe generalizou para outras pessoas. Ele pretende testá-la com a avó, com a professora e com o porteiro — e elogiar cada vez que ela agradecer.
-
-O que esse elogio faz com a medida? E o que ele faz com o comportamento da criança daí em diante?
-</Momento>
 
 ---
 layout: diagram
@@ -777,9 +700,17 @@ valor de um ponto.
 layout: vs
 kicker: Como se lê um gradiente
 title: O formato da curva é a medida
-label: a curva
-left: "<strong>Larga</strong><br>A resposta ocorre em muitas variações do Sᴰ.<br>Mais <strong>generalização</strong>."
-right: "<strong>Estreita</strong><br>A resposta ocorre em poucas variações do Sᴰ.<br>Mais <strong>discriminação</strong>."
+label: ×
+left:
+  title: Larga
+  items:
+    - "A resposta ocorre em muitas variações do Sᴰ"
+    - "Mais <strong>generalização</strong>"
+right:
+  title: Estreita
+  items:
+    - "A resposta ocorre em poucas variações do Sᴰ"
+    - "Mais <strong>discriminação</strong>"
 ---
 
 ---
@@ -894,7 +825,7 @@ points:
 layout: diagram
 kicker: O primeiro tipo
 title: Classe por similaridade física
-note: É o produto da generalização: o treino ocorreu com <strong>um</strong> estímulo, e a classe se formou em volta dele.
+note: "É o produto da generalização: o treino ocorreu com <strong>um</strong> estímulo, e a classe se formou em volta dele."
 ---
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Cinco maçãs de tamanhos ligeiramente diferentes dentro de um contorno tracejado. A primeira está marcada como o estímulo discriminativo do treino; todas dão ocasião à mesma resposta.">
@@ -921,6 +852,12 @@ note: É o produto da generalização: o treino ocorreu com <strong>um</strong> 
   <polygon points="480,262 472,246 488,246" fill="var(--acento)" />
   <text x="480" y="292" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)">todos dão ocasião a dizer «maçã»</text>
 </svg>
+
+---
+layout: figura
+image: /classe-estimulo-verde.png
+alt: Objetos diferentes que têm em comum a cor verde: maçã, garrafa, cristal, bota, vagem, presente e cédula
+---
 
 ---
 layout: define
@@ -974,9 +911,17 @@ note: Nenhuma propriedade física une os três. O que os une é a resposta que t
 layout: vs
 kicker: As duas classes, lado a lado
 title: O que reúne os estímulos
-label: reunidos por
-left: "<strong>Similaridade física</strong><br>Maçãs, sapatos, bolas.<br>A classe é produto da <strong>generalização</strong>."
-right: "<strong>Função</strong><br>«bolo», a figura do bolo, «cake».<br>A classe é produto da <strong>história de reforçamento</strong>."
+label: ×
+left:
+  title: Similaridade física
+  items:
+    - "Maçãs, sapatos, bolas"
+    - "A classe é produto da <strong>generalização</strong>"
+right:
+  title: Função
+  items:
+    - "«bolo», a figura do bolo, «cake»"
+    - "A classe é produto da <strong>história de reforçamento</strong>"
 ---
 
 ---
@@ -990,10 +935,6 @@ Nas visões mentalistas, a atenção é uma espécie de filtro ou seletor de can
 - O filtro explicaria por que respondemos a um estímulo e não a outro
 - Mas então é preciso explicar **o comportamento do filtro**: por que ele deixa passar um e não o outro
 - A explicação apenas empurra a pergunta para dentro, e ali ela fica sem resposta
-
-<Callout tom="nota" icon="lucide:search">
-Trocar o nome de um problema por um mecanismo interno não é explicá-lo. É o mesmo movimento que a aula 01 chamou de <strong>agente oculto</strong>.
-</Callout>
 
 <!--
 Mentalismo: a explicação do comportamento por eventos ou entidades da mente,
@@ -1021,21 +962,11 @@ title: A história de reforço e punição seleciona a dimensão
 
 Lidamos o tempo todo com estímulos complexos, feitos de muitas dimensões. Qual delas controla o nosso comportamento depende do que se seguiu a ela no passado.
 
-- Os postes de Brasília passaram a controlar o comportamento dos motoristas **depois** que os radares foram instalados
+- Os postes passaram a controlar o comportamento dos motoristas **depois** que os radares foram instalados
 - Numa aula, a turma pode ficar sob controle das notificações do celular e não da fala de quem apresenta
 - Nos dois casos não há falta de atenção: há atenção a **outra** dimensão
 
----
-layout: default
-kicker: Discussão
-title: Processo mental ou comportamento?
----
 
-<Momento tipo="discussao" titulo="«Esse aluno não tem atenção»">
-Uma professora encaminha um menino de 8 anos com essa frase. Duas descrições estão disponíveis: a falta de um processo mental, ou um comportamento sob controle de outras propriedades do ambiente.
-
-O que muda na **avaliação** que se faz dele? E o que muda na **intervenção** que se propõe à escola?
-</Momento>
 
 ---
 layout: diagram
@@ -1122,23 +1053,7 @@ note: Cada um estava sob controle de uma dimensão diferente — um da <strong>f
   <text x="730" y="292" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">ficou sob controle da cor</text>
 </svg>
 
----
-layout: default
-kicker: Quando a dimensão selecionada é a errada
-title: Controle por dimensões irrelevantes
----
 
-O mesmo processo que produz a leitura produz também o erro de leitura. A diferença está em qual propriedade do estímulo complexo passou a controlar a resposta.
-
-- A criança que confunde «b» e «p» responde a alguma propriedade do desenho da letra que não é a relevante
-- A que «lê» a palavra pela figura ao lado dela acerta na cartilha e erra na lousa
-- Em nenhum dos dois casos falta esforço: o que há é controle pela dimensão errada
-
-<!--
-Estímulo complexo: o estímulo composto de várias dimensões simultâneas — cor,
-forma, posição, tamanho, contexto. Praticamente todo estímulo natural é
-complexo.
--->
 
 ---
 layout: define
@@ -1164,30 +1079,7 @@ title: O apoio sai; a resposta fica
 note: A dimensão manipulada é <strong>uma só</strong>, e o passo é pequeno o bastante para a resposta não falhar.
 ---
 
-<svg viewBox="0 0 960 300" role="img" aria-label="Quatro quadros em sequência mostrando a mesma letra a, do traço quase apagado até o traço totalmente preto, com setas entre eles.">
-  <text x="24" y="32" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">ESVANECIMENTO</text>
-
-  <rect x="50" y="52" width="170" height="140" rx="10" fill="none" stroke="var(--linha-forte)" stroke-width="2" />
-  <text x="135" y="158" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:84px;fill:var(--tinta)" opacity="0.18">a</text>
-  <line x1="228" y1="122" x2="262" y2="122" stroke="var(--acento)" stroke-width="3" />
-  <polygon points="274,122 258,114 258,130" fill="var(--acento)" />
-
-  <rect x="280" y="52" width="170" height="140" rx="10" fill="none" stroke="var(--linha-forte)" stroke-width="2" />
-  <text x="365" y="158" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:84px;fill:var(--tinta)" opacity="0.42">a</text>
-  <line x1="458" y1="122" x2="492" y2="122" stroke="var(--acento)" stroke-width="3" />
-  <polygon points="504,122 488,114 488,130" fill="var(--acento)" />
-
-  <rect x="510" y="52" width="170" height="140" rx="10" fill="none" stroke="var(--linha-forte)" stroke-width="2" />
-  <text x="595" y="158" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:84px;fill:var(--tinta)" opacity="0.7">a</text>
-  <line x1="688" y1="122" x2="722" y2="122" stroke="var(--acento)" stroke-width="3" />
-  <polygon points="734,122 718,114 718,130" fill="var(--acento)" />
-
-  <rect x="740" y="52" width="170" height="140" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
-  <text x="825" y="158" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:84px;fill:var(--tinta)">a</text>
-
-  <text x="480" y="234" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)">a criança escreve certo desde o primeiro quadro</text>
-  <text x="480" y="266" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta-2)">o que muda é quanto do estímulo o traçado ainda entrega</text>
-</svg>
+<img src="/esvaneicimento.png" alt="Frutas cortadas em formas que se transformam aos poucos: melancias que viram o símbolo do Batman, maçãs que viram cisnes">
 
 ---
 layout: define
@@ -1253,78 +1145,26 @@ note: Reforça-se em <strong>todas</strong> as células da linha; a dimensão qu
   <text x="480" y="284" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta-2)">o que se mantém constante é o que passa a controlar</text>
 </svg>
 
----
-layout: default
-kicker: Até onde vai o treino
-title: Para abstrair «triângulo qualquer»
----
 
-Reforçar bicadas no triângulo variando só a cor do fundo extingue o controle pela cor. Mas um triângulo novo, de outro tamanho e outros ângulos, ainda não controlaria a resposta.
-
-- É preciso variar **todas** as propriedades irrelevantes: cor, tamanho, posição, rotação, ângulos, comprimento dos lados
-- E variá-las tanto no **Sᴰ** quanto no **Sᐞ**
-- Só então um triângulo qualquer, nunca visto, ocasiona a resposta
 
 ---
-layout: panels
-kicker: O mesmo procedimento, com um estímulo muito mais complexo
-title: Herrnstein e Loveland
-panels:
-  - icon: lucide:images
-    title: O treino
-    items:
-      - "Fotografias <strong>com</strong> pessoas como Sᴰ"
-      - "Fotografias <strong>sem</strong> pessoas como Sᐞ"
-      - "Número de pessoas, idade, cenário e atividade variando livremente"
-  - icon: lucide:check-check
-    title: O resultado
-    items:
-      - "Apresentadas fotografias <strong>novas</strong>, os pombos bicaram só nas que tinham pessoas"
-      - "A propriedade relevante passou a controlar, e nenhuma outra"
+layout: figura
+image: /classe-estimulo-verde.png
+alt: Objetos diferentes que têm em comum a cor verde: maçã, garrafa, cristal, bota, vagem, presente e cédula
 ---
 
-<!--
-Herrnstein, R. J., & Loveland, D. H. (1964). Complex visual concept in the
-pigeon. Science, 146(3643), 549–551.
--->
-
 ---
-layout: diagram
-kicker: A definição que reúne os dois processos da aula
-title: Abstrair é generalizar dentro e discriminar fora
-note: O reforçamento <strong>adicional</strong> garante a primeira; o <strong>diferencial</strong>, a segunda.
+layout: figura
+image: /abstracao-fofo.png
+alt: Objetos diferentes que têm em comum serem fofos: bicho de pelúcia, cachorro, gatos, toalhas e pão
 ---
 
-<svg viewBox="0 0 960 300" role="img" aria-label="À esquerda, quatro tipos de ventilador dentro de um contorno tracejado, com o rótulo mesma classe. À direita, exaustor, hélice de avião e ventoinha de carro, em outro contorno, com o rótulo outras classes.">
-  <text x="232" y="34" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">MESMA CLASSE — «VENTILADOR»</text>
-  <rect x="30" y="48" width="404" height="140" rx="16" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" stroke-dasharray="8 7" />
-  <rect x="56" y="70" width="170" height="44" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="141" y="99" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">de teto</text>
-  <rect x="242" y="70" width="170" height="44" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="327" y="99" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">de mesa</text>
-  <rect x="56" y="124" width="170" height="44" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="141" y="153" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">de coluna</text>
-  <rect x="242" y="124" width="170" height="44" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="327" y="153" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">de parede</text>
+---
+layout: figura
+image: /abstracao-raiva.png
+alt: Rostos e desenhos diferentes que têm em comum a expressão de raiva
+---
 
-  <line x1="480" y1="40" x2="480" y2="256" stroke="var(--linha-forte)" stroke-width="1" stroke-dasharray="6 7" />
-
-  <text x="728" y="34" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">OUTRAS CLASSES</text>
-  <rect x="526" y="48" width="404" height="140" rx="16" fill="none" stroke="var(--linha-forte)" stroke-width="2" stroke-dasharray="8 7" />
-  <rect x="552" y="70" width="352" height="34" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="728" y="93" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">exaustor</text>
-  <rect x="552" y="112" width="352" height="34" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="728" y="135" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">hélice de avião</text>
-  <rect x="552" y="154" width="352" height="34" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="728" y="177" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">ventoinha de carro</text>
-
-  <text x="232" y="222" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">reforçamento adicional</text>
-  <text x="232" y="250" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">generaliza dentro da classe</text>
-  <text x="728" y="222" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">reforçamento diferencial</text>
-  <text x="728" y="250" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta-2)">discrimina entre classes</text>
-
-  <text x="480" y="288" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)">abstrair é fazer as duas coisas ao mesmo tempo</text>
-</svg>
 
 ---
 layout: default
@@ -1380,7 +1220,7 @@ definition: O estímulo cuja função reforçadora <span class="destaque">não d
 points:
   - "Água para um rato privado dela há 48 horas"
   - "Ligado a variáveis biológicas: as privações de água, de alimento, de sono"
-  - "Segue o mesmo raciocínio do reflexo incondicionado, da aula 02"
+  - "Segue o mesmo raciocínio do reflexo incondicionado"
 ---
 
 <!--
@@ -1426,10 +1266,6 @@ Para um rato privado de água, acender uma luz não é consequência reforçador
 - A luz só passa a reforçar **depois** que pressionar a Be na presença dela produziu água
 - É nesse momento que a luz acesa se torna um **reforço condicionado**
 
-<Callout tom="alerta" icon="lucide:triangle-alert">
-Ao descrever o procedimento, o capítulo escreve que «apresentar a barra da esquerda funciona como estímulo reforçador». Pelo próprio exemplo, o reforçador condicionado é <strong>o acender da luz</strong>.
-</Callout>
-
 ---
 layout: define
 term: Cadeia comportamental
@@ -1447,45 +1283,15 @@ title: O elo entre duas contingências
 note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
 ---
 
-<svg viewBox="0 0 960 300" role="img" aria-label="Cinco caixas em linha: ver a barra da direita, pressionar a barra da direita, luz acesa, pressionar a barra da esquerda, água. A caixa do meio está destacada e pertence às duas contingências ao mesmo tempo.">
-  <text x="285" y="34" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">CONTINGÊNCIA 1</text>
-  <line x1="10" y1="48" x2="560" y2="48" stroke="var(--acento)" stroke-width="2" />
-  <text x="675" y="66" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">CONTINGÊNCIA 2</text>
+<img src="/encadeamento-cafe.png" alt="Cadeia de três elos para passar café: colocar o pó no filtro, derramar a água quente e servir na xícara">
 
-  <rect x="10" y="88" width="160" height="82" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="90" y="136" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">ver a Bd</text>
-  <line x1="174" y1="129" x2="190" y2="129" stroke="var(--tinta)" stroke-width="3" />
+---
+layout: diagram
+title: O elo entre duas contingências
+note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
+---
 
-  <rect x="205" y="88" width="160" height="82" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="285" y="123" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">pressionar</text>
-  <text x="285" y="147" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">a Bd</text>
-  <line x1="369" y1="129" x2="383" y2="129" stroke="var(--acento)" stroke-width="3" />
-  <polygon points="395,129 379,121 379,137" fill="var(--acento)" />
-
-  <rect x="400" y="88" width="160" height="82" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
-  <text x="480" y="136" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">luz acesa</text>
-  <line x1="564" y1="129" x2="580" y2="129" stroke="var(--tinta)" stroke-width="3" />
-
-  <rect x="595" y="88" width="160" height="82" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="675" y="123" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">pressionar</text>
-  <text x="675" y="147" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">a Be</text>
-  <line x1="759" y1="129" x2="773" y2="129" stroke="var(--acento)" stroke-width="3" />
-  <polygon points="785,129 769,121 769,137" fill="var(--acento)" />
-
-  <rect x="790" y="88" width="160" height="82" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
-  <text x="870" y="136" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">água</text>
-
-  <line x1="400" y1="66" x2="950" y2="66" stroke="var(--acento)" stroke-width="2" />
-
-  <text x="90" y="196" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:18px;fill:var(--tinta-2)">Sᴰ₁</text>
-  <text x="285" y="196" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:18px;fill:var(--tinta-2)">R₁</text>
-  <text x="480" y="196" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:18px;fill:var(--acento)">Sᴿ₁ = Sᴰ₂</text>
-  <text x="675" y="196" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:18px;fill:var(--tinta-2)">R₂</text>
-  <text x="870" y="196" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:18px;fill:var(--tinta-2)">Sᴿ₂</text>
-
-  <text x="480" y="242" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)">reforça a resposta que vem antes dele</text>
-  <text x="480" y="274" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)">e dá ocasião à resposta que vem depois</text>
-</svg>
+<img src="/encadeamento-sapato.png" alt="Cadeia de três elos para amarrar o sapato: cruzar os cadarços, fazer o primeiro nó e formar o laço">
 
 ---
 layout: statement
@@ -1499,7 +1305,7 @@ kicker: Atividade
 title: Onde está o estímulo de dupla função?
 ---
 
-<Momento tipo="atividade" titulo="Monte a cadeia, elo a elo">
+<Momento tipo="discussao" titulo="Monte a cadeia, elo a elo">
 A cadeia é esta: **ver o garçom → chamar o garçom → o garçom presente → pedir o chope → receber o chope.**
 
 Escreva cada elo nos três termos. Depois aponte, em cada ponto de junção, qual estímulo está cumprindo **as duas funções** ao mesmo tempo.
@@ -1507,11 +1313,18 @@ Escreva cada elo nos três termos. Depois aponte, em cada ponto de junção, qua
 
 ---
 layout: vs
-kicker: Dois tipos de reforçador condicionado
-title: O que muda entre eles
-label: reforçador condicionado
-left: "<strong>Simples</strong><br>Serve de ocasião a poucas respostas.<br>Exige <strong>privação específica</strong>: a luz só reforça o rato privado de água."
-right: "<strong>Generalizado</strong><br>Serve de ocasião a muitas respostas.<br><strong>Não</strong> exige privação específica para ter efeito."
+title: Reforçador condicionado simples × generalizado
+label: ×
+left:
+  title: Simples
+  items:
+    - "Serve de ocasião a poucas respostas"
+    - "Exige <strong>privação específica</strong>: a luz só reforça o rato privado de água"
+right:
+  title: Generalizado
+  items:
+    - "Serve de ocasião a muitas respostas"
+    - "<strong>Não</strong> exige privação específica para ter efeito"
 ---
 
 ---
@@ -1609,7 +1422,7 @@ title: "A alternativa correta é a <span class=\"destaque\">C</span>"
     ['C', 'Correta — reforça a tarefa concluída e dá ocasião à troca: são as duas funções do reforço condicionado'],
     ['D', 'Errada — se fosse apenas Sᴰ, a frequência das tarefas concluídas não teria aumentado'],
   ]"
-  realce="linha:4"
+  realce="linha:3"
 />
 
 <!--
