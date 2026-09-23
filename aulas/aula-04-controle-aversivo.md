@@ -1420,6 +1420,12 @@ avaliar o arranjo são duas operações distintas.
 -->
 
 ---
+layout: figura
+image: /exemplos-contra-controle.png
+alt: Seis cenas de contracontrole, entre elas a camiseta «I love sonegar imposto» e a sala de aula
+---
+
+---
 layout: section
 index: "05"
 kicker: Parte cinco

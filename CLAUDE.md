@@ -33,8 +33,9 @@ As três regras que mais quebram deck:
 ## Como se escreve uma aula
 
 O `docs/tema.md` manda na forma; esta seção manda no conteúdo. Ela é o destilado das revisões das
-aulas 03 e 04 — o que foi corrigido depois de ver o deck projetado. A aula 04 saiu da revisão com
-**67 linhas acrescentadas contra 279 removidas**: revisar aqui é, quase sempre, cortar.
+aulas 03, 04 e 05 — o que foi corrigido depois de ver o deck projetado. A aula 04 saiu da revisão com
+**67 linhas acrescentadas contra 279 removidas**, a 05 com **111 contra 298**: revisar aqui é, quase
+sempre, cortar.
 
 ### O slide é o que vai ser falado, não o roteiro de quem fala
 
@@ -43,11 +44,21 @@ aulas 03 e 04 — o que foi corrigido depois de ver o deck projetado. A aula 04 
   slide vira promessa que a aula não cumpre.
 - **Sem ponteiro para outra parte da própria aula.** «assunto da Parte 5», «veremos um a um», «é a
   segunda condição da recuperação»: o aluno não precisa do índice e quem apresenta já sabe.
+- **Sem número de aula, nem de outra.** «É o mesmo raciocínio da generalização respondente, da
+  aula 02» virou «…do comportamento respondente»; o `<Callout>` «é o que a aula 01 chamou de agente
+  oculto» saiu. Nomeie o conceito: a turma lembra dele, não do número da aula em que o viu.
+- **Sem errata do livro.** O slide «O quadro-resumo troca um símbolo pelo outro» e o `<Callout>`
+  apontando o erro do capítulo na cadeia saíram da aula 05. Projetada, a errata ensina a versão
+  errada junto com a certa; ela vai para a conversa com o professor.
 - **Sem meta-texto sobre o capítulo.** `kicker: Figura 4.3 do capítulo`, `title: O caso de
   Joãozinho, passo a passo`, `note:` que descreve o desenho logo abaixo. Linha que comenta a aula em
   vez de ensinar a matéria sai.
 - **Sem gabarito.** Atividade cuja resposta vem no slide seguinte não é atividade. A resposta é da
   turma; o que fica no deck é a pergunta.
+- **A nota do apresentador não é glossário.** O comentário com a lista de siglas, a duração da aula,
+  «a trilha no topo mostra em qual parte a aula está», a definição de contingência e de extinção
+  que as aulas anteriores já deram: tudo isso saiu da aula 05. Nota que fica é a que ajuda a
+  **falar** o slide — o exemplo de laboratório, a referência do experimento.
 
 ### O título é a pergunta que a turma tem de responder
 
@@ -55,7 +66,14 @@ aulas 03 e 04 — o que foi corrigido depois de ver o deck projetado. A aula 04 
 nas discussões o `title` vira pergunta — «Qual a contingência?», «Fuga ou esquiva?», «Por que a
 punição é o método mais usado?». O `kicker` fica só com rótulo de navegação (`Ponto de parada · 3`,
 `Parte três`, `Fontes · 1 de 2`); quando ele apenas comentaria a estrutura, **apague a linha
-inteira** — `kicker:` sem valor não quebra nada, mas é lixo que ficou.
+inteira** — `kicker:` sem valor não quebra nada, mas é lixo que ficou. Na aula 05 caíram «A pergunta
+que vem antes de tudo», «O ponto que costuma passar despercebido», «O alcance do processo» e o
+`subtitle` das seções que só repetia o título.
+
+Nos pontos de parada, **a alternativa errada não traz a justificativa que a entrega**: «Não há Sᴰ
+no caso: o fone elicia o xingamento» virou «O fone elicia o xingamento». Uma pergunta por parte
+basta — onde já há ponto de parada, a discussão aberta sobre o mesmo conceito sai (foi o caso de
+«O elogio estraga o teste?» e «Processo mental ou comportamento?»).
 
 ### Uma frase por ideia
 
@@ -78,6 +96,10 @@ critérios, nesta ordem:
 - **Público certo.** É turma de psicologia: o exemplo de sala de aula e o de sessão andam juntos.
   Rato, pombo e caixa de Skinner continuam valendo — mas como **nota do apresentador**, não como o
   exemplo do slide.
+- **Nada regional.** «Os postes de Brasília» virou «os postes»: a turma não precisa conhecer a
+  cidade para entender a contingência.
+- **O exemplo visual vem da cultura da turma.** Para mostrar um gradiente de generalização, a Elsa
+  de *Frozen* e as versões cada vez mais tortas dela ensinam mais que três barras de um gráfico.
 
 ### O rigor é de conceito, não de literatura
 
@@ -90,6 +112,10 @@ critérios, nesta ordem:
 - **Dúvida sobre fonte não vira slide.** Dado sem fonte primária localizável sai do deck — nada de
   `<Callout tom="alerta">⚠︎ verificar`. O aviso vai para a conversa com o professor, não para a
   projeção.
+- **O conceito, não o protocolo.** As cinco decisões do teste de generalização, o porquê de ele ser
+  feito em extinção, o experimento de Herrnstein e Loveland, o treino para abstrair «triângulo
+  qualquer»: saíram da aula 05. Procedimento de laboratório entra quando é o exemplo que ensina o
+  conceito, não como método a ser aprendido.
 - **O fecho é prático.** «Punição é um efeito observado, não um procedimento pretendido» virou
   «Punição só diz o que não fazer, e em contexto específico; o que ensina é o reforço». O
   `statement` fecha com o que a turma leva para a prática.
@@ -100,6 +126,32 @@ critérios, nesta ordem:
 aviso do lint quando três aparecem seguidos. Retrato de autor sem função na argumentação, SVG que
 repete o que o texto ao lado já diz, `layout: metric` com o número de uma meta-análise: tudo isso foi
 cortado da aula 04. **Corte primeiro; encolher é o último recurso.**
+
+### A imagem pronta vence o desenho de caixas
+
+Quando o conceito é **visual** — um gradiente, uma classe de estímulos, uma abstração, uma cadeia —
+a aula 05 trocou o SVG desenhado à mão (três barras, quatro quadros com a letra «a», retângulos com
+«ventilador de teto») por uma imagem com vários exemplos reais lado a lado. Onde a imagem **é** o
+argumento, ela vai no `layout: figura`, sem título nem legenda. Onde ela ilustra o que o título diz,
+vai como `<img>` no corpo de um `diagram`. Regras da `figura`:
+
+- **`image: /arquivo.png`, com barra normal.** Com `\`, a barra do Explorer do Windows, a figura
+  aparece no `npm run dev` e dá 404 no site. O lint trata como erro.
+- **Sem `note`.** O layout não tem esse campo; o que precisa ser dito vai na fala.
+- **Sempre com `alt`.** Numa figura sozinha no slide, ele é o único texto.
+- **Série é permitida.** Três `figura` seguidas — bola, Elsa, Michael — é o gradiente se mostrando,
+  e o lint não acusa monotonia.
+- Arquivos em `aulas/public/`, em 16:9 (1920×1080), para o `cover` não cortar nada.
+
+### Dois detalhes que o olho pega na projeção
+
+- **`vs` é sempre `{ title, items }`.** `left: "<strong>Sᴰ</strong><br>…"` parseia sem erro e
+  desenha as duas colunas **vazias** — os cinco `vs` da primeira versão da aula 05 saíram assim. O
+  `label` é `×`; o `title` vai sem `<strong>` (o layout já destaca); os itens vão entre aspas, sem
+  ponto final. O lint agora acusa o texto corrido.
+- **O `realce` da resposta aponta a letra certa.** A tabela do «Ponto de parada — resposta» não tem
+  cabeçalho, então `realce="linha:N"` usa a posição da letra: A = 1, B = 2, C = 3, D = 4. Duas
+  tabelas da aula 05 destacavam a linha errada.
 
 ## Convenções
 
@@ -162,8 +214,9 @@ Daí `src="/nome.jpg"` (raiz do `public/`, não `/aulas/public/nome.jpg`) — **
 slide.** O Vite reescreve o caminho com a `--base` do build só quando ele está estático no
 template; num campo de frontmatter, que o tema injeta com `v-html`, ele é string em tempo de
 execução e sai cru. Local, com base `/`, os dois funcionam; publicado sob `/<repo>/<aula>/`, o
-segundo dá 404. Layout ou componente novo que aceite caminho de arquivo precisa passá-lo por
-`assetUrl()` (`tema/lib/asset.js`). Detalhe em [`docs/tema.md`](docs/tema.md#figuras-imagem-e-desenho).
+segundo dá 404. A exceção é o campo `image` do layout `figura`, que o próprio layout resolve com
+`assetUrl()` (`tema/lib/asset.js`) — e essa é a regra: layout ou componente novo que aceite caminho
+de arquivo precisa passar por lá. Detalhe em [`docs/tema.md`](docs/tema.md#figuras-imagem-e-desenho).
 
 ## Build e deploy
 

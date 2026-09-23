@@ -9,10 +9,10 @@
  * de `/<repo>/<aula>/`, o navegador pede `/foo.jpg` na raiz do domínio e leva 404 — por isso
  * o bug só aparece no site publicado.
  *
- * Hoje nenhum layout ou componente do tema recebe caminho de arquivo (as figuras são `<img>`
- * ou `<svg>` no corpo do slide, que o Vite já resolve). Isto está aqui para o dia em que um
- * receber: **layout ou componente novo que aceite caminho de arquivo passa por `assetUrl()`**
- * — `<img :src="assetUrl(src)">`, `url(${assetUrl(fm.image)})`.
+ * Quem usa: o layout `figura`, que recebe o caminho no campo `image` do frontmatter. Os demais
+ * visuais são `<img>` ou `<svg>` escritos no corpo do slide, que o Vite já resolve sozinho. A
+ * regra para o que vier depois: **layout ou componente novo que aceite caminho de arquivo passa
+ * por `assetUrl()`** — `<img :src="assetUrl(src)">`, `url(${assetUrl(fm.image)})`.
  */
 export function assetUrl (path) {
   if (typeof path !== 'string' || path === '') return path

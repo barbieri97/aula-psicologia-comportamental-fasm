@@ -9,9 +9,11 @@
 // você descobre no meio da aula. Aqui isso vira erro antes do build.
 //
 // ERRO (sai 1): layout inexistente, campo obrigatório faltando, frontmatter que
-//   não parseia, slide vazio.
+//   não parseia, slide vazio, `image` de `figura` que não começa com `/`, `vs`
+//   com `left`/`right` em texto corrido em vez de { title, items }.
 // AVISO (sai 0): campo desconhecido (quase sempre um typo), slide denso demais
-//   para ser lido do fundo da sala, mesmo layout três vezes seguidas.
+//   para ser lido do fundo da sala, mesmo layout três vezes seguidas (exceto
+//   uma série de `figura`).
 import { readFileSync } from 'node:fs'
 import { basename, isAbsolute, join } from 'node:path'
 import { parse } from '@slidev/parser/fs'
@@ -23,6 +25,7 @@ const UNIVERSAIS = new Set(contrato.universais)
 
 const MAX_BULLETS = 7
 const MAX_CHARS_BULLET = 190
+const SERIE_PERMITIDA = new Set(['figura'])
 
 const vermelho = (s) => `\x1b[31m${s}\x1b[0m`
 const amarelo = (s) => `\x1b[33m${s}\x1b[0m`
@@ -83,6 +86,25 @@ for (const arquivo of arquivos) {
       }
     }
 
+    // `assetUrl()` só acrescenta a base do GitHub Pages a caminho que começa com
+    // `/`. Um `\foto.png` (barra do Windows) ou `foto.png` passa cru: funciona no
+    // `npm run dev` e dá 404 no site publicado.
+    if (nomeLayout === 'figura' && typeof fm.image === 'string'
+      && !fm.image.startsWith('/') && !/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(fm.image)) {
+      erro(n, `\`image: ${fm.image}\` precisa começar com "/" (ex.: /foto.png) — assim quebra no site`)
+    }
+
+    // O `vs` lê `left.title` e `left.items`. Um `left: "<strong>A</strong><br>…"`
+    // parseia sem erro e desenha as duas colunas vazias.
+    if (nomeLayout === 'vs') {
+      for (const lado of ['left', 'right']) {
+        const v = fm[lado]
+        if (v !== undefined && (typeof v !== 'object' || v === null || !Array.isArray(v.items))) {
+          erro(n, `\`${lado}\` do "vs" precisa ser { title, items: [...] } — em texto corrido a coluna sai vazia`)
+        }
+      }
+    }
+
     if (layout.corpo === 'vazio' && corpo) {
       aviso(n, `o layout "${nomeLayout}" ignora o corpo do slide, e há texto solto nele`)
     }
@@ -100,7 +122,11 @@ for (const arquivo of arquivos) {
 
     if (nomeLayout === anterior) {
       repetidos++
-      if (repetidos === 2) aviso(n, `"${nomeLayout}" três vezes seguidas — o deck fica monótono`)
+      // Uma série de `figura` é o próprio argumento — o gradiente de generalização
+      // se mostra passando de uma imagem à seguinte — e não repetição de forma.
+      if (repetidos === 2 && !SERIE_PERMITIDA.has(nomeLayout)) {
+        aviso(n, `"${nomeLayout}" três vezes seguidas — o deck fica monótono`)
+      }
     } else {
       repetidos = 0
       anterior = nomeLayout

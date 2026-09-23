@@ -23,8 +23,9 @@ slide por layout e por componente.
    do arquivo inteiro.
 
 `npm run lint` cobra as três: layout inexistente, campo obrigatório faltando, frontmatter que não
-parseia e slide vazio são **erro**; campo com nome errado, slide denso demais e o mesmo layout três
-vezes seguidas são **aviso**. O contrato que ele lê é [`tema/layouts.json`](../tema/layouts.json).
+parseia, slide vazio, `image` de `figura` sem a `/` inicial e `vs` com `left`/`right` em texto
+corrido são **erro**; campo com nome errado, slide denso demais e o mesmo layout três vezes
+seguidas (fora uma série de `figura`) são **aviso**. O contrato que ele lê é [`tema/layouts.json`](../tema/layouts.json).
 
 ---
 
@@ -78,11 +79,27 @@ parte no rodapé. Marque de três a seis partes numa aula longa.
 | `steps` | um processo, na ordem | `kicker`, `title`, `ghost`, `steps`*`[{title, desc, icon}]` | — |
 | `panels` | 2–3 subtemas em cartões | `kicker`, `title`, `panels`*`[{icon, title, items[]}]` | opcional |
 | `columns` | 2–3 listas paralelas | `kicker`, `title`, `columns`*`[{title, items[]}]` | opcional |
-| `vs` | A contra B | `kicker`, `title`, `label`, `left`*, `right`* | — |
+| `vs` | A contra B | `kicker`, `title`, `label`, `left`*`{title, items}`, `right`*`{title, items}` | — |
 | `timeline` | sequência datada | `kicker`, `title`, `events`*`[{date, title, desc}]` | — |
 | `metric` | um número grande | `kicker`, `value`*, `unit`, `label`, `ghost` | — |
 | `diagram` | Mermaid, figura, esquema | `kicker`, `title`, `note` | o desenho |
+| `figura` | uma imagem, de borda a borda | `image`*, `alt`, `fit` | — |
 | `iframe` | vídeo ou página externa | `url`*, `scale` | — |
+
+`figura` é o único layout do tema **sem cromo**: nem moldura, nem kicker, nem título, nem
+rodapé — só a imagem, sangrada até a borda. Use quando a imagem é o argumento; quando ela ilustra
+algo que você diz em volta, o palco do `diagram` é o lugar. O `image` é o caminho absoluto dentro
+de `aulas/public/` (`/foto.jpg`) e **aqui, só aqui, ele vai no frontmatter**: o layout o passa por
+`assetUrl()`, que é o que faz a base do GitHub Pages entrar. `fit` é `cover` por padrão — a imagem
+cobre o quadro e o excedente é cortado; `fit: contain` mostra o arquivo inteiro e deixa faixas de
+tinta nos lados. Escreva o `alt`: numa foto que ocupa o slide sozinha, ele é o único texto que existe.
+
+O caminho começa com `/`, **nunca com `\`**. Copiado do Explorer do Windows, `\foto.png` funciona no
+`npm run dev` (o navegador troca a barra) e dá 404 no site, porque o `assetUrl()` só acrescenta a
+base a caminho que começa com `/` — o lint trata isso como erro. `figura` não tem `note`: o que
+precisar ser dito vai na imagem ou na fala. Uma **série** de `figura` seguidas é uso previsto (o
+gradiente de generalização se mostra passando de uma imagem à seguinte), e o lint não a acusa de
+monotonia. Para `cover` sem corte, a imagem é 16:9 — 1920×1080.
 
 `iframe` é layout **nativo do Slidev**, não do tema: ele não desenha moldura, kicker, título nem
 rodapé — a página externa ocupa o quadro inteiro. Para um vídeo do YouTube, a `url` é a forma
@@ -144,21 +161,25 @@ desenho"). Três formas, em ordem de preferência:
 | **Mermaid** | fluxos e grafos simples | bloco ```` ```mermaid ```` |
 | **`<img>`** | fotos e material digitalizado | arquivo em `aulas/public/`, `src="/nome.jpg"` |
 
+Quando a imagem **é** o slide — nada de título nem legenda em volta — o layout é o `figura`, e aí
+o caminho vai no campo `image` do frontmatter. Nos três casos da tabela acima, ele vai no corpo.
+
 Nenhuma delas pede CSS no `.md`: `.diag-palco svg` estica o desenho até a largura do palco com teto
 de 19rem, e a regra `.quadro img` (em `tema/styles/base.css`) limita a imagem à mesma altura. Sem
 essa regra uma foto de 1600px entraria no tamanho natural, atravessaria a borda **e** encolheria o
 slide inteiro, porque o `<Ajuste>` mede a altura do conteúdo.
 
-**O caminho da imagem vai no corpo do slide, nunca no frontmatter.** `<img src="/foto.jpg">`
-escrito no markdown é reescrito pelo Vite com a `--base` do build e sai
+**O caminho da imagem vai no corpo do slide, e não num campo de frontmatter qualquer.**
+`<img src="/foto.jpg">` escrito no markdown é reescrito pelo Vite com a `--base` do build e sai
 `/<repo>/<aula>/foto.jpg` no site publicado. O mesmo `<img>` dentro de um campo de frontmatter
 (`note:`, `definition:`, um item de `columns:`) chega ao navegador como string em tempo de
 execução — o tema injeta esses campos com `v-html`, o Vite nunca os vê, e o caminho continua
 `/foto.jpg`. Local, com base `/`, os dois funcionam; no GitHub Pages, onde a aula é servida de
 `/<repo>/<aula>/`, o segundo pede o arquivo na raiz do domínio e leva 404. Por isso **a figura
-que quebra só quebra no site**. Para o futuro: layout ou componente novo que aceite caminho de
-arquivo por prop ou frontmatter precisa passá-lo por `assetUrl()`
-([`tema/lib/asset.js`](../tema/lib/asset.js)) antes de usar.
+que quebra só quebra no site**. A exceção é o `image` do layout `figura`, que o layout
+resolve com `assetUrl()` antes de montar o `<img>` — e é essa a regra para o futuro: layout ou
+componente novo que aceite caminho de arquivo por prop ou frontmatter precisa passá-lo por
+`assetUrl()` ([`tema/lib/asset.js`](../tema/lib/asset.js)) antes de usar.
 
 Três armadilhas que custaram tempo e não precisam ser redescobertas:
 

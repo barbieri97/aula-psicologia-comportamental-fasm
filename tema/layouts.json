@@ -86,6 +86,12 @@
       "obrigatorios": [],
       "corpo": "markdown"
     },
+    "figura": {
+      "uso": "Uma imagem sozinha, de borda a borda. Sem moldura, kicker, título nem rodapé.",
+      "campos": ["image", "alt", "fit"],
+      "obrigatorios": ["image"],
+      "corpo": "vazio"
+    },
     "iframe": {
       "uso": "Layout nativo do Slidev: uma página externa (vídeo do YouTube, simulação) ocupando o quadro inteiro. Sem cromo do tema.",
       "campos": ["url", "scale"],
