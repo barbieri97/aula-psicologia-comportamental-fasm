@@ -88,7 +88,7 @@ Todo controle exercido por um antecedente é <strong>emprestado</strong> da cons
 
 ---
 layout: define
-term: Operante discriminado
+title: Operante discriminado
 definition: O comportamento operante que, emitido <span class="destaque">em
   determinado contexto</span>, produz consequências reforçadoras.
 points:
@@ -105,8 +105,7 @@ estímulos antecedentes.
 
 ---
 layout: columns
-kicker: Discriminação operante
-title: Respostas específicas diante de estímulos específicos
+title: Discriminação operante - Respostas específicas diante de estímulos específicos
 columns:
   - title: "A resposta que é reforçada"
     items:
@@ -217,14 +216,14 @@ kicker: Ponto de parada · 1
 title: Qual é o Sᴰ?
 ---
 
-Numa clínica-escola, um menino de 7 anos xinga durante a sessão apenas quando a estagiária está de fone, falando com a supervisora. Nessas horas ela interrompe a chamada e vai até ele. Quando ela está sem o fone, ele não xinga.
+Na lanchonete da faculdade, Bruno só pede para completar o café quando quem está no balcão é o atendente da tarde, que sempre completa. Quando é o atendente da manhã, ele nem pede.
 
 <v-clicks>
 
-- **A.** O xingamento é o Sᴰ, porque é ele que produz a aproximação da estagiária
-- **B.** O fone é o Sᴰ para xingar, e a atenção da estagiária é a consequência que mantém a resposta
-- **C.** A estagiária sem o fone é o Sᴰ, porque é nela que o menino consegue atenção
-- **D.** O fone elicia o xingamento
+- **A.** Pedir para completar é o Sᴰ, porque é isso que produz o café a mais
+- **B.** O atendente da tarde é o Sᴰ para pedir, e o café a mais é a consequência que mantém a resposta
+- **C.** O atendente da manhã é o Sᴰ, porque é diante dele que Bruno deixa de pedir
+- **D.** O atendente da tarde elicia o pedido
 
 </v-clicks>
 
@@ -236,10 +235,10 @@ title: "A alternativa correta é a <span class=\"destaque\">B</span>"
 
 <Tabela
   :dados="[
-    ['A', 'Errada — xingar é a resposta, o segundo termo; o Sᴰ é o que antecede a resposta'],
-    ['B', 'Correta — o fone antecede a resposta e sinaliza que xingar será seguido de atenção'],
-    ['C', 'Errada — é sem o fone que a resposta não ocorre; a estagiária sem fone é o Sᐞ'],
-    ['D', 'Errada — o fone não produz o xingamento, apenas dá a ocasião; eliciar é relação respondente'],
+    ['A', 'Errada — pedir é a resposta, o segundo termo; o Sᴰ é o que antecede a resposta'],
+    ['B', 'Correta — o atendente da tarde antecede a resposta e sinaliza que pedir será seguido de café a mais'],
+    ['C', 'Errada — é diante do atendente da manhã que a resposta não ocorre; ele é o Sᐞ'],
+    ['D', 'Errada — o atendente não produz o pedido, apenas dá a ocasião; eliciar é relação respondente'],
   ]"
   realce="linha:2"
 />
@@ -325,12 +324,12 @@ left:
   title: Sᴰ
   items:
     - "Sinaliza que a resposta <strong>será</strong> reforçada"
-    - "A frequência dela é <strong>alta</strong> na presença dele"
+    - "A frequência da resposta é <strong>alta</strong> na presença dele"
 right:
   title: Sᐞ
   items:
     - "Sinaliza que a resposta <strong>não será</strong> reforçada"
-    - "A frequência dela é <strong>baixa</strong> na presença dele"
+    - "A frequência da resposta é <strong>baixa</strong> na presença dele"
 ---
 
 
@@ -856,7 +855,7 @@ note: "É o produto da generalização: o treino ocorreu com <strong>um</strong>
 ---
 layout: figura
 image: /classe-estimulo-verde.png
-alt: Objetos diferentes que têm em comum a cor verde: maçã, garrafa, cristal, bota, vagem, presente e cédula
+alt: Objetos diferentes que têm em comum a cor verde - maçã, garrafa, cristal, bota, vagem, presente e cédula
 ---
 
 ---
@@ -1150,13 +1149,13 @@ note: Reforça-se em <strong>todas</strong> as células da linha; a dimensão qu
 ---
 layout: figura
 image: /classe-estimulo-verde.png
-alt: Objetos diferentes que têm em comum a cor verde: maçã, garrafa, cristal, bota, vagem, presente e cédula
+alt: Objetos diferentes que têm em comum a cor verde - maçã, garrafa, cristal, bota, vagem, presente e cédula
 ---
 
 ---
 layout: figura
 image: /abstracao-fofo.png
-alt: Objetos diferentes que têm em comum serem fofos: bicho de pelúcia, cachorro, gatos, toalhas e pão
+alt: Objetos diferentes que têm em comum serem fofos - bicho de pelúcia, cachorro, gatos, toalhas e pão
 ---
 
 ---
@@ -1283,7 +1282,60 @@ title: O elo entre duas contingências
 note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
 ---
 
-<img src="/encadeamento-cafe.png" alt="Cadeia de três elos para passar café: colocar o pó no filtro, derramar a água quente e servir na xícara">
+<svg viewBox="0 0 960 300" role="img" aria-label="Cadeia de três elos para passar café, numa linha só: café e filtro disponíveis, pôr o pó no filtro, o pó no filtro, derramar água quente, o café coado, servir na xícara, o café para tomar. Chaves acima e abaixo da linha marcam as três contingências, que se sobrepõem: o pó no filtro fecha a contingência 1 como reforço e abre a 2 como Sᴰ; o café coado fecha a 2 e abre a 3.">
+  <path d="M6,72 V60 H410 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="208" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 1</text>
+  <path d="M550,72 V60 H954 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="752" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 3</text>
+  <path d="M278,228 V240 H682 V228" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="480" y="264" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 2</text>
+
+  <text x="72" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴰ₁</text>
+  <rect x="6" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="72" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">café e filtro</text>
+  <text x="72" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">disponíveis</text>
+  <line x1="140" y1="150" x2="154" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="208" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₁</text>
+  <rect x="156" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="208" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">pôr o pó</text>
+  <text x="208" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">no filtro</text>
+  <line x1="262" y1="150" x2="267" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="277,150 265,143 265,157" fill="var(--acento)" />
+
+  <text x="344" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₁</text>
+  <rect x="278" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="344" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">pó no</text>
+  <text x="344" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">filtro</text>
+  <text x="344" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₂</text>
+  <line x1="412" y1="150" x2="426" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <rect x="428" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="480" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">derramar</text>
+  <text x="480" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">água quente</text>
+  <text x="480" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₂</text>
+  <line x1="534" y1="150" x2="539" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="549,150 537,143 537,157" fill="var(--acento)" />
+
+  <text x="616" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₃</text>
+  <rect x="550" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="616" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">café</text>
+  <text x="616" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">coado</text>
+  <text x="616" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₂</text>
+  <line x1="684" y1="150" x2="698" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="752" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₃</text>
+  <rect x="700" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="752" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">servir na</text>
+  <text x="752" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">xícara</text>
+  <line x1="806" y1="150" x2="811" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="821,150 809,143 809,157" fill="var(--acento)" />
+
+  <text x="888" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴿ⁺ final</text>
+  <rect x="822" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="888" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">café para</text>
+  <text x="888" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">tomar</text>
+</svg>
 
 ---
 layout: diagram
@@ -1291,7 +1343,182 @@ title: O elo entre duas contingências
 note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
 ---
 
-<img src="/encadeamento-sapato.png" alt="Cadeia de três elos para amarrar o sapato: cruzar os cadarços, fazer o primeiro nó e formar o laço">
+<svg viewBox="0 0 960 300" role="img" aria-label="Cadeia de três elos para amarrar o sapato, numa linha só: cadarços soltos, cruzar os cadarços, os cadarços cruzados, fazer o primeiro nó, o nó pronto, laçar e apertar, o sapato amarrado. Chaves acima e abaixo da linha marcam as três contingências, que se sobrepõem: os cadarços cruzados fecham a contingência 1 como reforço e abrem a 2 como Sᴰ; o nó pronto fecha a 2 e abre a 3.">
+  <path d="M6,72 V60 H410 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="208" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 1</text>
+  <path d="M550,72 V60 H954 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="752" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 3</text>
+  <path d="M278,228 V240 H682 V228" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="480" y="264" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 2</text>
+
+  <text x="72" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴰ₁</text>
+  <rect x="6" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="72" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">cadarços</text>
+  <text x="72" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">soltos</text>
+  <line x1="140" y1="150" x2="154" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="208" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₁</text>
+  <rect x="156" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="208" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">cruzar os</text>
+  <text x="208" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">cadarços</text>
+  <line x1="262" y1="150" x2="267" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="277,150 265,143 265,157" fill="var(--acento)" />
+
+  <text x="344" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₁</text>
+  <rect x="278" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="344" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">cadarços</text>
+  <text x="344" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">cruzados</text>
+  <text x="344" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₂</text>
+  <line x1="412" y1="150" x2="426" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <rect x="428" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="480" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">fazer o</text>
+  <text x="480" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">primeiro nó</text>
+  <text x="480" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₂</text>
+  <line x1="534" y1="150" x2="539" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="549,150 537,143 537,157" fill="var(--acento)" />
+
+  <text x="616" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₃</text>
+  <rect x="550" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="616" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">nó</text>
+  <text x="616" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">pronto</text>
+  <text x="616" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₂</text>
+  <line x1="684" y1="150" x2="698" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="752" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₃</text>
+  <rect x="700" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="752" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">laçar e</text>
+  <text x="752" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">apertar</text>
+  <line x1="806" y1="150" x2="811" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="821,150 809,143 809,157" fill="var(--acento)" />
+
+  <text x="888" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴿ⁺ final</text>
+  <rect x="822" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="888" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">sapato</text>
+  <text x="888" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">amarrado</text>
+</svg>
+
+---
+layout: diagram
+title: O elo entre duas contingências
+note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Cadeia de três elos para assistir a uma série, numa linha só: TV desligada, apertar o botão, a tela inicial, abrir o streaming, a série na lista, dar o play, o episódio passando. Chaves acima e abaixo da linha marcam as três contingências, que se sobrepõem: a tela inicial fecha a contingência 1 como reforço e abre a 2 como Sᴰ; a série na lista fecha a 2 e abre a 3.">
+  <path d="M6,72 V60 H410 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="208" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 1</text>
+  <path d="M550,72 V60 H954 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="752" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 3</text>
+  <path d="M278,228 V240 H682 V228" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="480" y="264" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 2</text>
+
+  <text x="72" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴰ₁</text>
+  <rect x="6" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="72" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">TV</text>
+  <text x="72" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">desligada</text>
+  <line x1="140" y1="150" x2="154" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="208" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₁</text>
+  <rect x="156" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="208" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">apertar</text>
+  <text x="208" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">o botão</text>
+  <line x1="262" y1="150" x2="267" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="277,150 265,143 265,157" fill="var(--acento)" />
+
+  <text x="344" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₁</text>
+  <rect x="278" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="344" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">a tela</text>
+  <text x="344" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">inicial</text>
+  <text x="344" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₂</text>
+  <line x1="412" y1="150" x2="426" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <rect x="428" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="480" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">abrir o</text>
+  <text x="480" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">streaming</text>
+  <text x="480" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₂</text>
+  <line x1="534" y1="150" x2="539" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="549,150 537,143 537,157" fill="var(--acento)" />
+
+  <text x="616" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₃</text>
+  <rect x="550" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="616" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">a série</text>
+  <text x="616" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">na lista</text>
+  <text x="616" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₂</text>
+  <line x1="684" y1="150" x2="698" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="752" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₃</text>
+  <rect x="700" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="752" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">dar</text>
+  <text x="752" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">o play</text>
+  <line x1="806" y1="150" x2="811" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="821,150 809,143 809,157" fill="var(--acento)" />
+
+  <text x="888" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴿ⁺ final</text>
+  <rect x="822" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="888" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">o episódio</text>
+  <text x="888" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">passando</text>
+</svg>
+
+---
+layout: diagram
+title: O elo entre duas contingências
+note: A consequência da contingência 1 é o antecedente da contingência 2. O mesmo estímulo, as duas funções.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Cadeia de três elos para pagar o lanche com Pix, numa linha só: QR code no balcão, escanear o código, o valor na tela, confirmar o pagamento, a mensagem Pix enviado, mostrar ao caixa, o lanche na mão. Chaves acima e abaixo da linha marcam as três contingências, que se sobrepõem: o valor na tela fecha a contingência 1 como reforço e abre a 2 como Sᴰ; o Pix enviado fecha a 2 e abre a 3.">
+  <path d="M6,72 V60 H410 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="208" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 1</text>
+  <path d="M550,72 V60 H954 V72" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="752" y="46" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 3</text>
+  <path d="M278,228 V240 H682 V228" fill="none" stroke="var(--tinta-2)" stroke-width="2" />
+  <text x="480" y="264" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">contingência 2</text>
+
+  <text x="72" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴰ₁</text>
+  <rect x="6" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="72" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">QR code</text>
+  <text x="72" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">no balcão</text>
+  <line x1="140" y1="150" x2="154" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="208" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₁</text>
+  <rect x="156" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="208" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">escanear</text>
+  <text x="208" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">o código</text>
+  <line x1="262" y1="150" x2="267" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="277,150 265,143 265,157" fill="var(--acento)" />
+
+  <text x="344" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₁</text>
+  <rect x="278" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="344" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">o valor</text>
+  <text x="344" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">na tela</text>
+  <text x="344" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₂</text>
+  <line x1="412" y1="150" x2="426" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <rect x="428" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="480" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">confirmar</text>
+  <text x="480" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">o pagamento</text>
+  <text x="480" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₂</text>
+  <line x1="534" y1="150" x2="539" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="549,150 537,143 537,157" fill="var(--acento)" />
+
+  <text x="616" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴰ₃</text>
+  <rect x="550" y="108" width="132" height="84" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="3" />
+  <text x="616" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">«Pix</text>
+  <text x="616" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">enviado»</text>
+  <text x="616" y="216" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--acento)">Sᴿ⁺₂</text>
+  <line x1="684" y1="150" x2="698" y2="150" stroke="var(--tinta)" stroke-width="3" />
+
+  <text x="752" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">R₃</text>
+  <rect x="700" y="108" width="104" height="84" rx="24" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="752" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">mostrar</text>
+  <text x="752" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta)">ao caixa</text>
+  <line x1="806" y1="150" x2="811" y2="150" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="821,150 809,143 809,157" fill="var(--acento)" />
+
+  <text x="888" y="96" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:16px;fill:var(--tinta-2)">Sᴿ⁺ final</text>
+  <rect x="822" y="108" width="132" height="84" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="888" y="144" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">o lanche</text>
+  <text x="888" y="168" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">na mão</text>
+</svg>
 
 ---
 layout: statement
