@@ -88,7 +88,7 @@ Todo controle exercido por um antecedente é <strong>emprestado</strong> da cons
 
 ---
 layout: define
-title: Operante discriminado
+term: Operante discriminado
 definition: O comportamento operante que, emitido <span class="destaque">em
   determinado contexto</span>, produz consequências reforçadoras.
 points:
