@@ -160,8 +160,8 @@ note: "O que conta: o <strong>número de respostas</strong> ou o <strong>tempo</
   <text x="130" y="234" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:24px;fill:var(--tinta)">Variável</text>
   <text x="130" y="258" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">muda a cada vez</text>
 
-  <rect x="260" y="80" width="320" height="96" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
-  <text x="420" y="124" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:26px;fill:var(--acento)">FR</text>
+  <rect x="260" y="80" width="320" height="96" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="420" y="124" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:26px;fill:var(--tinta)">FR</text>
   <text x="420" y="156" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">razão fixa</text>
 
   <rect x="600" y="80" width="320" height="96" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
@@ -172,8 +172,8 @@ note: "O que conta: o <strong>número de respostas</strong> ou o <strong>tempo</
   <text x="420" y="234" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:26px;fill:var(--tinta)">VR</text>
   <text x="420" y="266" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">razão variável</text>
 
-  <rect x="600" y="190" width="320" height="96" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
-  <text x="760" y="234" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:26px;fill:var(--acento)">VI</text>
+  <rect x="600" y="190" width="320" height="96" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="760" y="234" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:26px;fill:var(--tinta)">VI</text>
   <text x="760" y="266" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">intervalo variável</text>
 </svg>
 
@@ -584,11 +584,7 @@ Os padrões característicos de cada esquema, mostrados a seguir, são observado
 apenas em estado estável.
 -->
 
----
-layout: figura
-image: https://picsum.photos/seed/registrador-cumulativo/1920/1080
-alt: Imagem provisória no lugar da foto de um registrador cumulativo
----
+
 
 ---
 layout: diagram
@@ -624,7 +620,7 @@ title: Os quatro padrões
 note: Os dois esquemas de razão produzem as taxas mais altas; o FI, as mais baixas e as pausas mais longas.
 ---
 
-<svg viewBox="0 0 960 300" role="img" aria-label="Quatro registros cumulativos lado a lado. FR: degraus, com trechos planos depois de cada reforço e trechos muito inclinados. VR: uma linha muito inclinada e quase reta. FI: curvas em forma de concha que começam planas e aceleram até o reforço. VI: uma linha reta de inclinação moderada.">
+<svg viewBox="0 0 960 300" role="img" aria-label="Quatro registros cumulativos lado a lado. FR: degraus, com trechos planos depois de cada reforço e trechos muito inclinados. VR: uma linha muito inclinada e quase reta. FI: curvas em forma de concha, pouco inclinadas no conjunto, que começam planas e aceleram até o reforço. VI: uma linha reta pouco inclinada. Pequenos traços marcam os reforços: regulares no FR e no FI, irregulares no VR e no VI.">
   <g style="font-family:var(--fonte-mono);font-size:22px">
     <text x="125" y="34" text-anchor="middle" style="fill:var(--acento)">FR</text>
     <text x="365" y="34" text-anchor="middle" style="fill:var(--acento)">VR</text>
@@ -639,9 +635,26 @@ note: Os dois esquemas de razão produzem as taxas mais altas; o FI, as mais bai
   </g>
 
   <polyline points="24,238 44,238 70,180 90,180 116,122 136,122 162,64 182,64 208,56" fill="none" stroke="var(--tinta)" stroke-width="3" />
-  <polyline points="264,238 300,190 336,146 372,104 408,64 430,52" fill="none" stroke="var(--tinta)" stroke-width="3" />
-  <path d="M504,238 C540,236 552,226 566,180 C596,178 606,168 620,122 C650,120 660,110 674,64" fill="none" stroke="var(--tinta)" stroke-width="3" />
-  <polyline points="744,238 800,196 856,156 912,116 946,92" fill="none" stroke="var(--tinta)" stroke-width="3" />
+  <polyline points="264,238 290,212 344,158 384,118 430,72 452,52" fill="none" stroke="var(--tinta)" stroke-width="3" />
+  <path d="M504,238 C540,237 556,233 566,212 C600,211 614,207 624,186 C658,185 672,181 682,160 L706,159" fill="none" stroke="var(--tinta)" stroke-width="3" />
+  <polyline points="744,238 946,148" fill="none" stroke="var(--tinta)" stroke-width="3" />
+
+  <g stroke="var(--verde)" stroke-width="3">
+    <line x1="70" y1="180" x2="82" y2="190" />
+    <line x1="116" y1="122" x2="128" y2="132" />
+    <line x1="162" y1="64" x2="174" y2="74" />
+    <line x1="290" y1="212" x2="302" y2="222" />
+    <line x1="344" y1="158" x2="356" y2="168" />
+    <line x1="384" y1="118" x2="396" y2="128" />
+    <line x1="430" y1="72" x2="442" y2="82" />
+    <line x1="566" y1="212" x2="578" y2="222" />
+    <line x1="624" y1="186" x2="636" y2="196" />
+    <line x1="682" y1="160" x2="694" y2="170" />
+    <line x1="780" y1="222" x2="792" y2="232" />
+    <line x1="846" y1="193" x2="858" y2="203" />
+    <line x1="872" y1="181" x2="884" y2="191" />
+    <line x1="930" y1="155" x2="942" y2="165" />
+  </g>
 
   <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta)">
     <text x="125" y="268" text-anchor="middle">taxa alta</text>
@@ -694,21 +707,7 @@ points:
   - "Quando enfim começa, faz as repetições num ritmo constante até o fim da série"
 ---
 
----
-layout: columns
-title: "Quanto maior o esquema…"
-columns:
-  - title: "Razão (FR, VR)"
-    items:
-      - "<strong>Maior</strong> a frequência de respostas"
-      - "<strong>Maiores</strong> as pausas após o reforço"
-  - title: "Intervalo (FI, VI)"
-    items:
-      - "<strong>Menor</strong> a frequência de respostas"
-      - "<strong>Maiores</strong> as pausas após o reforço"
----
 
-Um FR:5 e um FR:100 não produzem o mesmo comportamento.
 
 ---
 layout: default
@@ -716,7 +715,7 @@ kicker: Ponto de parada · 2
 title: Que padrão é esse?
 ---
 
-A professora de Marina devolve a lista de exercícios corrigida a cada 15 dias, sempre numa sexta. Logo depois da entrega, Marina quase não estuda; nos dias antes da próxima entrega, estuda cada vez mais.
+A professora de Marina entrega a lista de exercícios a cada 15 dias, sempre numa sexta. Logo depois da entrega, Marina quase não estuda; nos dias antes da próxima entrega, estuda cada vez mais.
 
 <v-clicks>
 
