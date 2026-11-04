@@ -3,7 +3,7 @@ theme: ../tema
 title: "Aula 06 · Esquemas de reforçamento"
 info: Reforço contínuo e intermitente, os esquemas de razão e de intervalo, os padrões
   de resposta e a resistência à extinção, os esquemas não contingentes, DRH, DRL e DRO,
-  os esquemas compostos e a Lei da Igualação
+  os esquemas compostos, a Lei da Igualação, o comprometimento e o autocontrole
 date: "2026-11-04"
 author: FASM · Psicologia Comportamental
 transition: slide-left
@@ -21,7 +21,7 @@ items:
   - { topic: "Reforço contínuo e os quatro esquemas intermitentes" }
   - { topic: "O efeito de cada esquema sobre o comportamento" }
   - { topic: "Esquemas não contingentes e reguladores de taxa" }
-  - { topic: "Esquemas compostos e Lei da Igualação" }
+  - { topic: "Esquemas compostos, escolha e autocontrole" }
   - { topic: "Fechamento" }
 ---
 
@@ -849,9 +849,10 @@ title: De onde vem a sua superstição?
 
 A mesma camisa em todo jogo, a caneta da sorte na prova, o pé direito para entrar no estágio.
 
-- Escolha uma superstição sua ou de alguém próximo
 - Qual é a resposta? Qual é o reforçador que chega «junto» com ela?
 - Esse reforçador depende da resposta, ou viria de qualquer jeito?
+
+
 
 ---
 layout: define
@@ -958,6 +959,31 @@ oportunidades de aprendizagem.
 -->
 
 ---
+layout: vs
+title: DRA × DRI
+label: ×
+left:
+  title: "DRA: reforço de um comportamento alternativo"
+  items:
+    - "Reforça uma resposta específica que produz o mesmo reforçador"
+    - "O aluno que grita a resposta: atenção só quando levanta a mão"
+    - "A criança que faz birra para pedir: o pedido com palavras é atendido"
+right:
+  title: "DRI: reforço de um comportamento incompatível"
+  items:
+    - "Reforça uma resposta que não pode ocorrer junto com a indesejada"
+    - "Roer as unhas: elogio quando as mãos estão ocupadas com o fidget"
+    - "Levantar durante a aula: reforço por ficar sentado fazendo a tarefa"
+---
+
+<!--
+DRA: differential reinforcement of alternative behavior. DRI: differential
+reinforcement of incompatible behavior. Nos dois, o comportamento-alvo fica em
+extinção, como no DRO; a diferença é que aqui se escolhe qual resposta reforçar.
+O DRI é um caso de DRA em que a alternativa é fisicamente incompatível com o alvo.
+-->
+
+---
 layout: default
 kicker: Ponto de parada · 3
 title: Que procedimento é esse?
@@ -994,7 +1020,7 @@ title: "A alternativa correta é a <span class=\"destaque\">D</span>"
 layout: section
 index: "04"
 kicker: Parte quatro
-title: Esquemas compostos e Lei da Igualação
+title: Esquemas compostos, escolha e autocontrole
 ---
 
 ---
@@ -1074,6 +1100,59 @@ points:
 ---
 
 ---
+layout: diagram
+title: Uma fase de jogo, dois esquemas
+note: A porta acesa é o reforço do primeiro componente e o Sᴰ do segundo.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Uma cadeia da esquerda para a direita. Primeiro componente, FR 10: derrotar dez inimigos. Isso acende a porta do chefe, que é o Sᴰ. Segundo componente, FI 20 segundos: o primeiro golpe depois de 20 segundos vence o chefe. Por fim, o reforço: passar de fase.">
+  <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em" text-anchor="middle">
+    <text x="135" y="60">COMPONENTE 1</text>
+    <text x="370" y="60">Sᴰ</text>
+    <text x="605" y="60">COMPONENTE 2</text>
+    <text x="850" y="60">REFORÇO</text>
+  </g>
+
+  <rect x="20" y="80" width="230" height="140" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <rect x="290" y="80" width="160" height="140" rx="10" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
+  <rect x="490" y="80" width="230" height="140" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <rect x="760" y="80" width="180" height="140" rx="10" fill="none" stroke="var(--verde)" stroke-width="2" />
+
+  <g style="font-family:var(--fonte-mono);font-size:21px;fill:var(--tinta)" text-anchor="middle">
+    <text x="135" y="125">FR:10</text>
+    <text x="605" y="125">FI:20″</text>
+  </g>
+  <g style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--tinta)" text-anchor="middle">
+    <text x="135" y="165">derrotar 10</text>
+    <text x="135" y="192">inimigos</text>
+    <text x="370" y="145">a porta</text>
+    <text x="370" y="172">acende</text>
+    <text x="605" y="165">1º golpe depois</text>
+    <text x="605" y="192">de 20 s</text>
+    <text x="850" y="145">passa</text>
+    <text x="850" y="172">de fase</text>
+  </g>
+
+  <g stroke="var(--linha-forte)" stroke-width="2">
+    <line x1="250" y1="150" x2="280" y2="150" />
+    <line x1="450" y1="150" x2="480" y2="150" />
+    <line x1="720" y1="150" x2="750" y2="150" />
+  </g>
+  <g fill="var(--linha-forte)">
+    <polygon points="290,150 278,143 278,157" />
+    <polygon points="490,150 478,143 478,157" />
+    <polygon points="760,150 748,143 748,157" />
+  </g>
+
+  <text x="370" y="254" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">reforço do 1 · Sᴰ do 2</text>
+</svg>
+
+<!--
+No laboratório: FR:10 na barra da direita acende uma luz; com a luz acesa, a
+primeira pressão à barra da esquerda depois de 20 segundos produz água.
+-->
+
+---
 layout: define
 term: Esquemas concorrentes
 definition: Duas ou mais fontes de reforço <span class="destaque">disponíveis ao
@@ -1123,6 +1202,43 @@ Igualação: em inglês, matching.
 -->
 
 ---
+layout: diagram
+title: Reforços e respostas se dividem igual
+note: Mudou a divisão dos reforços, muda a divisão das respostas.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Duas barras horizontais, uma sobre a outra. A de cima mostra os reforços: três quartos vêm da opção A e um quarto da opção B. A de baixo mostra as respostas: três quartos vão para A e um quarto para B. Uma linha tracejada liga o ponto de divisão das duas barras, que fica no mesmo lugar.">
+  <text x="560" y="44" text-anchor="middle" style="font-family:var(--fonte-mono);font-size:20px;fill:var(--tinta)">respostas em A ÷ total  =  reforços em A ÷ total</text>
+
+  <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">
+    <text x="40" y="117">REFORÇOS</text>
+    <text x="40" y="212">RESPOSTAS</text>
+  </g>
+
+  <rect x="220" y="85" width="510" height="50" rx="6" fill="var(--acento)" />
+  <rect x="730" y="85" width="170" height="50" rx="6" fill="var(--tinta-2)" />
+  <rect x="220" y="180" width="510" height="50" rx="6" fill="var(--acento)" />
+  <rect x="730" y="180" width="170" height="50" rx="6" fill="var(--tinta-2)" />
+
+  <g style="font-family:var(--fonte-corpo);font-size:20px;fill:var(--papel)" text-anchor="middle">
+    <text x="475" y="117">A · 3 de 4</text>
+    <text x="815" y="117">B · 1 de 4</text>
+    <text x="475" y="212">A · 3 de 4</text>
+    <text x="815" y="212">B · 1 de 4</text>
+  </g>
+
+  <line x1="730" y1="70" x2="730" y2="246" stroke="var(--tinta)" stroke-width="2" stroke-dasharray="6 6" />
+
+  <text x="560" y="282" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)">3 de cada 4 reforços vêm de A: 3 de cada 4 respostas vão para A</text>
+</svg>
+
+<!--
+A forma de Herrnstein (1961): B1 / (B1 + B2) = R1 / (R1 + R2), em que B é a taxa
+de respostas e R a taxa de reforços em cada alternativa. Se a opção A passar a
+dar só metade dos reforços, as respostas se redistribuem até ficar meio a meio.
+-->
+
+---
 layout: default
 title: Arremessos de 2 e de 3 pontos
 ---
@@ -1147,29 +1263,7 @@ columns:
       - "<strong>Esquema</strong>: com que frequência vem"
 ---
 
----
-layout: panels
-kicker: Atividade
-title: Série, celular ou estudo?
-panels:
-  - icon: lucide:tv
-    title: Assistir à série
-    items:
-      - "O episódio está pronto"
-      - "O próximo começa sozinho"
-  - icon: lucide:smartphone
-    title: Rolar o feed
-    items:
-      - "Um vídeo bom de vez em quando"
-      - "A qualquer momento"
-  - icon: lucide:book-open
-    title: Estudar
-    items:
-      - "A nota sai na semana que vem"
-      - "Se a prova for bem"
----
 
-Domingo à noite, prova na segunda. Compare as três em quantidade, qualidade, atraso e esquema: por que a que mais importa costuma perder?
 
 ---
 layout: default
@@ -1177,14 +1271,14 @@ kicker: Ponto de parada · 4
 title: Como Caio distribui as partidas?
 ---
 
-Num jogo on-line, Caio pode jogar no modo ranqueado, em que vence cerca de uma partida a cada três, ou no modo casual, em que vence uma a cada seis. Os dois modos estão sempre disponíveis.
+Num jogo on-line, Caio pode jogar no nível médio, em que vence cerca de uma partida a cada três, ou no nível dificil, em que vence uma a cada seis. Os dois modos estão sempre disponíveis.
 
 <v-clicks>
 
-- **A.** Só no ranqueado, porque o organismo sempre escolhe a alternativa com mais reforço
-- **B.** Cerca de duas partidas no ranqueado para cada uma no casual, na proporção das vitórias
-- **C.** Metade em cada modo, porque os dois estão disponíveis ao mesmo tempo
-- **D.** Alterna os modos conforme um sinal indica qual está valendo, como num esquema múltiplo
+- **A.** Só no médio, porque o organismo sempre escolhe a alternativa com mais reforço
+- **B.** Cerca de duas partidas no médio para cada uma no dificil, na proporção das vitórias
+- **C.** Metade em cada nível, porque os dois estão disponíveis ao mesmo tempo
+- **D.** Alterna os níveis conforme um sinal indica qual está valendo, como num esquema múltiplo
 
 </v-clicks>
 
@@ -1197,12 +1291,248 @@ title: "A alternativa correta é a <span class=\"destaque\">B</span>"
 <Tabela
   :dados="[
     ['A', 'Errada — a escolha não é exclusiva: o organismo distribui as respostas entre as alternativas'],
-    ['B', 'Correta — o ranqueado dá o dobro de vitórias, e recebe cerca do dobro de partidas'],
+    ['B', 'Correta — o médio dá o dobro de vitórias, e recebe cerca do dobro de partidas'],
     ['C', 'Errada — estar disponível não basta; a distribuição acompanha os reforços de cada alternativa'],
     ['D', 'Errada — no múltiplo os esquemas se alternam; aqui os dois estão em vigor ao mesmo tempo'],
   ]"
   realce="linha:2"
 />
+
+---
+layout: define
+term: Escolha
+definition: O valor de uma alternativa cresce com a quantidade do reforço e <span
+  class="destaque">cai com o atraso</span> dele.
+points:
+  - "Uma forma da Lei da Igualação: valor ≈ quantidade ÷ atraso (Rachlin e Green, 1972)"
+  - "Perto do reforço, o pequeno e imediato vale mais"
+  - "Longe dos dois, o grande e atrasado vale mais: a preferência <strong>se inverte</strong>"
+---
+
+<!--
+A forma de Baum e Rachlin (1969): V1/V2 = (A1/A2) · (D2/D1), em que V é o valor,
+A a quantidade e D o atraso de cada reforço. A razão dos valores é o produto da
+razão das quantidades pelo inverso da razão dos atrasos.
+-->
+
+---
+layout: diagram
+title: A mesma escolha, de perto e de longe
+note: Somar a mesma espera às duas alternativas <strong>inverte</strong> a preferência.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Duas linhas do tempo. De perto: um reforço pequeno logo no ponto de escolha e um grande quatro segundos depois; o pequeno vence. De longe: os dois reforços dez segundos mais distantes, o pequeno a dez segundos e o grande a catorze; o grande vence.">
+  <text x="24" y="40" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento);letter-spacing:.06em">DE PERTO</text>
+  <line x1="200" y1="120" x2="800" y2="120" stroke="var(--tinta)" stroke-width="3" />
+  <line x1="200" y1="100" x2="200" y2="134" stroke="var(--tinta)" stroke-width="3" />
+  <rect x="205" y="90" width="30" height="30" fill="var(--acento)" />
+  <rect x="360" y="60" width="30" height="60" fill="var(--tinta-2)" />
+  <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)" text-anchor="middle">
+    <text x="220" y="82">pequeno</text>
+    <text x="375" y="52">grande</text>
+    <text x="200" y="152">escolha</text>
+    <text x="375" y="144">4″ depois</text>
+  </g>
+  <text x="820" y="112" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o pequeno vence</text>
+
+  <line x1="24" y1="168" x2="936" y2="168" stroke="var(--linha-forte)" stroke-width="1" stroke-dasharray="6 7" />
+
+  <text x="24" y="196" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento);letter-spacing:.06em">DE LONGE · +10″ NOS DOIS</text>
+  <line x1="200" y1="260" x2="800" y2="260" stroke="var(--tinta)" stroke-width="3" />
+  <line x1="200" y1="240" x2="200" y2="274" stroke="var(--tinta)" stroke-width="3" />
+  <rect x="600" y="230" width="30" height="30" fill="var(--tinta-2)" />
+  <rect x="760" y="200" width="30" height="60" fill="var(--acento)" />
+  <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)" text-anchor="middle">
+    <text x="615" y="222">pequeno</text>
+    <text x="200" y="292">escolha</text>
+    <text x="615" y="284">10″</text>
+    <text x="775" y="284">14″</text>
+  </g>
+  <text x="820" y="252" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o grande vence</text>
+</svg>
+
+<!--
+Os números são os do artigo. De perto: pequeno (2) já, grande (4) em 4 s; a razão
+dos atrasos é 0/4, e o pequeno vence. De longe: 10 s e 14 s; 2 × 10/14 ≈ 1,4, e o
+grande vence. Na vida: a série agora contra a nota boa no fim do semestre.
+-->
+
+---
+layout: define
+term: Comprometimento
+definition: Escolher antes uma alternativa que <span class="destaque">elimina a
+  escolha</span> que viria depois.
+points:
+  - "Só tem utilidade porque a preferência se inverte com o tempo"
+  - "É uma escolha simples: a do que vale mais <strong>no momento</strong> em que se escolhe"
+  - "A caixinha que guarda parte do salário sozinha: ao configurar, poupar vale mais; no dia do pagamento, gastar"
+---
+
+<!--
+Rachlin e Green (1972) abrem com a poupança descontada em folha e com a cigarreira
+de Azrin e Powell (1968), que trancava por duas horas depois de fechada. A versão
+de hoje é o limite de tempo de tela que bloqueia o aplicativo.
+-->
+
+---
+layout: diagram
+title: Escolher não ter escolha
+note: Em Y, o pequeno e imediato sempre vence. O grande só vem para quem, em X, escolhe o ramo <strong>sem escolha</strong>.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Uma árvore de escolhas. No ponto X, duas saídas, cada uma seguida de uma espera de T segundos. A de cima leva ao ponto de escolha Y, onde há um reforço pequeno imediato e um grande quatro segundos depois. A de baixo, o comprometimento, leva a um ramo sem escolha, onde só há o reforço grande quatro segundos depois.">
+  <rect x="20" y="130" width="170" height="70" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="105" y="172" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--tinta)">escolha X</text>
+
+  <g stroke="var(--linha-forte)" stroke-width="2" fill="none">
+    <line x1="190" y1="165" x2="215" y2="165" />
+    <line x1="215" y1="75" x2="215" y2="255" />
+    <line x1="215" y1="75" x2="440" y2="75" />
+    <line x1="630" y1="65" x2="710" y2="36" />
+    <line x1="630" y1="85" x2="710" y2="114" />
+  </g>
+  <line x1="215" y1="255" x2="440" y2="255" stroke="var(--acento)" stroke-width="3" />
+  <line x1="630" y1="255" x2="710" y2="255" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="450,75 438,68 438,82" fill="var(--linha-forte)" />
+  <polygon points="450,255 438,248 438,262" fill="var(--acento)" />
+
+  <text x="330" y="170" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">espera de T segundos</text>
+  <text x="330" y="242" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento)">comprometer-se</text>
+
+  <rect x="450" y="40" width="180" height="70" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="540" y="82" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--tinta)">escolha Y</text>
+  <rect x="450" y="220" width="180" height="70" rx="10" fill="none" stroke="var(--acento)" stroke-width="2" />
+  <text x="540" y="262" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--acento)">sem escolha</text>
+
+  <rect x="720" y="8" width="220" height="56" rx="8" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
+  <rect x="720" y="86" width="220" height="56" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <rect x="720" y="227" width="220" height="56" rx="8" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
+  <g style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)" text-anchor="middle">
+    <text x="830" y="43">pequeno, já</text>
+    <text x="830" y="121">grande, 4″ depois</text>
+    <text x="830" y="262">grande, 4″ depois</text>
+  </g>
+</svg>
+
+<!--
+É a Figura 1A do artigo. No experimento, cinco pombos completavam 25 bicadas em
+duas teclas; a 25ª bicada decidia o ramo. Pequeno: 2 s de acesso ao grão, já.
+Grande: 4 s de grão depois de 4 s. Diante das duas teclas, os pombos bicavam a do
+pequeno em praticamente todas as tentativas.
+-->
+
+---
+layout: diagram
+title: Quanto mais longe, mais comprometimento
+note: Com T curto, os pombos iam para a escolha e pegavam o pequeno; com T longo, se comprometiam com o grande.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="Gráfico de linha. No eixo horizontal, a espera T, de meio segundo a dezesseis segundos. No eixo vertical, a porcentagem de bicadas no ramo sem escolha. A curva fica perto de dez por cento com esperas curtas, cruza a linha de indiferença de cinquenta por cento perto de quatro segundos e chega a cerca de noventa por cento com dezesseis segundos.">
+  <text x="24" y="28" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--acento);letter-spacing:.06em">% NO RAMO SEM ESCOLHA</text>
+  <line x1="90" y1="40" x2="90" y2="240" stroke="var(--linha-forte)" stroke-width="2" />
+  <line x1="90" y1="240" x2="900" y2="240" stroke="var(--linha-forte)" stroke-width="2" />
+  <g style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)" text-anchor="end">
+    <text x="82" y="46">100</text>
+    <text x="82" y="146">50</text>
+    <text x="82" y="246">0</text>
+  </g>
+
+  <line x1="90" y1="140" x2="900" y2="140" stroke="var(--linha-forte)" stroke-width="1" stroke-dasharray="6 7" />
+  <text x="900" y="132" text-anchor="end" style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)">indiferença</text>
+
+  <polyline points="140,224 280,220 420,204 560,136 700,104 840,56" fill="none" stroke="var(--acento)" stroke-width="3" />
+  <g fill="var(--acento)">
+    <circle cx="140" cy="224" r="5" />
+    <circle cx="280" cy="220" r="5" />
+    <circle cx="420" cy="204" r="5" />
+    <circle cx="560" cy="136" r="5" />
+    <circle cx="700" cy="104" r="5" />
+    <circle cx="840" cy="56" r="5" />
+  </g>
+
+  <text x="210" y="184" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">perto: vai para a escolha</text>
+  <text x="650" y="76" text-anchor="end" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">longe: se compromete</text>
+
+  <g style="font-family:var(--fonte-corpo);font-size:16px;fill:var(--tinta-2)" text-anchor="middle">
+    <text x="140" y="264">0,5″</text>
+    <text x="280" y="264">1″</text>
+    <text x="420" y="264">2″</text>
+    <text x="560" y="264">4″</text>
+    <text x="700" y="264">8″</text>
+    <text x="840" y="264">16″</text>
+  </g>
+  <text x="900" y="292" text-anchor="end" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">T: espera até a escolha →</text>
+</svg>
+
+<!--
+O formato segue a mediana dos cinco pombos na Figura 2 do artigo. Os cinco
+mostraram a mesma direção; com T = 16 s, quatro deles bicavam mais no ramo sem
+escolha.
+-->
+
+---
+layout: define
+term: Autocontrole
+definition: <span class="destaque">Inventar</span> a própria estratégia de
+  comprometimento.
+points:
+  - "Pronta, como a caixinha do banco ou o limite de tempo de tela, é comprometimento"
+  - "Inventada pela própria pessoa, chamamos de autocontrole"
+  - "Depois de inventada, o comportamento é explicado pelas contingências (Rachlin e Green, 1972)"
+---
+
+<!--
+O exemplo clássico do artigo: Ulisses se amarra ao mastro antes de passar pelas
+sereias. De longe, não bater nas pedras vale mais; perto, a preferência se
+inverte. Os autores citam também as crianças de Mischel que, esperando o doce
+maior, faziam qualquer coisa menos esperar, e uma delas dormiu.
+-->
+
+---
+layout: diagram
+title: O celular longe da cama
+note: À noite, levantar vale mais que a soneca; de manhã, a preferência se inverte, e o celular longe da cama já decidiu.
+---
+
+<svg viewBox="0 0 960 300" role="img" aria-label="A mesma árvore de escolhas, com um exemplo. À noite, duas saídas. Deixar o celular na cama leva a uma escolha de manhã entre a soneca, já, e levantar no horário. Deixar o celular longe da cama, o comprometimento, leva a uma manhã sem escolha, em que só resta levantar no horário.">
+  <rect x="20" y="130" width="170" height="70" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="105" y="172" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--tinta)">à noite</text>
+
+  <g stroke="var(--linha-forte)" stroke-width="2" fill="none">
+    <line x1="190" y1="165" x2="215" y2="165" />
+    <line x1="215" y1="75" x2="215" y2="255" />
+    <line x1="215" y1="75" x2="440" y2="75" />
+    <line x1="630" y1="65" x2="710" y2="36" />
+    <line x1="630" y1="85" x2="710" y2="114" />
+  </g>
+  <line x1="215" y1="255" x2="440" y2="255" stroke="var(--acento)" stroke-width="3" />
+  <line x1="630" y1="255" x2="710" y2="255" stroke="var(--acento)" stroke-width="3" />
+  <polygon points="450,75 438,68 438,82" fill="var(--linha-forte)" />
+  <polygon points="450,255 438,248 438,262" fill="var(--acento)" />
+
+  <text x="330" y="63" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--tinta)">celular na cama</text>
+  <text x="330" y="170" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)">a noite passa</text>
+  <text x="330" y="242" text-anchor="middle" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento)">celular longe da cama</text>
+
+  <rect x="450" y="40" width="180" height="70" rx="10" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <text x="540" y="82" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--tinta)">de manhã</text>
+  <rect x="450" y="220" width="180" height="70" rx="10" fill="none" stroke="var(--acento)" stroke-width="2" />
+  <text x="540" y="262" text-anchor="middle" style="font-family:var(--fonte-titulo);font-size:22px;fill:var(--acento)">de manhã</text>
+
+  <rect x="720" y="8" width="220" height="56" rx="8" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
+  <rect x="720" y="86" width="220" height="56" rx="8" fill="none" stroke="var(--tinta)" stroke-width="2" />
+  <rect x="720" y="227" width="220" height="56" rx="8" fill="var(--acento-claro)" stroke="var(--acento)" stroke-width="2" />
+  <g style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--tinta)" text-anchor="middle">
+    <text x="830" y="43">soneca, já</text>
+    <text x="830" y="121">levantar no horário</text>
+    <text x="830" y="262">levantar no horário</text>
+  </g>
+</svg>
+
+<!--
+É o exemplo do próprio artigo, o despertador fora do alcance da cama, com o
+celular no lugar do relógio. Para desligar o alarme, é preciso levantar.
+-->
 
 ---
 layout: section
@@ -1312,6 +1642,7 @@ title: A base e as fontes primárias
     ['Base', 'Moreira, M. B., &amp; Medeiros, C. A. (2007). <em>Princípios básicos de análise do comportamento</em>, cap. 7. Artmed.'],
     ['Parte 3', 'Skinner, B. F. (1948). Superstition in the pigeon. <em>Journal of Experimental Psychology</em>, 38(2), 168–172.'],
     ['Parte 4', 'Herrnstein, R. J. (1961). <em>JEAB</em>, 4(3), 267–272.'],
+    ['Parte 4', 'Rachlin, H., &amp; Green, L. (1972). Commitment, choice and self-control. <em>JEAB</em>, 17(1), 15–22.'],
     ['Parte 4', 'Vollmer, T. R., &amp; Bourret, J. (2000). <em>JABA</em>, 33(2), 137–150.'],
     ['Parte 4', 'Romanowich, P., Bourret, J., &amp; Vollmer, T. R. (2007). <em>JABA</em>, 40(2), 311–315.'],
   ]"
@@ -1323,6 +1654,7 @@ title: A base e as fontes primárias
 JEAB: Journal of the Experimental Analysis of Behavior. JABA: Journal of Applied
 Behavior Analysis.
 DOIs: Skinner 1948, 10.1037/h0055873; Herrnstein 1961, 10.1901/jeab.1961.4-267;
+Rachlin e Green 1972, 10.1901/jeab.1972.17-15;
 Vollmer e Bourret 2000, 10.1901/jaba.2000.33-137; Romanowich et al. 2007,
 10.1901/jaba.2007.119-05.
 -->
@@ -1353,5 +1685,5 @@ Imagem do caça-níquel: Wikimedia Commons, «Slot machine.jpg», CC BY-SA 2.0.
 ---
 layout: end
 title: Até a próxima
-subtitle: "Aula 06 — Esquemas de reforçamento: quais respostas são reforçadas, e o que isso faz com o comportamento."
+
 ---
