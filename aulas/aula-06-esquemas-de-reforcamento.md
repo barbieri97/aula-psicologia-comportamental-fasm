@@ -1323,32 +1323,32 @@ note: Somar a mesma espera às duas alternativas <strong>inverte</strong> a pref
 
 <svg viewBox="0 0 960 300" role="img" aria-label="Duas linhas do tempo. De perto: um reforço pequeno logo no ponto de escolha e um grande quatro segundos depois; o pequeno vence. De longe: os dois reforços dez segundos mais distantes, o pequeno a dez segundos e o grande a catorze; o grande vence.">
   <text x="24" y="40" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento);letter-spacing:.06em">DE PERTO</text>
-  <line x1="200" y1="120" x2="800" y2="120" stroke="var(--tinta)" stroke-width="3" />
-  <line x1="200" y1="100" x2="200" y2="134" stroke="var(--tinta)" stroke-width="3" />
-  <rect x="205" y="90" width="30" height="30" fill="var(--acento)" />
-  <rect x="360" y="60" width="30" height="60" fill="var(--tinta-2)" />
+  <line x1="160" y1="120" x2="770" y2="120" stroke="var(--tinta)" stroke-width="3" />
+  <line x1="160" y1="100" x2="160" y2="134" stroke="var(--tinta)" stroke-width="3" />
+  <rect x="165" y="90" width="30" height="30" fill="var(--acento)" />
+  <rect x="320" y="60" width="30" height="60" fill="var(--tinta-2)" />
   <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)" text-anchor="middle">
-    <text x="220" y="82">pequeno</text>
-    <text x="375" y="52">grande</text>
-    <text x="200" y="152">escolha</text>
-    <text x="375" y="144">4″ depois</text>
+    <text x="180" y="82">pequeno</text>
+    <text x="335" y="52">grande</text>
+    <text x="160" y="152">escolha</text>
+    <text x="335" y="144">4″ depois</text>
   </g>
-  <text x="820" y="112" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o pequeno vence</text>
+  <text x="790" y="126" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o pequeno vence</text>
 
   <line x1="24" y1="168" x2="936" y2="168" stroke="var(--linha-forte)" stroke-width="1" stroke-dasharray="6 7" />
 
   <text x="24" y="196" style="font-family:var(--fonte-corpo);font-size:18px;fill:var(--acento);letter-spacing:.06em">DE LONGE · +10″ NOS DOIS</text>
-  <line x1="200" y1="260" x2="800" y2="260" stroke="var(--tinta)" stroke-width="3" />
-  <line x1="200" y1="240" x2="200" y2="274" stroke="var(--tinta)" stroke-width="3" />
-  <rect x="600" y="230" width="30" height="30" fill="var(--tinta-2)" />
-  <rect x="760" y="200" width="30" height="60" fill="var(--acento)" />
+  <line x1="160" y1="260" x2="770" y2="260" stroke="var(--tinta)" stroke-width="3" />
+  <line x1="160" y1="240" x2="160" y2="274" stroke="var(--tinta)" stroke-width="3" />
+  <rect x="560" y="230" width="30" height="30" fill="var(--tinta-2)" />
+  <rect x="720" y="200" width="30" height="60" fill="var(--acento)" />
   <g style="font-family:var(--fonte-corpo);font-size:17px;fill:var(--tinta-2)" text-anchor="middle">
-    <text x="615" y="222">pequeno</text>
-    <text x="200" y="292">escolha</text>
-    <text x="615" y="284">10″</text>
-    <text x="775" y="284">14″</text>
+    <text x="575" y="222">pequeno</text>
+    <text x="160" y="292">escolha</text>
+    <text x="575" y="284">10″</text>
+    <text x="735" y="284">14″</text>
   </g>
-  <text x="820" y="252" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o grande vence</text>
+  <text x="790" y="266" style="font-family:var(--fonte-corpo);font-size:19px;fill:var(--acento)">o grande vence</text>
 </svg>
 
 <!--
