@@ -70,7 +70,7 @@ Filogênese: a história evolutiva da espécie. Ontogênese: a história de vida
 ---
 layout: "columns"
 title: "Um exemplo em cada nível"
-columns: [{"title": "Filogenético", "items": ["Os reflexos inatos", "A capacidade de aprender", "Alguém de 1,95 m aprende a enterrar a bola; dificilmente aprende o duplo twist carpado"]}, {"title": "Ontogenético", "items": ["O que as consequências fortaleceram ou enfraqueceram", "Os reflexos aprendidos por condicionamento respondente"]}, {"title": "Cultural", "items": ["A trend que todo mundo grava", "Aprender por modelo e por instrução", "O que vale como reforçador ou como aversivo"]}]
+columns: [{"title": "Filogenético", "items": ["Os reflexos inatos", "A capacidade de aprender", "Alguém de 1,95 m aprende a enterrar a bola; dificilmente aprende o duplo twist carpado"]}, {"title": "Ontogenético", "items": ["O que as consequências fortaleceram ou enfraqueceram", "Os reflexos aprendidos por condicionamento respondente", "Condicionamento operante"]}, {"title": "Cultural", "items": ["A trend que todo mundo grava", "Aprender por modelo e por instrução", "O que vale como reforçador ou como aversivo"]}]
 ---
 
 <!--
@@ -238,7 +238,7 @@ S: estímulo. R: resposta. Sᴬ: estímulo antecedente. Sᶜ: estímulo conseque
 
 ---
 layout: "define"
-term: "Predizer"
+term: "Prever"
 definition: "Conhecer as condições em que um comportamento ocorre, e em que <span class=\"destaque\">dificilmente ocorre</span>."
 points: ["Evitar um assunto porque se sabe que a pessoa vai ficar sem graça", "«Arriscar um palpite» sobre o que alguém vai fazer", "A análise do comportamento busca predições mais precisas"]
 ---
@@ -258,6 +258,8 @@ title: "Quem está controlando quem?"
 <Momento tipo="discussao" titulo="A birra no mercado">
 A criança chora no corredor dos doces até a mãe colocar o chocolate no carrinho. O choro para.
 </Momento>
+
+<v-click> A mãe também controla o comportamento do filho: ao dar o chocolate o choro para.</v-click>
 
 ---
 layout: "vs"
@@ -1338,6 +1340,47 @@ layout: "section"
 index: "05"
 kicker: "Parte cinco"
 title: "Fechamento"
+---
+
+---
+layout: "panels"
+title: "Que padrões atravessam o caso?"
+panels: [{"icon": "lucide:shrink", "title": "Passividade", "items": ["Pede a atenção de Paula de forma indireta", "Cede à mãe e a Paula", "Chora para a psicóloga mudar de assunto"]}, {"icon": "lucide:sparkles", "title": "Sedução", "items": ["Trai: atenção de outras mulheres", "Ser «pegador»: reconhecimento dos amigos, que ele não seduz", "Elogia e presenteia a psicóloga"]}]
+---
+
+<Callout icon="lucide:target">
+Os dois caminhos levam aos mesmos reforçadores sociais: <strong>atenção, aprovação e validação</strong>.
+</Callout>
+
+---
+layout: "default"
+title: "Como esses padrões foram aprendidos?"
+---
+
+- Desde criança, se achava inferior aos outros
+- Na adolescência, foi rejeitado nos flertes
+- Só sentia ter valor quando alguém queria ficar com ele
+
+<Callout icon="lucide:flask-conical">
+Hipótese: passividade e autodepreciação foram uma das formas de obter atenção e aprovação. A sedução foi a outra.
+</Callout>
+
+---
+layout: "statement"
+title: "Os dois padrões aparecem na sessão, e é lá que a terapeuta mais pode agir."
+---
+
+O choro que muda o assunto, os elogios e os chocolates. Diante do comportamento emitido, a psicóloga é parte da contingência.
+
+---
+layout: "columns"
+title: "Por onde começar a intervenção?"
+columns: [{"title": "Assertividade", "items": ["Pedidos claros", "No lugar de chantagens e ameaças"]}, {"title": "Reforço diferencial", "items": ["Outras formas de obter atenção e aprovação", "Sem autodepreciação nem sedução"]}]
+---
+
+---
+layout: "statement"
+title: "A traição é o que chama a atenção. Entender os caminhos que levam a ela é o que torna a intervenção eficiente."
 ---
 
 ---
