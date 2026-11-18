@@ -239,3 +239,7 @@ aula. Nenhum script tem nome de arquivo de aula fixo — `npm run dev` descobre 
 O `--base` vem da env `SITE_BASE` (`/` local; no CI, o output `base_path` do `configure-pages`, que
 é o caminho da URL real do site). **O nome do repositório no GitHub faz parte das URLs** — renomear
 o repo muda todos os links e exige rodar o workflow de novo.
+
+# Acesso aos documentos protegidos
+
+Para acessar os documentos protegidos por senha confira o arquivo @.env no qual é salvo as senhas e segredos do repo.
